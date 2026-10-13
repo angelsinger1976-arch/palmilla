@@ -72,8 +72,13 @@ El trámite correspondiente es **SEMARNAT-03-052**, con el formato **FF-SEMARNAT
 Cuando el usuario solicite el proyecto técnico o el programa de manejo, entrega el
 documento con **exactamente esta estructura de 6 secciones**:
 
-1. **DATOS GENERALES** — Promovente, predio, ubicación, superficie, régimen de
-   propiedad, responsable técnico.
+1. **DATOS GENERALES** — Promovente y **datos del titular** (nombre, identificación
+   oficial/CURP, estado civil); **datos técnicos y de ubicación del terreno**
+   (superficie, medidas y colindancias, coordenadas GPS/UTM, localidad, ejido,
+   sector, manzana, lote); **datos de identificación oficial y registro** (número
+   de título o certificado, inscripción registral RPP/RAN, clave catastral); y
+   **datos legales y de autoridad** (fecha de expedición, fundamento legal,
+   firmas y sellos, historial de origen); responsable técnico.
 2. **OBJETIVO** — Objetivo general y justificación técnica/económica del aprovechamiento.
 3. **CARACTERIZACIÓN DEL MEDIO** — Clima, suelo, vegetación, especies asociadas,
    y estatus de protección (NOM-059 / ANP).

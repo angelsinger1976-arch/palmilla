@@ -94,6 +94,79 @@
           <div class="check"><input type="checkbox" name="especie_nom059" id="nom059"><label for="nom059">La especie está listada en la NOM-059-SEMARNAT-2010</label></div>
           <div class="check"><input type="checkbox" name="tiene_tecnico" id="tec"><label for="tec">Ya cuenta con Técnico Forestal Certificado</label></div>
           <div class="check"><input type="checkbox" name="tiene_planos" id="pl"><label for="pl">Ya cuenta con plano georreferenciado</label></div>
+
+          <!-- ===== 1. DATOS DEL TITULAR ===== -->
+          <details class="grp" open>
+            <summary>1 · Datos del titular (propietario o poseedor)</summary>
+            <div class="field"><label>Nombre completo del titular</label><input name="titular_nombre" placeholder="Nombre o razón social del titular"></div>
+            <div class="row">
+              <div class="field"><label>Identificación oficial / CURP</label><input name="titular_curp" placeholder="CURP o No. de identificación"></div>
+              <div class="field"><label>Estado civil</label>
+                <select name="titular_estado_civil">
+                  <option value="">— Seleccione —</option>
+                  <option value="soltero">Soltero(a)</option>
+                  <option value="casado">Casado(a)</option>
+                  <option value="divorciado">Divorciado(a)</option>
+                  <option value="viudo">Viudo(a)</option>
+                  <option value="union_libre">Unión libre</option>
+                </select>
+              </div>
+            </div>
+          </details>
+
+          <!-- ===== 2. DATOS TÉCNICOS Y DE UBICACIÓN ===== -->
+          <details class="grp" open>
+            <summary>2 · Datos técnicos y de ubicación del terreno</summary>
+            <div class="row">
+              <div class="field"><label>Superficie (escrita)</label><input name="superficie_escrita" placeholder="p. ej. 1-00-00 ha (10,000 m²)"></div>
+              <div class="field"><label>Medidas</label><input name="medidas" placeholder="p. ej. 100 m x 100 m"></div>
+            </div>
+            <div class="field"><label>Colindancias</label><input name="colindancias" placeholder="Norte: …; Sur: …; Oriente: …; Poniente: …"></div>
+            <div class="row">
+              <div class="field"><label>Coordenadas geográficas (GPS)</label><input name="coordenadas_geograficas" placeholder="Lat, Lon (p. ej. 31.86, -116.60)"></div>
+              <div class="field"><label>Coordenadas UTM</label><input name="coordenadas_utm" placeholder="Zona 11N, X=…, Y=…"></div>
+            </div>
+            <div class="row">
+              <div class="field"><label>Localidad</label><input name="localidad" placeholder="Localidad o poblado"></div>
+              <div class="field"><label>Ejido / núcleo agrario</label><input name="ejido" placeholder="Nombre del ejido o comunidad"></div>
+            </div>
+            <div class="row-3">
+              <div class="field"><label>Sector</label><input name="sector" placeholder="Sector"></div>
+              <div class="field"><label>Manzana</label><input name="manzana" placeholder="Manzana"></div>
+              <div class="field"><label>Número de lote</label><input name="lote" placeholder="Lote"></div>
+            </div>
+          </details>
+
+          <!-- ===== 3. DATOS DE IDENTIFICACIÓN OFICIAL Y REGISTRO ===== -->
+          <details class="grp">
+            <summary>3 · Datos de identificación oficial y registro</summary>
+            <div class="field"><label>Número de título o certificado</label><input name="titulo_ref" placeholder="p. ej. Certificado de derechos agrarios No. …"></div>
+            <div class="row">
+              <div class="field"><label>Inscripción registral (RPP / RAN)</label><input name="registro_publico" placeholder="Tomo / Volumen / Folio / Libro"></div>
+              <div class="field"><label>Clave catastral</label><input name="clave_catastral" placeholder="Clave catastral del predio"></div>
+            </div>
+          </details>
+
+          <!-- ===== 4. DATOS LEGALES Y DE AUTORIDAD ===== -->
+          <details class="grp">
+            <summary>4 · Datos legales y de autoridad</summary>
+            <div class="row">
+              <div class="field"><label>Fecha de expedición</label><input name="fecha_expedicion" type="date"></div>
+              <div class="field"><label>Historial de origen</label>
+                <select name="historial_origen">
+                  <option value="">— Seleccione —</option>
+                  <option value="herencia">Herencia</option>
+                  <option value="compraventa">Compraventa</option>
+                  <option value="expropiacion">Expropiación</option>
+                  <option value="regularizacion">Regularización</option>
+                  <option value="reparto_agrario">Reparto agrario</option>
+                </select>
+              </div>
+            </div>
+            <div class="field"><label>Fundamento legal del título</label><input name="fundamento_legal_titulo" placeholder="Artículos del Código Civil / Ley Agraria que validan el título"></div>
+            <div class="field"><label>Firmas y sellos de autoridad</label><input name="firmas_sellos" placeholder="Autoridad que firmó y selló (p. ej. Registro Agrario Nacional)"></div>
+          </details>
+
           <div class="actions">
             <button type="submit" class="btn btn-primary" id="btn-analizar">🔎 Analizar predio</button>
             <button type="reset" class="btn btn-ghost">Limpiar</button>

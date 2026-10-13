@@ -42,6 +42,30 @@ def _datos_a_predio_input(d: Dict) -> PredioInput:
         estado=d.get("estado", "Baja California"),
         tiene_tecnico=bool(d.get("tiene_tecnico", False)),
         tiene_planos=bool(d.get("tiene_planos", False)),
+        # 1. Titular
+        titular_nombre=d.get("titular_nombre", ""),
+        titular_curp=d.get("titular_curp", ""),
+        titular_estado_civil=d.get("titular_estado_civil", ""),
+        # 2. Terreno / ubicación
+        superficie_escrita=d.get("superficie_escrita", ""),
+        medidas=d.get("medidas", ""),
+        colindancias=d.get("colindancias", ""),
+        coordenadas_geograficas=d.get("coordenadas_geograficas", ""),
+        coordenadas_utm=d.get("coordenadas_utm", ""),
+        localidad=d.get("localidad", ""),
+        ejido=d.get("ejido", ""),
+        sector=d.get("sector", ""),
+        manzana=d.get("manzana", ""),
+        lote=d.get("lote", ""),
+        # 3. Registro
+        titulo_ref=d.get("titulo_ref", ""),
+        registro_publico=d.get("registro_publico", ""),
+        clave_catastral=d.get("clave_catastral", ""),
+        # 4. Legal / autoridad
+        fecha_expedicion=d.get("fecha_expedicion", ""),
+        fundamento_legal_titulo=d.get("fundamento_legal_titulo", ""),
+        firmas_sellos=d.get("firmas_sellos", ""),
+        historial_origen=d.get("historial_origen", ""),
     )
 
 
@@ -126,11 +150,20 @@ def analizar_predio(datos: Dict) -> Dict:
 def estructura_6_secciones(datos: Dict) -> List[Dict]:
     prog = _datos_a_programa(datos)
     c = calcular(prog)
+    titular = prog.titular_nombre or prog.promovente
+    registro = ""
+    if prog.titulo_ref:
+        registro += f"; título {prog.titulo_ref}"
+    if prog.registro_publico:
+        registro += f"; registro {prog.registro_publico}"
+    if prog.clave_catastral:
+        registro += f"; clave catastral {prog.clave_catastral}"
     return [
         {"n": 1, "titulo": "Datos Generales",
          "fundamento": "Reglamento LGDFS Art. 57 fracc. I; NOM-005 §4.1.4",
-         "resumen": f"{prog.promovente} — predio {prog.predio_nombre}, {prog.municipio}, "
-                    f"{prog.estado}; {prog.superficie_ha:.0f} ha; régimen {prog.tipo_propietario}."},
+         "resumen": f"Titular: {titular} — predio {prog.predio_nombre}, {prog.municipio}, "
+                    f"{prog.estado}; {prog.superficie_ha:.0f} ha; régimen {prog.tipo_propietario}"
+                    f"{registro}."},
         {"n": 2, "titulo": "Objetivo",
          "fundamento": "Reglamento LGDFS Art. 57 fracc. I inciso a",
          "resumen": f"Aprovechamiento sustentable de tallos de {prog.especie} "

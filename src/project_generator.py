@@ -46,6 +46,31 @@ class DatosPrograma:
     titulo_ref: str = "Escritura Pública No. ____"
     colindancias: str = "Norte: ____; Sur: ____; Oriente: ____; Poniente: ____"
 
+    # --- 1. Datos del titular (propietario o poseedor) ---
+    titular_nombre: str = ""
+    titular_curp: str = ""
+    titular_estado_civil: str = ""
+
+    # --- 2. Datos técnicos y de ubicación del terreno ---
+    superficie_escrita: str = ""
+    medidas: str = ""
+    coordenadas_geograficas: str = ""
+    localidad: str = ""
+    ejido: str = ""
+    sector: str = ""
+    manzana: str = ""
+    lote: str = ""
+
+    # --- 3. Datos de identificación oficial y registro ---
+    registro_publico: str = ""
+    clave_catastral: str = ""
+
+    # --- 4. Datos legales y de autoridad ---
+    fecha_expedicion: str = ""
+    fundamento_legal_titulo: str = ""
+    firmas_sellos: str = ""
+    historial_origen: str = ""
+
     # --- Especie ---
     especie: str = "Yucca schidigera"
     nombre_comun: str = "palmilla / yuca"
@@ -164,14 +189,35 @@ def generar_markdown(d: DatosPrograma) -> str:
 - Representante legal: {d.representante or '____'}
 - Responsable técnico: **{d.tecnico}** (Registro Forestal Nacional: {d.registro_tecnico})
 
-**1.2 Predio**
+**1.2 Datos del titular (propietario o poseedor)**
+- Nombre completo: **{d.titular_nombre or d.promovente}**
+- Identificación oficial / CURP: {d.titular_curp or '____'}
+- Estado civil: {d.titular_estado_civil or '____'}
+- Carácter: {d.tipo_propietario}
+
+**1.3 Datos técnicos y de ubicación del terreno**
 - Nombre del predio: **{d.predio_nombre}**
-- Ubicación: {d.municipio}, {d.estado}
-- Superficie total: **{d.superficie_ha:.2f} ha**
-- Régimen de propiedad: **{d.tipo_propietario}** — {d.titulo_ref}
+- Superficie total: **{d.superficie_ha:.2f} ha** ({d.superficie_escrita or '____'})
+- Medidas: {d.medidas or '____'}
 - Colindancias: {d.colindancias}
+- Coordenadas geográficas (GPS): {d.coordenadas_geograficas or '____'}
 - Coordenadas UTM: {d.coordenadas_utm}
+- Ubicación: localidad {d.localidad or '____'}, municipio de {d.municipio}, {d.estado}
+- Ejido / núcleo agrario: {d.ejido or '____'}
+- Sector: {d.sector or '____'} · Manzana: {d.manzana or '____'} · Lote: {d.lote or '____'}
 - Polígono georreferenciado: `{d.poligono_ref}` (Shapefile/GeoPDF, Reglamento Art. 56 fracc. V)
+
+**1.4 Datos de identificación oficial y registro**
+- Régimen de propiedad: **{d.tipo_propietario}**
+- Número de título o certificado: {d.titulo_ref}
+- Inscripción registral (RPP / RAN): {d.registro_publico or '____'}
+- Clave catastral: {d.clave_catastral or '____'}
+
+**1.5 Datos legales y de autoridad**
+- Fecha de expedición: {d.fecha_expedicion or '____'}
+- Fundamento legal del título: {d.fundamento_legal_titulo or '____'}
+- Historial de origen: {d.historial_origen or '____'}
+- Firmas y sellos de autoridad: {d.firmas_sellos or '____'}
 
 ## 2. OBJETIVO DEL APROVECHAMIENTO
 *(Reglamento Art. 57 fracc. I inciso a)*

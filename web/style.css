@@ -282,3 +282,20 @@ footer { text-align: center; color: var(--gris-500); font-size: .8rem; padding: 
 .fuentes summary { cursor: pointer; font-size: .8rem; font-weight: 600; color: var(--verde-700); }
 .fuentes .fuente { font-weight: 700; color: var(--verde-800); font-size: .8rem; margin-top: 8px; }
 .fuentes .txt { font-size: .8rem; color: var(--gris-700); }
+
+/* Grupos colapsables del formulario (datos del titular, terreno, registro, legal) */
+.grp {
+  border: 1px solid var(--gris-200); border-radius: 10px;
+  margin: 14px 0; padding: 4px 14px 12px; background: var(--gris-50, #f8fafc);
+}
+.grp > summary {
+  cursor: pointer; font-weight: 700; font-size: .88rem; color: var(--verde-800);
+  padding: 10px 0; list-style: none; display: flex; align-items: center; gap: 8px;
+}
+.grp > summary::-webkit-details-marker { display: none; }
+.grp > summary::before {
+  content: "▸"; color: var(--verde-600); font-size: .8rem; transition: transform .15s;
+}
+.grp[open] > summary::before { content: "▾"; }
+.grp[open] > summary { border-bottom: 1px solid var(--gris-200); margin-bottom: 12px; }
+.grp .field { margin-bottom: 12px; }
