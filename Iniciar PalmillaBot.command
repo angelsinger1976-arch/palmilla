@@ -22,8 +22,8 @@ printf "────────────────────────
 # Si no existe el entorno virtual, ejecutar el instalador primero.
 if [ ! -x "./venv/bin/python" ]; then
   printf "Primera ejecución detectada: iniciando la instalación…\n\n"
-  chmod +x ./install.sh ./run.sh 2>/dev/null || true
-  ./install.sh || { echo "La instalación falló. Revisa los mensajes anteriores."; read -r -p "Pulsa Enter para cerrar…"; exit 1; }
+  chmod +x ./llevatodo.sh ./run.sh 2>/dev/null || true
+  ./llevatodo.sh || { echo "La instalación falló. Revisa los mensajes anteriores."; read -r -p "Pulsa Enter para cerrar…"; exit 1; }
   printf "\n"
 fi
 

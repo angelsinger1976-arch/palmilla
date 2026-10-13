@@ -12,32 +12,56 @@ El aprovechamiento de **tallos de *Yucca*** **NO** se realiza por simple **aviso
 
 ---
 
-## 🚀 Instalación y ejecución en Mac (rápida)
+## 🚀 Instalación y ejecución (rápida)
 
-Requisitos: **macOS** y **Python 3.9+** (si no lo tienes: `brew install python@3.12` o descárgalo de [python.org](https://www.python.org/downloads/macos/)).
+Requisitos: **macOS o Linux** y **Python 3.9+** (si no lo tienes: `brew install python@3.12` en Mac, o `sudo apt-get install python3 python3-venv` en Linux).
 
 ```bash
 # 1. Entra a la carpeta del proyecto
 cd palmilla/sistema_palmilla
 
-# 2. Ejecuta el instalador (crea el entorno virtual e instala todo)
-chmod +x install.sh run.sh "Iniciar PalmillaBot.command"
-./install.sh
+# 2. Instalación integral: verifica e instala TODO lo que falte
+chmod +x llevatodo.sh actualizate.sh run.sh "Iniciar PalmillaBot.command"
+./llevatodo.sh
 
 # 3. Inicia PalmillaBot
 ./run.sh
 ```
 
-El instalador:
-1. Verifica que exista **Python 3.9+**.
-2. Crea un **entorno virtual** aislado en `./venv`.
-3. Instala las **dependencias** de Python (`requirements.txt`).
-4. Comprueba/instala **wkhtmltopdf** (para exportar el PMF a **PDF**).
-5. Te permite **guardar tu API key de Gemini** (opcional).
+El instalador **`llevatodo.sh`** deja el sistema listo **sin fallas**; es idempotente (puedes ejecutarlo cuantas veces quieras):
+
+1. Detecta el sistema operativo y el gestor de paquetes (**Homebrew** en Mac / **apt** en Linux).
+2. Verifica/instala **Python 3.9+** y las herramientas base (`git`, `curl`).
+3. Crea (o reutiliza) el **entorno virtual** `./venv`.
+4. Instala **todas** las dependencias de Python (`requirements.txt`) y **verifica** que cada librería importe.
+5. Verifica/instala **GDAL** (GeoPDF georreferenciado — Módulo D).
+6. Verifica/instala **wkhtmltopdf** (exportación del PMF a PDF — Módulo C).
+7. Te permite **guardar tu API key de Gemini** (opcional).
+8. Ejecuta una **autoprueba** de extremo a extremo y muestra un **resumen** del estado.
 
 Luego abre tu navegador en **http://localhost:8000**.
 
 > 💡 **Alternativa con doble clic:** en el Finder, haz doble clic en **`Iniciar PalmillaBot.command`**. La primera vez instalará todo automáticamente y después arrancará el servidor y abrirá el navegador.
+
+### 🔄 Actualizar a la última versión — `actualizate.sh`
+
+```bash
+./actualizate.sh                 # trae los últimos cambios y actualiza dependencias
+./actualizate.sh --yes           # sin preguntas
+./actualizate.sh --branch main   # rama a seguir (por defecto: main)
+./actualizate.sh --no-deps       # solo código, sin tocar dependencias
+```
+
+`actualizate.sh` hace `git pull` de la rama indicada, **conserva tus archivos y tu `config.json`**, actualiza las dependencias, re-verifica GDAL/wkhtmltopdf y ejecuta la autoprueba.
+
+### Opciones de `llevatodo.sh`
+
+```bash
+./llevatodo.sh                 # instalación interactiva
+./llevatodo.sh --yes           # sin preguntas: instala todo lo que falte
+./llevatodo.sh --skip-system   # no toca paquetes del sistema (GDAL, wkhtmltopdf)
+./llevatodo.sh --no-ia         # no configura la API key de Gemini
+```
 
 ### Opciones de `run.sh`
 
@@ -57,7 +81,7 @@ Hay **tres formas** de configurarla (por orden de prioridad):
 
 1. **Variable de entorno** `GEMINI_API_KEY` (tiene prioridad).
 2. **Desde la interfaz web** → pestaña **⚙️ Configuración** (se guarda en `config.json`).
-3. **Durante la instalación** (`./install.sh` te la pide).
+3. **Durante la instalación** (`./llevatodo.sh` te la pide).
 
 ```bash
 # Ejemplo con variable de entorno
@@ -166,8 +190,10 @@ sistema_palmilla/
 │   └── planos/        # Datos de entrada del plano georreferenciado (Módulo D)
 ├── docs/              # Documento de arquitectura + PMF de ejemplo
 ├── output/            # Salidas generadas por la API (no se sube a GitHub)
-├── install.sh         # Instalador para macOS
-├── run.sh             # Iniciador (servidor + navegador)
+├── llevatodo.sh      # Instalador integral (verifica e instala todo lo que falte)
+├── actualizate.sh    # Actualizador (git pull + dependencias + verificación)
+├── install.sh        # Instalador para macOS (compatibilidad; delega en llevatodo.sh)
+├── run.sh            # Iniciador (servidor + navegador)
 ├── Iniciar PalmillaBot.command   # Lanzador con doble clic (Finder)
 ├── requirements.txt   # Dependencias de Python
 ├── .env.example       # Ejemplo de variables de entorno
