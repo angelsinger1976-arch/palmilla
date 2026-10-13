@@ -35,6 +35,10 @@ from legal_kb import NORMAS, TRAMITES, FORMATOS, PARAMETROS_TECNICOS, ESPECIES
 import config as cfg
 from gemini_client import get_gemini, GeminiError
 from geo_anp import evaluar_ubicacion, ANP_CATALOGO
+from plano_geo import (
+    DatosPlano, AreaAprovechamiento, generar_plano, datos_ejemplo,
+    vertices_desde_texto,
+)
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEB_DIR = os.path.join(BASE, "web")
@@ -115,6 +119,35 @@ class UbicacionPayload(BaseModel):
     lon: Optional[float] = None
     texto: Optional[str] = None
     texto_utm: Optional[str] = None
+
+
+class AreaPlanoPayload(BaseModel):
+    nombre: str = "Área de aprovechamiento"
+    tipo: str = "Aprovechamiento"
+    vertices: list[list[float]] = []
+    vertices_texto: str = ""
+    superficie_ha: Optional[float] = None
+    densidad_ind_ha: Optional[float] = None
+    tasa_cosecha_pct: Optional[float] = None
+    color: Optional[str] = None
+    anualidad: Optional[str] = None
+
+
+class PlanoPayload(BaseModel):
+    predio_nombre: str = "Predio por definir"
+    promovente: str = ""
+    municipio: str = "Ensenada"
+    estado: str = "Baja California"
+    tecnico: str = ""
+    registro_tecnico: str = ""
+    fecha: str = ""
+    escala: str = ""
+    sistema_coordenadas: str = "WGS84"      # "WGS84" | "UTM11N"
+    zona_utm: int = 11
+    poligono: list[list[float]] = []        # [[lon, lat], ...]
+    poligono_texto: str = ""
+    areas: list[AreaPlanoPayload] = []
+    observaciones: str = ""
 
 
 # ---------------------------------------------------------------------------
@@ -281,6 +314,89 @@ def exportar(p: ExportarPayload):
     except Exception as e:  # noqa: BLE001
         raise HTTPException(status_code=500, detail=str(e))
     return FileResponse(path, media_type=media, filename=os.path.basename(path))
+
+
+# ---------------------------------------------------------------------------
+# Módulo D — Plano georreferenciado (Shapefile / GeoPDF)
+def _plano_desde_payload(p: PlanoPayload) -> DatosPlano:
+    sistema = (p.sistema_coordenadas or "WGS84").upper()
+    poligono = [list(v) for v in p.poligono] if p.poligono else []
+    if not poligono and p.poligono_texto:
+        poligono = vertices_desde_texto(p.poligono_texto, sistema, p.zona_utm)
+    areas = []
+    for a in p.areas:
+        verts = [list(v) for v in a.vertices] if a.vertices else []
+        if not verts and a.vertices_texto:
+            verts = vertices_desde_texto(a.vertices_texto, sistema, p.zona_utm)
+        areas.append(AreaAprovechamiento(
+            nombre=a.nombre, tipo=a.tipo, vertices=verts,
+            superficie_ha=a.superficie_ha, densidad_ind_ha=a.densidad_ind_ha,
+            tasa_cosecha_pct=a.tasa_cosecha_pct, color=a.color, anualidad=a.anualidad,
+        ))
+    return DatosPlano(
+        predio_nombre=p.predio_nombre, promovente=p.promovente,
+        municipio=p.municipio, estado=p.estado, tecnico=p.tecnico,
+        registro_tecnico=p.registro_tecnico, fecha=p.fecha, escala=p.escala,
+        sistema_coordenadas=sistema, zona_utm=p.zona_utm,
+        poligono=poligono, areas=areas, observaciones=p.observaciones,
+    )
+
+
+_PLANO_DESCARGAS = {
+    "geopdf": "/api/plano/descargar/geopdf",
+    "png": "/api/plano/descargar/png",
+    "geojson": "/api/plano/descargar/geojson",
+    "shp": "/api/plano/descargar/shp",
+}
+
+
+@app.post("/api/plano")
+def crear_plano(p: PlanoPayload):
+    """Genera el plano georreferenciado (Shapefile + GeoPDF + GeoJSON + PNG)."""
+    try:
+        datos = _plano_desde_payload(p)
+        res = generar_plano(datos, OUT_DIR, nombre="plano_predio")
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(status_code=500, detail=str(e))
+    res["descargas"] = dict(_PLANO_DESCARGAS)
+    return res
+
+
+@app.get("/api/plano/ejemplo")
+def plano_ejemplo():
+    """Genera el plano georreferenciado con los datos de ejemplo."""
+    try:
+        res = generar_plano(datos_ejemplo(), OUT_DIR, nombre="plano_ejemplo")
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(status_code=500, detail=str(e))
+    res["descargas"] = {
+        "geopdf": "/api/plano/descargar/geopdf?nombre=plano_ejemplo",
+        "png": "/api/plano/descargar/png?nombre=plano_ejemplo",
+        "geojson": "/api/plano/descargar/geojson?nombre=plano_ejemplo",
+        "shp": "/api/plano/descargar/shp?nombre=plano_ejemplo",
+    }
+    return res
+
+
+@app.get("/api/plano/descargar/{fmt}")
+def descargar_plano(fmt: str, nombre: str = "plano_predio"):
+    fmt = fmt.lower()
+    nombre = os.path.basename(nombre or "plano_predio") or "plano_predio"
+    base = os.path.join(OUT_DIR, nombre)
+    mapa = {
+        "geopdf": (base + "_georreferenciado.pdf", "application/pdf", f"{nombre}_georreferenciado.pdf"),
+        "pdf": (base + "_georreferenciado.pdf", "application/pdf", f"{nombre}_georreferenciado.pdf"),
+        "png": (base + ".png", "image/png", f"{nombre}.png"),
+        "geojson": (base + ".geojson", "application/geo+json", f"{nombre}.geojson"),
+        "shp": (base + "_shapefile.zip", "application/zip", f"{nombre}_shapefile.zip"),
+        "zip": (base + "_shapefile.zip", "application/zip", f"{nombre}_shapefile.zip"),
+    }
+    if fmt not in mapa:
+        raise HTTPException(status_code=404, detail="Formato no soportado")
+    path, media, filename = mapa[fmt]
+    if not os.path.exists(path):
+        raise HTTPException(status_code=404, detail="Genere primero el plano")
+    return FileResponse(path, media_type=media, filename=filename)
 
 
 # ---------------------------------------------------------------------------

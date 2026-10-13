@@ -38,6 +38,7 @@
     <button class="tab active" data-tab="analisis">📋 Análisis y Checklist</button>
     <button class="tab" data-tab="chat">💬 Consulta Normativa (RAG + IA)</button>
     <button class="tab" data-tab="generador">📄 Generador de Programa de Manejo</button>
+    <button class="tab" data-tab="plano">🗺️ Plano Georreferenciado</button>
     <button class="tab" data-tab="config">⚙️ Configuración (Gemini)</button>
   </div>
 
@@ -218,6 +219,68 @@
       </div>
       <div id="doc-area" style="margin-top:18px;">
         <div class="empty"><div class="big">📄</div><p>El documento generado aparecerá aquí, con opciones de descarga en PDF, DOCX, HTML y Markdown.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PANEL 5: PLANO GEORREFERENCIADO ================= -->
+  <section id="tab-plano" class="panel">
+    <div class="grid-2">
+      <div class="card">
+        <h2>🗺️ Plano georreferenciado del polígono</h2>
+        <p class="hint">Genera el <strong>plano georreferenciado</strong> del predio con las <strong>áreas de aprovechamiento</strong> en formato <strong>Shapefile</strong> (.shp/.shx/.dbf/.prj, EPSG:32611), <strong>GeoPDF</strong> georreferenciado (OGC), además de GeoJSON y PNG. Fundamento: Reglamento de la LGDFS, Art. 57 y NOM-005-SEMARNAT-1997.</p>
+
+        <div class="field">
+          <label>Sistema de coordenadas de entrada</label>
+          <select id="pl-sistema">
+            <option value="WGS84">WGS 84 — latitud, longitud (grados decimales)</option>
+            <option value="UTM11N">UTM Zona 11N — Este (X), Norte (Y) en metros</option>
+          </select>
+        </div>
+
+        <div class="grp">
+          <div class="field">
+            <label>Datos del predio</label>
+            <input id="pl-predio" placeholder="Nombre del predio" value="Predio Ejido San Quintín — Lote 7">
+          </div>
+          <div class="field">
+            <input id="pl-promovente" placeholder="Promovente / titular" value="Ejido San Quintín">
+          </div>
+          <div class="field">
+            <input id="pl-municipio" placeholder="Municipio" value="San Quintín">
+          </div>
+          <div class="field">
+            <input id="pl-tecnico" placeholder="Técnico forestal certificado" value="Ing. Forestal (Técnico Certificado)">
+          </div>
+          <div class="field">
+            <input id="pl-registro" placeholder="Registro técnico" value="RFN-0123">
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Vértices del polígono del predio <span class="hint-inline">(un vértice por línea)</span></label>
+          <textarea id="pl-poligono" rows="5" spellcheck="false"
+            placeholder="30.5000, -115.9000&#10;30.5000, -115.8896&#10;30.5090, -115.8896&#10;30.5090, -115.9000"></textarea>
+        </div>
+
+        <div class="field">
+          <label>Áreas de aprovechamiento <span class="hint-inline">(encabezado <code># Nombre | Tipo | Anualidad</code> y luego sus vértices)</span></label>
+          <textarea id="pl-areas" rows="10" spellcheck="false"
+            placeholder="# Área 1 | Aprovechamiento | Anualidad 1&#10;30.5004, -115.8996&#10;30.5004, -115.8950&#10;30.5043, -115.8950&#10;30.5043, -115.8996"></textarea>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" id="btn-plano">🗺️ Generar plano</button>
+          <button class="btn btn-ghost" id="btn-plano-ejemplo">📐 Cargar ejemplo</button>
+        </div>
+        <div id="plano-estado" class="cfg-estado"></div>
+      </div>
+
+      <div class="card">
+        <h2>Vista previa y descargas</h2>
+        <div id="plano-resultado">
+          <div class="empty"><div class="big">🗺️</div><p>El plano aparecerá aquí. Podrá descargar el <strong>Shapefile</strong> (ZIP), el <strong>GeoPDF</strong> georreferenciado, el <strong>GeoJSON</strong> y una <strong>vista PNG</strong>.</p></div>
+        </div>
       </div>
     </div>
   </section>

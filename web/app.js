@@ -493,5 +493,138 @@ document.getElementById("cfg-apikey").addEventListener("keydown", (e) => {
   if (e.key === "Enter") guardarConfig();
 });
 
+/* ==========================================================================
+   MÓDULO D — Plano georreferenciado (Shapefile / GeoPDF)
+   ========================================================================== */
+const EJEMPLO_POLIGONO = `30.5000, -115.9000
+30.5000, -115.8896
+30.5090, -115.8896
+30.5090, -115.9000`;
+
+const EJEMPLO_AREAS = `# Área 1 — Cuadrante SO | Aprovechamiento | Anualidad 1
+30.5004, -115.8996
+30.5004, -115.8950
+30.5043, -115.8950
+30.5043, -115.8996
+
+# Área 2 — Cuadrante SE | Aprovechamiento | Anualidad 1
+30.5004, -115.8946
+30.5004, -115.8900
+30.5043, -115.8900
+30.5043, -115.8946
+
+# Área 3 — Cuadrante NE | Aprovechamiento | Anualidad 2
+30.5047, -115.8946
+30.5047, -115.8900
+30.5086, -115.8900
+30.5086, -115.8946
+
+# Área 4 — Cuadrante NO | Aprovechamiento | Anualidad 2
+30.5047, -115.8996
+30.5047, -115.8950
+30.5086, -115.8950
+30.5086, -115.8996
+
+# Franja de conservación (arroyo) | Conservación |
+30.5004, -115.8950
+30.5004, -115.8946
+30.5086, -115.8946
+30.5086, -115.8950`;
+
+function parseAreasTexto(texto) {
+  const areas = [];
+  let actual = null;
+  (texto || "").split("\n").forEach((linea) => {
+    const l = linea.trim();
+    if (!l) return;
+    if (l.startsWith("#")) {
+      const p = l.replace(/^#\s*/, "").split("|").map((s) => s.trim());
+      actual = { nombre: p[0] || "Área", tipo: p[1] || "Aprovechamiento", anualidad: p[2] || "", vertices_texto: "" };
+      areas.push(actual);
+    } else {
+      if (!actual) {
+        actual = { nombre: "Área", tipo: "Aprovechamiento", anualidad: "", vertices_texto: "" };
+        areas.push(actual);
+      }
+      actual.vertices_texto += l + "\n";
+    }
+  });
+  return areas;
+}
+
+function cargarEjemploPlano() {
+  document.getElementById("pl-poligono").value = EJEMPLO_POLIGONO;
+  document.getElementById("pl-areas").value = EJEMPLO_AREAS;
+}
+
+function renderPlano(d) {
+  const out = document.getElementById("plano-resultado");
+  const geo = d.georreferenciado ? "✅ Sí (OGC GeoPDF)" : "⚠️ PDF sin georreferenciación (GDAL no disponible)";
+  const areas = (d.areas || [])
+    .map((a) => `<li>${esc(a.nombre)} — <b>${a.superficie_ha} ha</b> (${esc(a.tipo)})</li>`)
+    .join("");
+  out.innerHTML = `
+    <div class="plano-meta">
+      <div><b>Predio:</b> ${esc(d.predio_nombre || d.nombre)}</div>
+      <div><b>Sistema:</b> ${esc(d.sistema)}</div>
+      <div><b>Escala aprox.:</b> ${esc(d.escala)}</div>
+      <div><b>Superficie del predio:</b> ${d.superficie_predio_ha} ha</div>
+      <div><b>Superficie de aprovechamiento:</b> ${d.superficie_aprovechamiento_ha} ha</div>
+      <div><b>Georreferenciado:</b> ${geo}</div>
+    </div>
+    <h3 style="font-size:.95rem;color:var(--verde-700);margin:12px 0 6px;">Áreas (${d.num_areas})</h3>
+    <ul style="font-size:.82rem;color:var(--gris-700);margin-left:18px;">${areas}</ul>
+    <div class="actions" style="margin-top:14px;">
+      <button class="btn btn-primary" data-pl="${d.descargas.geopdf}">🗺️ GeoPDF</button>
+      <button class="btn btn-ghost" data-pl="${d.descargas.shp}">📦 Shapefile (ZIP)</button>
+      <button class="btn btn-ghost" data-pl="${d.descargas.geojson}">🌐 GeoJSON</button>
+      <button class="btn btn-ghost" data-pl="${d.descargas.png}">🖼️ PNG</button>
+    </div>
+    <img class="plano-preview" src="${API}${d.descargas.png}?t=${Date.now()}" alt="Vista previa del plano">
+  `;
+  out.querySelectorAll("[data-pl]").forEach((b) =>
+    b.addEventListener("click", () => { window.location.href = API + b.dataset.pl; }));
+}
+
+async function generarPlano() {
+  const btn = document.getElementById("btn-plano");
+  const est = document.getElementById("plano-estado");
+  const payload = {
+    predio_nombre: document.getElementById("pl-predio").value,
+    promovente: document.getElementById("pl-promovente").value,
+    municipio: document.getElementById("pl-municipio").value,
+    estado: "Baja California",
+    tecnico: document.getElementById("pl-tecnico").value,
+    registro_tecnico: document.getElementById("pl-registro").value,
+    sistema_coordenadas: document.getElementById("pl-sistema").value,
+    poligono_texto: document.getElementById("pl-poligono").value,
+    areas: parseAreasTexto(document.getElementById("pl-areas").value),
+  };
+  if (!payload.poligono_texto.trim()) {
+    est.textContent = "⚠️ Ingrese los vértices del polígono del predio.";
+    return;
+  }
+  btn.disabled = true;
+  est.textContent = "⏳ Generando plano (Shapefile + GeoPDF)…";
+  try {
+    const res = await fetch(API + "/api/plano", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.detail || ("Error " + res.status));
+    est.textContent = "✅ Plano generado correctamente.";
+    renderPlano(data);
+  } catch (err) {
+    est.textContent = "❌ " + err.message;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+document.getElementById("btn-plano").addEventListener("click", generarPlano);
+document.getElementById("btn-plano-ejemplo").addEventListener("click", cargarEjemploPlano);
+cargarEjemploPlano();
+
 /* ---------- Init ---------- */
 cargarConfig();

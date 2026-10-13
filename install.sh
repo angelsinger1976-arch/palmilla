@@ -7,7 +7,8 @@
 #    2. Crea un entorno virtual aislado en ./venv.
 #    3. Instala las dependencias de Python (FastAPI, scikit-learn, etc.).
 #    4. Verifica/instala wkhtmltopdf (para exportar el PMF a PDF).
-#    5. Te permite guardar tu API key de Google Gemini.
+#    5. Verifica/instala GDAL (para el GeoPDF georreferenciado del plano).
+#    6. Te permite guardar tu API key de Google Gemini.
 #
 #  Uso:
 #      chmod +x install.sh
@@ -90,7 +91,7 @@ ok "Entorno virtual activado ($(python --version))."
 # =============================================================================
 # 4) Dependencias de Python
 # =============================================================================
-title "4/6 · Instalando dependencias de Python"
+title "4/7 · Instalando dependencias de Python"
 info "Actualizando pip …"
 python -m pip install --quiet --upgrade pip setuptools wheel
 info "Instalando dependencias desde requirements.txt (puede tardar unos minutos) …"
@@ -98,9 +99,39 @@ python -m pip install --quiet -r "$SCRIPT_DIR/requirements.txt"
 ok "Dependencias instaladas correctamente."
 
 # =============================================================================
-# 5) wkhtmltopdf (para exportar el PMF a PDF)
+# 5) GDAL (para el GeoPDF georreferenciado del plano)
 # =============================================================================
-title "5/6 · Comprobando wkhtmltopdf (exportación a PDF)"
+title "5/7 · Comprobando GDAL (plano GeoPDF georreferenciado)"
+if command -v gdal_translate >/dev/null 2>&1 || python -c "from osgeo import gdal" >/dev/null 2>&1; then
+  ok "GDAL disponible: el GeoPDF se generará con georreferenciación OGC."
+else
+  warn "GDAL no está instalado."
+  echo "   Es necesario para el GeoPDF georreferenciado del plano (Módulo D)."
+  echo "   (El Shapefile y el GeoJSON se generan igualmente sin GDAL.)"
+  if command -v brew >/dev/null 2>&1; then
+    printf "${BOLD}¿Deseas instalarlo ahora con Homebrew? [s/N]: ${RESET}"
+    read -r RESP || RESP="n"
+    case "$RESP" in
+      s|S|si|Sí|y|Y)
+        info "Instalando GDAL con Homebrew (puede tardar unos minutos) …"
+        if brew install gdal; then
+          ok "GDAL instalado."
+        else
+          warn "No se pudo instalar GDAL. Puedes hacerlo luego: brew install gdal"
+        fi
+        ;;
+      *) warn "Omitido. Instálalo cuando quieras con: brew install gdal" ;;
+    esac
+  else
+    warn "Homebrew no está instalado. Instálalo desde https://brew.sh y luego:"
+    echo "       brew install gdal"
+  fi
+fi
+
+# =============================================================================
+# 6) wkhtmltopdf (para exportar el PMF a PDF)
+# =============================================================================
+title "6/7 · Comprobando wkhtmltopdf (exportación a PDF)"
 if command -v wkhtmltopdf >/dev/null 2>&1; then
   ok "wkhtmltopdf ya está instalado ($(wkhtmltopdf --version 2>/dev/null | head -1))."
 else
@@ -128,9 +159,9 @@ else
 fi
 
 # =============================================================================
-# 6) API key de Google Gemini (opcional)
+# 7) API key de Google Gemini (opcional)
 # =============================================================================
-title "6/6 · Configuración de la IA (Google Gemini)"
+title "7/7 · Configuración de la IA (Google Gemini)"
 echo "   PalmillaBot puede usar la IA de Google Gemini para redactar respuestas"
 echo "   y el Programa de Manejo. Necesitas una API key GRATUITA de Google AI Studio."
 echo

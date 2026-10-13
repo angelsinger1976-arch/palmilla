@@ -14,5 +14,11 @@ numpy>=1.24
 python-docx>=1.1
 Markdown>=3.5
 
+# Módulo D — Plano georreferenciado (Shapefile / GeoPDF)
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.6
+matplotlib>=3.7
+
 # Cliente Gemini (IA generativa)
 requests>=2.31

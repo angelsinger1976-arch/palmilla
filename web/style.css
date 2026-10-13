@@ -109,10 +109,20 @@ header.hero::after {
   border-radius: 9px; font-size: .92rem; background: var(--gris-100); color: var(--gris-900);
   transition: border .15s, background .15s;
 }
-.field input:focus, .field select:focus {
+.field textarea {
+  width: 100%; padding: 10px 12px; border: 1px solid var(--gris-200);
+  border-radius: 9px; font-size: .82rem; background: var(--gris-100); color: var(--gris-900);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  line-height: 1.5; resize: vertical; transition: border .15s, background .15s;
+}
+.field input:focus, .field select:focus, .field textarea:focus {
   outline: none; border-color: var(--verde-500); background: var(--blanco);
   box-shadow: 0 0 0 3px var(--verde-100);
 }
+.hint-inline { font-weight: 400; color: var(--gris-500); font-size: .76rem; }
+.plano-preview { width: 100%; border: 1px solid var(--gris-200); border-radius: 10px; margin-top: 10px; }
+.plano-meta { font-size: .82rem; color: var(--gris-700); margin: 8px 0; line-height: 1.6; }
+.plano-meta b { color: var(--verde-800); }
 .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
 .check { display: flex; align-items: center; gap: 9px; margin: 8px 0; font-size: .9rem; }

@@ -71,19 +71,53 @@ export GEMINI_API_KEY="AIza...tu_clave..."
 
 ---
 
-## 🧠 Arquitectura (3 módulos + IA)
+## 🧠 Arquitectura (4 módulos + IA)
 
 | Módulo | Archivo | Función |
 |---|---|---|
 | **A — RAG Normativo** | `src/rag_engine.py` | Índice TF-IDF sobre 467 pasajes (disposiciones estructuradas + corpus legal). Recupera y **cita** artículos. |
 | **B — Motor de Reglas** | `src/rules_engine.py` | Determina **vía de trámite**, **checklist**, autorizaciones adicionales (ANP/NOM-059) y reglas técnicas. |
 | **C — Generador PMF** | `src/project_generator.py` | Calcula inventario/cosecha y **genera el Programa de Manejo** (6 secciones) → MD/HTML/DOCX/PDF. |
+| **D — Plano Georreferenciado** | `src/plano_geo.py` | Genera el **plano del predio con las áreas de aprovechamiento** → **Shapefile** (EPSG:32611), **GeoPDF** georreferenciado, GeoJSON y PNG. |
+| **Geoespacial ANP** | `src/geo_anp.py` | Detección automática de Áreas Naturales Protegidas por coordenadas (bloqueo *NO PROCEDE*). |
 | **IA — Gemini** | `src/gemini_client.py` | Cliente REST de Google Gemini (redacción de respuestas y del PMF). |
 | **Configuración** | `src/config.py` | Persistencia segura de la API key y del modelo. |
 | System Prompt | `src/system_prompt.py` | Rol del agente y formato de salida de 6 secciones. |
-| Orquestador | `src/agent_core.py` | Integra los 3 módulos + IA en una respuesta única. |
+| Orquestador | `src/agent_core.py` | Integra los 4 módulos + IA en una respuesta única. |
 | Backend | `src/app.py` | API REST (FastAPI). |
-| Frontend | `web/index.html`, `web/style.css`, `web/app.js` | Interfaz web (4 pestañas). |
+| Frontend | `web/index.html`, `web/style.css`, `web/app.js` | Interfaz web (5 pestañas). |
+
+---
+
+## 🗺️ Plano georreferenciado (Shapefile / GeoPDF)
+
+El **Módulo D** (`src/plano_geo.py`) produce el **plano georreferenciado del
+polígono del predio con las áreas de aprovechamiento**, conforme al
+**Reglamento de la LGDFS, Art. 57** y la **NOM-005-SEMARNAT-1997**. Genera:
+
+| Producto | Formato | Sistema de referencia |
+|---|---|---|
+| **Shapefile** (predio, áreas y capa combinada) | `.shp/.shx/.dbf/.prj/.cpg` | WGS 84 / UTM 11N — **EPSG:32611** |
+| **GeoPDF** georreferenciado | `.pdf` (OGC / ISO 32000) | EPSG:32611 |
+| **GeoJSON** | `.geojson` | WGS 84 — EPSG:4326 |
+| **Vista previa** | `.png` | EPSG:32611 |
+
+El plano incluye retícula de coordenadas UTM, flecha de norte, escala gráfica,
+leyenda, cuadro de datos del predio y las superficies calculadas en proyección
+métrica. Se puede generar desde la pestaña **🗺️ Plano Georreferenciado** de la
+interfaz web o por línea de comandos:
+
+```bash
+cd src
+python3 plano_geo.py --out ../output                       # ejemplo integrado
+python3 plano_geo.py --entrada ../data/planos/ejemplo_predio.json \
+                     --out ../output --nombre plano_predio
+```
+
+> **Nota:** para el **GeoPDF** con georreferenciación OGC se requiere **GDAL**
+> (`brew install gdal` en macOS o `apt install gdal-bin` en Linux). Sin GDAL, el
+> Shapefile y el GeoJSON se generan igualmente, y el PDF se produce sin
+> metadatos geoespaciales.
 
 ---
 
@@ -95,6 +129,7 @@ python3 agent_core.py            # demo del orquestador (análisis + chat RAG)
 python3 project_generator.py     # demo del generador de PMF
 python3 rag_engine.py            # demo del RAG normativo
 python3 gemini_client.py         # prueba de conexión con Gemini
+python3 plano_geo.py --out ../output   # demo del plano georreferenciado (Módulo D)
 ```
 
 ---
@@ -110,6 +145,9 @@ python3 gemini_client.py         # prueba de conexión con Gemini
 | POST | `/api/generar` | Genera el PMF con la plantilla determinista |
 | POST | `/api/generar-ia` | Genera el PMF redactado con **Gemini** |
 | POST | `/api/exportar` | Exporta un Markdown (p. ej. de IA) a PDF/DOCX/HTML/MD |
+| POST | `/api/plano` | Genera el **plano georreferenciado** (Shapefile + GeoPDF + GeoJSON + PNG) |
+| GET | `/api/plano/ejemplo` | Genera el plano con los datos de ejemplo |
+| GET | `/api/plano/descargar/{geopdf\|shp\|geojson\|png}` | Descarga los productos del plano |
 | GET | `/api/descargar/{pdf\|docx\|md\|html}` | Descarga el PMF (plantilla) |
 | GET/POST | `/api/config` | Consulta/guarda la API key y el modelo |
 | POST | `/api/config/validar` | Valida la API key contra la API de Google |
@@ -121,8 +159,11 @@ python3 gemini_client.py         # prueba de conexión con Gemini
 ```
 sistema_palmilla/
 ├── corpus/            # PDFs y TXT oficiales (LGDFS, Reglamento, NOM-005/059/152)
-├── src/               # Código de los 3 módulos + IA + backend
+├── src/               # Código de los 4 módulos + IA + backend
 ├── web/               # Frontend (HTML/CSS/JS)
+├── data/
+│   ├── anp/           # GeoJSON de Áreas Naturales Protegidas (detección)
+│   └── planos/        # Datos de entrada del plano georreferenciado (Módulo D)
 ├── docs/              # Documento de arquitectura + PMF de ejemplo
 ├── output/            # Salidas generadas por la API (no se sube a GitHub)
 ├── install.sh         # Instalador para macOS
