@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PalmillaBot — Agente IA para Permisos de Aprovechamiento de Palmilla (Yucca)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/web/style.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-top">
+      <h1><span class="leaf">🌵</span> PalmillaBot</h1>
+      <button class="btn-status" id="btn-status" title="Configurar la API key de Gemini">
+        <span id="status-dot" class="dot dot-off"></span>
+        <span id="status-text">IA: sin configurar</span>
+      </button>
+    </div>
+    <p class="sub">Agente de IA (Ingeniero Forestal) para obtener los permisos de aprovechamiento de <strong>recursos forestales no maderables</strong> — tallos de <em>Yucca</em> (palmilla) — en Baja California, y para generar el <strong>Programa de Manejo Forestal Simplificado</strong> ante la SEMARNAT.</p>
+    <div class="chips">
+      <span class="chip">LGDFS Art. 85</span>
+      <span class="chip">Reglamento Art. 57</span>
+      <span class="chip">NOM-005-SEMARNAT-1997</span>
+      <span class="chip">NOM-059-SEMARNAT-2010</span>
+      <span class="chip">SEMARNAT-03-052</span>
+      <span class="chip">FF-SEMARNAT-074</span>
+      <span class="chip chip-ia">Google Gemini</span>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="tabs">
+    <button class="tab active" data-tab="analisis">📋 Análisis y Checklist</button>
+    <button class="tab" data-tab="chat">💬 Consulta Normativa (RAG + IA)</button>
+    <button class="tab" data-tab="generador">📄 Generador de Programa de Manejo</button>
+    <button class="tab" data-tab="config">⚙️ Configuración (Gemini)</button>
+  </div>
+
+  <!-- ================= PANEL 1: ANÁLISIS ================= -->
+  <section id="tab-analisis" class="panel active">
+    <div class="grid-2">
+      <div class="card">
+        <h2>Datos del predio</h2>
+        <p class="hint">Complete los datos para que el agente determine la vía de trámite y el checklist de permisos.</p>
+        <form id="form-predio">
+          <div class="field">
+            <label>Promovente / poseedor</label>
+            <input name="promovente" value="Ejido Sierra de Juárez" placeholder="Ejido, comunidad o propietario">
+          </div>
+          <div class="row">
+            <div class="field"><label>Nombre del predio</label><input name="predio_nombre" value="Predio El Cardonal"></div>
+            <div class="field"><label>Municipio</label><input name="municipio" value="Ensenada"></div>
+          </div>
+          <div class="row-3">
+            <div class="field"><label>Superficie (ha)</label><input name="superficie_ha" type="number" value="180" min="0.1" step="0.1"></div>
+            <div class="field"><label>Régimen de propiedad</label>
+              <select name="tipo_propietario">
+                <option value="privada">Privada</option>
+                <option value="ejidal" selected>Ejidal</option>
+                <option value="comunal">Comunal</option>
+                <option value="posesion">Posesión</option>
+              </select>
+            </div>
+            <div class="field"><label>Vigencia (años)</label><input name="vigencia_anios" type="number" value="5" min="1" max="5"></div>
+          </div>
+          <div class="row">
+            <div class="field"><label>Especie</label>
+              <select name="especie">
+                <option value="Yucca schidigera">Yucca schidigera</option>
+                <option value="Yucca valida">Yucca valida</option>
+                <option value="Yucca carnerosana">Yucca carnerosana</option>
+                <option value="Yucca brevifolia">Yucca brevifolia</option>
+              </select>
+            </div>
+            <div class="field"><label>Parte aprovechada</label>
+              <select name="parte_aprovechada">
+                <option value="tallo" selected>Tallo</option>
+                <option value="hojas">Hojas</option>
+                <option value="planta_completa">Planta completa</option>
+              </select>
+            </div>
+          </div>
+          <div class="row-3">
+            <div class="field"><label>Densidad (ind/ha)</label><input name="densidad_ind_ha" type="number" value="320" step="1"></div>
+            <div class="field"><label>% individuos maduros</label><input name="pct_maduros" type="number" value="0.55" step="0.01" min="0" max="1"></div>
+            <div class="field"><label>Peso tallo (kg)</label><input name="peso_tallo_kg" type="number" value="18" step="0.1"></div>
+          </div>
+          <div class="check"><input type="checkbox" name="en_anp" id="en_anp"><label for="en_anp">El predio está dentro de un Área Natural Protegida (ANP)</label></div>
+          <div class="check"><input type="checkbox" name="especie_nom059" id="nom059"><label for="nom059">La especie está listada en la NOM-059-SEMARNAT-2010</label></div>
+          <div class="check"><input type="checkbox" name="tiene_tecnico" id="tec"><label for="tec">Ya cuenta con Técnico Forestal Certificado</label></div>
+          <div class="check"><input type="checkbox" name="tiene_planos" id="pl"><label for="pl">Ya cuenta con plano georreferenciado</label></div>
+          <div class="actions">
+            <button type="submit" class="btn btn-primary" id="btn-analizar">🔎 Analizar predio</button>
+            <button type="reset" class="btn btn-ghost">Limpiar</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="card" id="resultado-card">
+        <div class="empty"><div class="big">🌵</div><p>Complete el formulario y presione <strong>Analizar predio</strong> para ver la vía de trámite, el checklist y las citas legales.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PANEL 2: CHAT RAG + IA ================= -->
+  <section id="tab-chat" class="panel">
+    <div class="card">
+      <h2>Consulta normativa (Módulo A — RAG + Gemini)</h2>
+      <p class="hint">Pregunte sobre la normatividad. El agente recupera las disposiciones aplicables del corpus legal (LGDFS, Reglamento, NOM-005, NOM-059) y, si hay una API key de Gemini configurada, redacta una respuesta citada con IA.</p>
+      <label class="switch">
+        <input type="checkbox" id="chat-usar-ia" checked>
+        <span>Usar IA generativa (Gemini) para redactar la respuesta</span>
+      </label>
+      <div class="chat-window" id="chat-window">
+        <div class="msg bot">Hola 👋 Soy PalmillaBot. Pregúntame, por ejemplo: <em>«¿Se necesita aviso o autorización para aprovechar tallos de Yucca?»</em>, <em>«¿Cuál es el ciclo de corta?»</em> o <em>«¿Qué documentos exige el programa de manejo?»</em>.</div>
+      </div>
+      <div class="chat-input">
+        <input id="chat-q" placeholder="Escriba su pregunta normativa…">
+        <button class="btn btn-primary" id="btn-chat">Enviar</button>
+      </div>
+      <div class="actions">
+        <button class="btn btn-ghost" data-q="¿Se necesita aviso o autorización para aprovechar tallos de Yucca?">Autorización vs aviso</button>
+        <button class="btn btn-ghost" data-q="¿Cuál es el ciclo de corta y la tasa de cosecha para Yucca?">Ciclo de corta</button>
+        <button class="btn btn-ghost" data-q="¿Qué contenido debe tener el programa de manejo forestal simplificado?">Contenido del PMF</button>
+        <button class="btn btn-ghost" data-q="¿Qué pasa si el predio está en un área natural protegida?">Predio en ANP</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PANEL 3: GENERADOR ================= -->
+  <section id="tab-generador" class="panel">
+    <div class="card">
+      <h2>Generador del Programa de Manejo Forestal Simplificado</h2>
+      <p class="hint">Genera el documento técnico con la estructura de 6 secciones (Reglamento LGDFS Art. 57 + NOM-005 §4.1.4). Usa los datos del formulario de la pestaña <strong>Análisis</strong>. Con IA (Gemini) se redacta una versión narrativa completa; sin IA se usa la plantilla determinista.</p>
+      <div class="actions">
+        <button class="btn btn-primary" id="btn-generar">📄 Generar (plantilla)</button>
+        <button class="btn btn-arena" id="btn-generar-ia">✨ Generar con IA (Gemini)</button>
+      </div>
+      <div id="doc-area" style="margin-top:18px;">
+        <div class="empty"><div class="big">📄</div><p>El documento generado aparecerá aquí, con opciones de descarga en PDF, DOCX, HTML y Markdown.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PANEL 4: CONFIGURACIÓN ================= -->
+  <section id="tab-config" class="panel">
+    <div class="grid-2">
+      <div class="card">
+        <h2>⚙️ Configuración de la IA (Google Gemini)</h2>
+        <p class="hint">Pegue aquí su <strong>API key</strong> de Google AI Studio para activar las respuestas redactadas por IA. La clave se guarda localmente en <code>config.json</code> (nunca se sube a GitHub) y también puede definirse con la variable de entorno <code>GEMINI_API_KEY</code>.</p>
+        <div class="field">
+          <label>API key de Gemini</label>
+          <div class="key-row">
+            <input id="cfg-apikey" type="password" placeholder="AIza…" autocomplete="off" spellcheck="false">
+            <button class="btn btn-ghost" id="btn-toggle-key" type="button">👁️</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>Modelo</label>
+          <select id="cfg-modelo">
+            <option value="gemini-2.0-flash">gemini-2.0-flash (recomendado · rápido)</option>
+            <option value="gemini-2.5-flash">gemini-2.5-flash</option>
+            <option value="gemini-2.5-pro">gemini-2.5-pro</option>
+            <option value="gemini-1.5-flash">gemini-1.5-flash</option>
+            <option value="gemini-1.5-pro">gemini-1.5-pro</option>
+          </select>
+        </div>
+        <div class="actions">
+          <button class="btn btn-primary" id="btn-guardar-cfg">💾 Guardar configuración</button>
+          <button class="btn btn-ghost" id="btn-validar-cfg">🔌 Validar conexión</button>
+          <button class="btn btn-ghost" id="btn-borrar-cfg">🗑️ Borrar API key</button>
+        </div>
+        <div id="cfg-estado" class="cfg-estado"></div>
+      </div>
+
+      <div class="card">
+        <h2>¿Cómo obtener una API key de Gemini?</h2>
+        <ol class="steps">
+          <li>Entra a <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">Google AI Studio → API keys</a>.</li>
+          <li>Inicia sesión con tu cuenta de Google.</li>
+          <li>Pulsa <strong>«Create API key»</strong> y copia la clave (empieza por <code>AIza…</code>).</li>
+          <li>Pégala en el campo de la izquierda y pulsa <strong>Guardar configuración</strong>.</li>
+          <li>Pulsa <strong>Validar conexión</strong> para comprobar que funciona.</li>
+        </ol>
+        <div class="nota">
+          <strong>Privacidad:</strong> la clave se guarda solo en su computadora (<code>config.json</code>, permisos 600). PalmillaBot no envía su clave a ningún servidor propio; las consultas van directamente a la API de Google.
+        </div>
+        <div class="nota">
+          <strong>Sin API key:</strong> el sistema sigue funcionando en <em>modo RAG offline</em>: recupera y cita las disposiciones legales, y genera el Programa de Manejo con la plantilla determinista, pero sin redacción por IA.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    PalmillaBot · Sistema de Agente IA para RFNM (Yucca) · Los documentos generados son borradores técnicos que deben ser validados y firmados por un Técnico Forestal Certificado y presentados ante la SEMARNAT.
+  </footer>
+</div>
+
+<script src="/web/app.js"></script>
+</body>
+</html>
