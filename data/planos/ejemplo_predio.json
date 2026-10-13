@@ -1,0 +1,194 @@
+{
+  "predio_nombre": "Predio Ejido San Quintín — Lote 7",
+  "promovente": "Ejido San Quintín",
+  "municipio": "San Quintín",
+  "estado": "Baja California",
+  "tecnico": "Ing. Forestal (Técnico Certificado)",
+  "registro_tecnico": "RFN-0123",
+  "fecha": "",
+  "escala": "",
+  "sistema_coordenadas": "WGS84",
+  "zona_utm": 11,
+  "poligono": [
+    [
+      -115.9000131,
+      30.4999781
+    ],
+    [
+      -115.8895869,
+      30.4999781
+    ],
+    [
+      -115.8895869,
+      30.5090219
+    ],
+    [
+      -115.9000131,
+      30.5090219
+    ],
+    [
+      -115.9000131,
+      30.4999781
+    ]
+  ],
+  "areas": [
+    {
+      "nombre": "Área 1 — Cuadrante SO",
+      "tipo": "Aprovechamiento",
+      "vertices": [
+        [
+          -115.8996,
+          30.5004
+        ],
+        [
+          -115.89500000000001,
+          30.5004
+        ],
+        [
+          -115.89500000000001,
+          30.5043
+        ],
+        [
+          -115.8996,
+          30.5043
+        ],
+        [
+          -115.8996,
+          30.5004
+        ]
+      ],
+      "superficie_ha": null,
+      "densidad_ind_ha": 340,
+      "tasa_cosecha_pct": 50,
+      "color": null,
+      "anualidad": "Anualidad 1"
+    },
+    {
+      "nombre": "Área 2 — Cuadrante SE",
+      "tipo": "Aprovechamiento",
+      "vertices": [
+        [
+          -115.8946,
+          30.5004
+        ],
+        [
+          -115.89,
+          30.5004
+        ],
+        [
+          -115.89,
+          30.5043
+        ],
+        [
+          -115.8946,
+          30.5043
+        ],
+        [
+          -115.8946,
+          30.5004
+        ]
+      ],
+      "superficie_ha": null,
+      "densidad_ind_ha": 310,
+      "tasa_cosecha_pct": 50,
+      "color": null,
+      "anualidad": "Anualidad 1"
+    },
+    {
+      "nombre": "Área 3 — Cuadrante NE",
+      "tipo": "Aprovechamiento",
+      "vertices": [
+        [
+          -115.8946,
+          30.5047
+        ],
+        [
+          -115.89,
+          30.5047
+        ],
+        [
+          -115.89,
+          30.5086
+        ],
+        [
+          -115.8946,
+          30.5086
+        ],
+        [
+          -115.8946,
+          30.5047
+        ]
+      ],
+      "superficie_ha": null,
+      "densidad_ind_ha": 300,
+      "tasa_cosecha_pct": 45,
+      "color": null,
+      "anualidad": "Anualidad 2"
+    },
+    {
+      "nombre": "Área 4 — Cuadrante NO",
+      "tipo": "Aprovechamiento",
+      "vertices": [
+        [
+          -115.8996,
+          30.5047
+        ],
+        [
+          -115.89500000000001,
+          30.5047
+        ],
+        [
+          -115.89500000000001,
+          30.5086
+        ],
+        [
+          -115.8996,
+          30.5086
+        ],
+        [
+          -115.8996,
+          30.5047
+        ]
+      ],
+      "superficie_ha": null,
+      "densidad_ind_ha": 330,
+      "tasa_cosecha_pct": 45,
+      "color": null,
+      "anualidad": "Anualidad 2"
+    },
+    {
+      "nombre": "Franja de conservación (arroyo)",
+      "tipo": "Conservación",
+      "vertices": [
+        [
+          -115.89500000000001,
+          30.5004
+        ],
+        [
+          -115.8946,
+          30.5004
+        ],
+        [
+          -115.8946,
+          30.5086
+        ],
+        [
+          -115.89500000000001,
+          30.5086
+        ],
+        [
+          -115.89500000000001,
+          30.5004
+        ]
+      ],
+      "superficie_ha": null,
+      "densidad_ind_ha": 0,
+      "tasa_cosecha_pct": 0,
+      "color": null,
+      "anualidad": null
+    }
+  ],
+  "anp": null,
+  "incluir_anp": true,
+  "observaciones": "Plano demostrativo generado por PalmillaBot (Módulo D)."
+}

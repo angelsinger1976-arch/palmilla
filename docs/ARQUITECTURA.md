@@ -8,7 +8,7 @@
 
 Este documento describe el diseño, la arquitectura y la operación de **PalmillaBot**, un sistema de agente de inteligencia artificial concebido para asistir a poseedores de terrenos forestales —ejidos, comunidades y pequeños propietarios— en la obtención de las **autorizaciones y permisos** exigidos por la Secretaría de Medio Ambiente y Recursos Naturales (SEMARNAT) para el aprovechamiento de **recursos forestales no maderables (RFNM)**, específicamente los **tallos del género *Yucca*** (palmilla o yuca) en el matorral desértico de **Baja California, México**.
 
-El sistema no es una simple recopilación documental. Es una **herramienta funcional y ejecutable** que integra tres módulos de software —un motor de recuperación normativa (RAG), un motor de reglas condicionales y un generador de documentos técnicos— orquestados por un *system prompt* de rol ("Agente Ingeniero Forestal") y expuestos mediante una interfaz web operativa. El resultado es un asistente que, a partir de los datos de un predio, determina la vía de trámite aplicable, construye el checklist de requisitos, recupera y cita las disposiciones legales pertinentes, calcula los parámetros de inventario y cosecha, y **genera el Programa de Manejo Forestal Simplificado** listo para exportación en PDF, DOCX, HTML o Markdown.
+El sistema no es una simple recopilación documental. Es una **herramienta funcional y ejecutable** que integra cuatro módulos de software —un motor de recuperación normativa (RAG), un motor de reglas condicionales, un generador de documentos técnicos y un generador de planos georreferenciados (Shapefile/GeoPDF)— orquestados por un *system prompt* de rol ("Agente Ingeniero Forestal") y expuestos mediante una interfaz web operativa. El resultado es un asistente que, a partir de los datos de un predio, determina la vía de trámite aplicable, construye el checklist de requisitos, recupera y cita las disposiciones legales pertinentes, calcula los parámetros de inventario y cosecha, y **genera el Programa de Manejo Forestal Simplificado** y su **plano georreferenciado**, listos para exportación en PDF, DOCX, HTML, Markdown, Shapefile y GeoPDF.
 
 Un hallazgo jurídico central motiva el diseño: el aprovechamiento de los **tallos de *Yucca*** **no se tramita por la vía del simple *aviso***, sino que **requiere autorización expresa** de la SEMARNAT conforme al **artículo 85, inciso b) de la Ley General de Desarrollo Forestal Sustentable (LGDFS)**. Esta distinción —aviso frente a autorización— es la columna vertebral del motor de reglas y del generador documental, y corrige un error frecuente en la práctica: suponer que los RFNM se aprovechan siempre mediante notificación.
 
@@ -37,7 +37,7 @@ El **Reglamento de la LGDFS, artículo 57**, enumera el contenido obligatorio de
 
 ## 3. Arquitectura del sistema
 
-El sistema se organiza en tres módulos funcionales que se comunican a través de un orquestador central y del *system prompt* del agente. La Figura conceptual es la siguiente:
+El sistema se organiza en cuatro módulos funcionales que se comunican a través de un orquestador central y del *system prompt* del agente. La Figura conceptual es la siguiente:
 
 ```
                  ┌─────────────────────────────────────────────┐
@@ -90,9 +90,34 @@ El **módulo C** ensambla el **Programa de Manejo Forestal Simplificado** con la
 2. **Ensambla** un documento de diez secciones que cubre datos generales, objetivo, caracterización del medio, inventario y muestreo, estudio dasométrico y accesos, sistema de aprovechamiento y tasa de cosecha, medidas de protección y restauración, análisis de aprovechamientos anteriores, vigencia y seguimiento, y anexos. Cada sección incorpora la **cita legal** que la fundamenta.
 3. **Exporta** el documento en **Markdown, HTML, DOCX y PDF**. El PDF se produce mediante un *pipeline* robusto Markdown → HTML → `wkhtmltopdf`, con estilos imprimibles y numeración de páginas.
 
-### 3.4 Orquestador y System Prompt
+### 3.4 Módulo D — Plano Georreferenciado (Shapefile / GeoPDF)
 
-El **orquestador** (`agent_core.py`) une los tres módulos en una respuesta coherente: ejecuta el motor de reglas, recupera el contexto legal con el RAG (mediante varias consultas temáticas), genera el programa de manejo y ensambla un *runtime prompt* que inyecta los datos del predio, el checklist y el contexto legal citado.
+El **módulo D** (`plano_geo.py`) genera el **plano georreferenciado del polígono
+del predio con las áreas de aprovechamiento**, uno de los anexos obligatorios del
+Programa de Manejo (Reglamento de la LGDFS, Art. 57; NOM-005-SEMARNAT-1997). El
+módulo:
+
+1. **Normaliza** los vértices del predio y de cada área, aceptando coordenadas
+   geográficas (WGS 84) o proyectadas (UTM zona 11N), y las valida como
+   geometrías (cierre de anillos, corrección con `buffer(0)` cuando es necesario).
+2. **Calcula** las superficies en proyección métrica (EPSG:32611) y construye las
+   capas vectoriales con `geopandas`.
+3. **Exporta** el **Shapefile** (`.shp/.shx/.dbf/.prj/.cpg`, EPSG:32611) en tres
+   capas —predio, áreas de aprovechamiento y capa combinada— además de un
+   **GeoJSON** (EPSG:4326) y un **PNG** de vista previa.
+4. **Renderiza** el plano cartográfico (retícula UTM, flecha de norte, escala
+   gráfica, leyenda y cuadro de datos) y lo **georreferencia** como **GeoPDF**
+   (codificación OGC / ISO 32000) mediante GDAL. Si GDAL no está disponible, se
+   usa el ejecutable `gdal_translate`; en su defecto, se genera un PDF sin
+   metadatos geoespaciales.
+
+El sistema de referencia de salida es **WGS 84 / UTM zona 11N (EPSG:32611)**, el
+mismo que emplea la cartografía oficial de la CONANP/CONABIO y el Marco
+Geoestadístico del INEGI.
+
+### 3.5 Orquestador y System Prompt
+
+El **orquestador** (`agent_core.py`) une los cuatro módulos en una respuesta coherente: ejecuta el motor de reglas, recupera el contexto legal con el RAG (mediante varias consultas temáticas), genera el programa de manejo, produce el plano georreferenciado y ensambla un *runtime prompt* que inyecta los datos del predio, el checklist y el contexto legal citado.
 
 El **System Prompt** (`system_prompt.py`) define el rol del agente como un **Ingeniero Forestal especialista en RFNM**, establece el marco normativo de referencia, fija la regla legal crítica (autorización para tallos de *Yucca*), enumera los criterios técnicos de la NOM-005 §4.1.10, describe el protocolo de razonamiento y **obliga a una salida estructurada de seis secciones**:
 
@@ -121,7 +146,7 @@ El flujo de extremo a extremo comprende las siguientes etapas:
 
 ## 5. Interfaz y despliegue
 
-La interfaz web consta de un **backend FastAPI** (`app.py`) que expone los tres módulos mediante una API REST —`/api/analizar`, `/api/chat`, `/api/generar`, `/api/descargar/{formato}`, `/api/normas`— y sirve el frontend estático. El **frontend** (HTML/CSS/JavaScript) ofrece tres pestañas —Análisis y Checklist, Consulta Normativa (RAG) y Generador de Programa de Manejo— con un diseño responsivo, imprimible y de temática forestal.
+La interfaz web consta de un **backend FastAPI** (`app.py`) que expone los cuatro módulos mediante una API REST —`/api/analizar`, `/api/chat`, `/api/generar`, `/api/plano`, `/api/descargar/{formato}`, `/api/normas`— y sirve el frontend estático. El **frontend** (HTML/CSS/JavaScript) ofrece cinco pestañas —Análisis y Checklist, Consulta Normativa (RAG), Generador de Programa de Manejo, Plano Georreferenciado y Configuración— con un diseño responsivo, imprimible y de temática forestal.
 
 La Tabla 2 resume los componentes de software.
 
@@ -133,8 +158,10 @@ La Tabla 2 resume los componentes de software.
 | Módulo A — RAG | `src/rag_engine.py` | Índice TF-IDF y recuperación con citas |
 | Módulo B — Reglas | `src/rules_engine.py` | Vía de trámite, checklist, reglas técnicas |
 | Módulo C — Generador | `src/project_generator.py` | Cálculo y documento PMF + exportadores |
+| Módulo D — Plano | `src/plano_geo.py` | Plano georreferenciado (Shapefile/GeoPDF/GeoJSON) |
+| Módulo geoespacial ANP | `src/geo_anp.py` | Detección de ANP por coordenadas |
 | System Prompt | `src/system_prompt.py` | Rol del agente y formato de salida |
-| Orquestador | `src/agent_core.py` | Integración de los tres módulos |
+| Orquestador | `src/agent_core.py` | Integración de los módulos |
 | Backend | `src/app.py` | API REST (FastAPI) |
 | Frontend | `web/index.html`, `style.css`, `app.js` | Interfaz de usuario |
 | Corpus legal | `corpus/*.pdf`, `*.txt` | Textos oficiales de las normas |
