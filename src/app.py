@@ -67,6 +67,30 @@ class PredioPayload(BaseModel):
     vigencia_anios: int = 5
     tiene_tecnico: bool = False
     tiene_planos: bool = False
+    # --- 1. Datos del titular ---
+    titular_nombre: str = ""
+    titular_curp: str = ""
+    titular_estado_civil: str = ""
+    # --- 2. Datos técnicos y de ubicación del terreno ---
+    superficie_escrita: str = ""
+    medidas: str = ""
+    colindancias: str = ""
+    coordenadas_geograficas: str = ""
+    coordenadas_utm: str = ""
+    localidad: str = ""
+    ejido: str = ""
+    sector: str = ""
+    manzana: str = ""
+    lote: str = ""
+    # --- 3. Datos de identificación oficial y registro ---
+    titulo_ref: str = ""
+    registro_publico: str = ""
+    clave_catastral: str = ""
+    # --- 4. Datos legales y de autoridad ---
+    fecha_expedicion: str = ""
+    fundamento_legal_titulo: str = ""
+    firmas_sellos: str = ""
+    historial_origen: str = ""
 
 
 class ChatPayload(BaseModel):

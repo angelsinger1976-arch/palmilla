@@ -39,6 +39,34 @@ class PredioInput:
     tiene_tecnico: bool = False
     tiene_planos: bool = False
 
+    # --- 1. Datos del titular (propietario o poseedor) ---
+    titular_nombre: str = ""
+    titular_curp: str = ""                     # identificación oficial o CURP
+    titular_estado_civil: str = ""
+
+    # --- 2. Datos técnicos y de ubicación del terreno ---
+    superficie_escrita: str = ""               # p. ej. "1-00-00 ha (10,000 m²)"
+    medidas: str = ""                          # medidas de cada lado
+    colindancias: str = ""                     # con qué/quien limita
+    coordenadas_geograficas: str = ""          # lat/lon (GPS)
+    coordenadas_utm: str = ""                  # UTM
+    localidad: str = ""
+    ejido: str = ""
+    sector: str = ""
+    manzana: str = ""
+    lote: str = ""
+
+    # --- 3. Datos de identificación oficial y registro ---
+    titulo_ref: str = ""                       # número de título o certificado
+    registro_publico: str = ""                 # tomo/volumen/folio/libro (RPP o RAN)
+    clave_catastral: str = ""
+
+    # --- 4. Datos legales y de autoridad ---
+    fecha_expedicion: str = ""                 # fecha de expedición del título
+    fundamento_legal_titulo: str = ""          # artículos que validan el título
+    firmas_sellos: str = ""                    # firmas/sellos de autoridad
+    historial_origen: str = ""                 # herencia, compraventa, etc.
+
 
 # ---------------------------------------------------------------------------
 @dataclass
