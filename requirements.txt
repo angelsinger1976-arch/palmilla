@@ -1,0 +1,18 @@
+# ============================================================================
+# PalmillaBot — Dependencias de Python
+# ============================================================================
+# Backend / API
+fastapi>=0.110
+uvicorn>=0.27
+pydantic>=2.5
+
+# Módulo A — RAG normativo (TF-IDF + similitud coseno)
+scikit-learn>=1.3
+numpy>=1.24
+
+# Módulo C — Generación de documentos
+python-docx>=1.1
+Markdown>=3.5
+
+# Cliente Gemini (IA generativa)
+requests>=2.31

@@ -1,0 +1,591 @@
+         SECRETARÍA DE MEDIO AMBIENTE Y RECURSOS
+                        NATURALES
+
+
+NORMA OFICIAL MEXICANA NOM-005-SEMARNAT-1997 QUE
+ESTABLECE    LOS    PROCEDIMIENTOS,     CRITERIOS Y
+ESPECIFICACIONES PARA REALIZAR EL APROVECHAMIENTO,
+TRANSPORTE Y ALMACENAMIENTO DE CORTEZA, TALLOS Y
+PLANTAS COMPLETAS DE VEGETACIÓN FORESTAL.
+
+
+
+CON BASE EN EL ACUERDO POR EL CUAL SE REFORMA LA NOMENCLATURA DE
+LAS NORMAS OFICIALES MEXICANAS EXPEDIDAS POR LA SECRETARÍA DE
+MEDIO AMBIENTE Y RECURSOS NATURALES, ASÍ COMO LA RATIFICACIÓN DE
+LAS MISMAS PREVIA A SU REVISIÓN QUINQUENAL, PUBLICADO EN EL
+DIARIO OFICIAL DE LA FEDERACIÓN EL 23 DE ABRIL DE 2003.
+
+
+05-20-97   NORMA      Oficial  Mexicana    NOM-005-RECNAT-1997,       Que     establece los
+procedimientos, criterios y especificaciones para realizar el aprovechamiento, transporte y
+almacenamiento de corteza, tallos y plantas completas de vegetación forestal.
+
+
+
+
+Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Secretaría de Medio
+Ambiente, Recursos Naturales y Pesca.
+
+  JULIA CARABIAS LILLO, Secretaria de Medio Ambiente, Recursos Naturales y Pesca, con fundamento
+en los artículos 32 Bis fracciones I, II, III, IV y V de la Ley Orgánica de la Administración Pública
+Federal; 11 de la Ley Forestal; 50 fracción VIII de su Reglamento; 38 fracción II, 40 fracción X, 41, 43,
+46, 47, 52, 62, 63 y 64 de la Ley Federal sobre Metrología y Normalización; 5o. fracción XIX del
+Reglamento Interior de la Secretaría, y
+CONSIDERANDO
+
+   Que en cumplimiento a lo dispuesto en la fracción I del artículo 47 de la Ley Federal sobre Metrología
+y Normalización, el 12 de enero de 1995 se publicó en el Diario Oficial de la Federación, con
+carácter de proyecto, la presente Norma, bajo la denominación NOM-005-SARH3-1994, ahora NOM-
+005-RECNAT-1997, que establece los procedimientos, criterios y especificaciones para realizar el
+aprovechamiento, transporte y almacenamiento de corteza, tallos y plantas completas de vegetación
+forestal; a fin de que los interesados en un plazo de 90 días naturales presentaran sus comentarios al
+Comité Consultivo Nacional de Normalización para la Protección, Fomento y Aprovechamiento de los
+Recursos Forestales y de Flora y Fauna Silvestre.
+
+   Que durante el plazo a que se refiere el considerando antes señalado, de conformidad con lo
+dispuesto en el artículo 45 del ordenamiento legal citado en el párrafo anterior, estuvieron a disposición
+del público los documentos a que se refiere dicho precepto legal.
+
+   Que de acuerdo con lo que disponen las fracciones II y III del artículo 47 de la Ley Federal sobre
+Metrología y Normalización, los comentarios presentados por los interesados fueron analizados en el
+seno del citado Comité, tomándose en cuenta aquellos que resultaron procedentes. Las respuestas a los
+comentarios que se recibieron en el plazo de ley fueron publicadas en el Diario Oficial de la
+Federación el 16 de diciembre de 1996.
+
+   Que habiéndose cumplido el procedimiento establecido en la Ley Federal sobre Metrología y
+Normalización para la elaboración de Normas Oficiales Mexicanas, el Comité Consultivo Nacional de
+Normalización para la Protección, Fomento y Aprovechamiento de los Recursos Forestales y de Flora y
+Fauna Silvestre, en reunión celebrada el 13 de diciembre de 1996, aprobó la Norma Oficial Mexicana
+NOM-005-SARH3-1994, ahora NOM-005-RECNAT-1997, que establece los procedimientos, criterios y
+especificaciones para realizar el aprovechamiento, transporte y almacenamiento de corteza, tallos y
+plantas completas; por lo que he tenido a bien expedir la siguiente:
+
+  NORMA OFICIAL MEXICANA NOM-005-RECNAT-1997, QUE ESTABLECE LOS PROCEDIMIENTOS,
+CRITERIOS Y ESPECIFICACIONES PARA REALIZAR EL APROVECHAMIENTO, TRANSPORTE Y
+ALMACENAMIENTO DE CORTEZA, TALLOS Y PLANTAS COMPLETAS DE VEGETACION FORESTAL.
+INDICE
+
+  0. INTRODUCCION
+
+  1. OBJETIVO Y CAMPO DE APLICACION
+
+  2. REFERENCIAS
+
+  3. DEFINICIONES
+
+  4. PROCEDIMIENTOS, CRITERIOS Y ESPECIFICACIONES PARA REALIZAR EL APROVECHAMIENTO,
+      TRANSPORTE Y ALMACENAMIENTO DE CORTEZA, TALLOS Y PLANTAS COMPLETAS
+
+  5. GRADO DE CONCORDANCIA CON NORMAS Y RECOMENDACIONES INTERNACIONALES
+
+  6. BIBLIOGRAFIA
+
+  7. OBSERVANCIA DE ESTA NORMA
+
+  0. Introducción
+
+   0.1. Que de acuerdo con lo establecido en el artículo 11 de la Ley Forestal, el aprovechamiento,
+transporte y almacenamiento de recursos forestales no maderables, se sujetará a las normas oficiales
+mexicanas que expida la Secretaría;
+
+  0.2. Que dichas normas tienen la finalidad de conservar, proteger y restaurar los recursos forestales
+no maderables y la biodiversidad de los ecosistemas, prevenir la erosión de los suelos y lograr un
+manejo sostenible de esos recursos;
+
+   0.3. Que la corteza, tallos y plantas completas son considerados como recursos forestales no
+maderables, de donde se extraen y obtienen productos para uso industrial, medicinal y construcción
+rural, principalmente. Su distribución abarca la mayoría de los estados de la República, encontrándose
+en los tres ecosistemas forestales: bosques, selvas y zonas áridas;
+   0.4. Que la corteza de vegetación forestal se obtiene de árboles y arbustos, principalmente de la
+familia de las Leguminoceae, de la cual se extraen taninos útiles en el curtido de pieles. Las principales
+especies de las que se obtiene este producto son: huizache (Acacia spp.), timbre (Caesalpinea spp.) y
+(Lysiloma spp.). En años recientes se aprovecha la corteza de tepezcohuite (Mimosa tenuifolia) para
+usos medicinales;
+
+   0.5. Que de las especies que se aprovecha su tallo, consideradas como no maderables, destacan la
+yuca o palmilla (Yucca schidigera), la vara blanca (Croton spp.), la vara de perlilla (Infocarpus spp.) y
+especies del género Bambusa como la caña garrocha, carrizo, otate, bambú y otras;
+
+   0.6. Que de las especies que se aprovecha la planta completa, el sotol (Dasylirion spp.) y cenizo
+(Leocophyllum spp.), entre otras, cuyo aprovechamiento actual es con fines comerciales; sin embargo,
+existen grupos de plantas de las familias de las Bromeliaceae, Cactaceae, Orchidaceae y los helechos,
+que su aprovechamiento se realiza en menor escala, para la obtención de productos químicos,
+alimenticios y como productos ornamentales, distribuyéndose en los tres ecosistemas forestales:
+bosques, selvas y zonas áridas;
+
+   0.7. Que el aprovechamiento de corteza, tallos y plantas completas de vegetación forestal, como la
+mayoría de recursos forestales no maderables, genera beneficios de carácter precario, es decir, que los
+ingresos derivados de los mismos, apenas si proporcionan un complemento temporal para el sustento
+de los dueños y poseedores y pobladores que participan en el aprovechamiento, y
+
+   0.8. Que el aprovechamiento irracional de la corteza, tallos y plantas completas de vegetación
+forestal, puede ocasionar severos daños al recurso y recursos asociados.
+
+  1. Objetivo y campo de aplicación
+
+   1.1. La presente Norma es de observancia general en todo el territorio nacional y tiene por objeto
+establecer los procedimientos, criterios y especificaciones técnicas y administrativas para realizar el
+aprovechamiento sostenible, transporte y almacenamiento de corteza, tallos y plantas completas en
+poblaciones naturales, con excepción de la Candelilla (Euphorbia spp.), cuyo aprovechamiento,
+transporte y almacenamiento se regulará por una norma específica que expedirá la Secretaría, con
+posterioridad.
+
+  En el caso de un aprovechamiento regulado por la Ley Forestal y su Reglamento o de arbolado
+muerto por otra razón, la corteza es un residuo o subproducto forestal no regulado por esta Norma.
+
+  2. Referencias
+
+   2.1. Norma Oficial Mexicana NOM-O59-ECOL-1994, que determina las especies y subespecies de
+flora y fauna silvestres terrestres y acuáticas en peligro de extinción, amenazadas, raras y las sujetas a
+protección especial, y que establece especificaciones para su protección, publicada en el Diario Oficial
+de la Federación el 16 de mayo de 1994.
+
+   2.2. Manual de procedimientos para Importación y Exportación de Especies de Flora y Fauna
+Silvestre y Acuática, sus Productos y Subproductos, así como para la Importación de Productos
+Forestales, Sujetos a la Regulación por parte de la Secretaría de Medio Ambiente, Recursos Naturales y
+Pesca, publicado en el Diario Oficial de la Federación el 31 de julio de 1996.
+
+  3. Definiciones
+
+  Para los efectos de esta Norma, se entiende por:
+
+  3.1. Arbusto: planta leñosa, por lo general menor de 5 metros de altura, cuyo tallo se ramifica
+desde la base;
+
+  3.2. Centro de almacenamiento: lugar con ubicación permanente y definida, donde se depositan
+temporalmente materias primas forestales, para su posterior traslado o transformación;
+
+    3.3. Centro de transformación: instalación industrial o artesanal fija o móvil donde por procesos
+físico-mecánicos o químicos se elaboran productos derivados de materias primas forestales;
+   3.4. Colonia: conjunto de plantas (individuos) agrupadas bajo un mismo sistema radicular,
+característico del género Yucca;
+
+   3.5. Corteza: material que recubre el tallo y las ramas de las especies leñosas, cuya función
+principal es la de protección;
+
+   3.6. Especies con estatus: se refiere a las especies y subespecies de flora y fauna silvestres,
+catalogadas como en peligro de extinción, amenazadas, raras y sujetas a protección especial, en la
+Norma Oficial Mexicana NOM-O59-ECOL-1994;
+
+   3.7. Madurez de cosecha: es el conjunto de características especificas de cada planta, que
+determina el momento adecuado para realizar su aprovechamiento en forma sostenible, y se identifica
+por su etapa de desarrollo y dimensiones;
+
+   3.8. Madurez reproductiva: etapa en que la planta alcanza las condiciones óptimas para su
+reproducción sexual;
+
+   3.9. Materia prima forestal no maderable: producto que se obtiene del aprovechamiento de
+cualquier recurso forestal no maderable; así como los productos resultantes de la transformación
+artesanal anterior a su movilización comercial;
+
+   3.10. Planta completa: para efectos de esta Norma, se entenderá cuando por el aprovechamiento
+total de la planta o sus partes ésta muere;
+
+  3.11. Poblaciones naturales: aquellas que no requieren de la intervención directa del hombre para
+desarrollarse, situadas en terrenos forestales o de aptitud preferentemente forestal;
+
+   3.12. Recurso forestal no maderable: la vegetación y los hongos de poblaciones naturales, así
+como sus partes, sustancias y residuos que no están constituidos principalmente por materiales
+leñosos, y los suelos de los terrenos forestales o de aptitud preferentemente forestal;
+
+   3.13. Responsable técnico: profesional encargado de proporcionar la asistencia técnica para el
+aprovechamiento, protección y fomento de los recursos forestales;
+
+  3.14. Secretaría: Secretaría de Medio Ambiente, Recursos Naturales y Pesca;
+
+   3.15. Tallo: parte principal de la planta de la que se derivan y desarrollan las yemas y brotes y que
+tiene como función el soporte de la misma, así como la conducción y almacenamiento de nutrientes; y
+
+   3.16. Tanino: substancia astringente que se encuentra en algunos vegetales, y que con frecuencia
+se usa para curtir pieles.
+
+   4. Procedimientos, criterios y especificaciones para realizar               el   aprovechamiento,
+transporte y almacenamiento de corteza, tallos y plantas completas
+
+  4.1. Del aprovechamiento.
+
+   4.1.1. Con excepción de las plantas completas de cactáceas y la Yucca spp., para realizar el
+aprovechamiento de corteza, tallos y plantas completas de vegetación forestal, el dueño o poseedor del
+predio, deberá presentar una notificación por escrito ante la Delegación Federal de la Secretaría en la
+entidad federativa correspondiente, misma que podrá ser anual o por un periodo máximo de 5 años.
+
+  4.1.2. La notificación deberá contener la siguiente información:
+
+  I. Nombre y domicilio del dueño o poseedor del predio;
+
+   II. Título que acredite el derecho legal de propiedad o posesión respecto del terreno o terrenos
+objeto de la notificación o, en su caso, el documento que acredite el derecho para realizar actividades
+de aprovechamiento;
+  III. Nombre y número de inscripción del responsable técnico en el Registro Forestal Nacional;
+
+  IV. Nombre y ubicación del predio, incluyendo un plano o croquis de localización;
+
+  V. Superficie, especies y cantidad estimada en toneladas por aprovechar anualmente, incluyendo sus
+nombres comunes y científicos;
+
+   VI. Descripción de los criterios para la determinación de la madurez de cosecha y reproductiva, así
+como las técnicas de aprovechamiento de cada especie, dentro del marco de los criterios y
+especificaciones que se establecen en la presente Norma;
+
+   VII. La definición y justificación del periodo de recuperación al que quedarán sujetas las áreas
+intervenidas, de acuerdo a las características de reproducción y desarrollo de las especies bajo
+aprovechamiento;
+
+  VIII. Medidas de protección a las especies de fauna silvestre;
+
+  IX. Medidas de protección a las especies de flora y fauna silvestres con estatus;
+
+  X. Medidas para prevenir y controlar incendios, plagas y enfermedades forestales y otros agentes de
+contingencia; y
+
+   XI. Medidas de prevención y mitigación de impactos ambientales negativos que pudiera ocasionar el
+aprovechamiento, durante sus distintas etapas de ejecución, así como en caso de suspensión o
+terminación anticipada.
+
+   4.1.3. Para el aprovechamiento de cactáceas, se requiere de autorización por parte de la Secretaría,
+para lo cual el interesado deberá presentar en la Delegación Federal de la Secretaría de la entidad
+federativa que corresponda, una solicitud por escrito, que deberá ir acompañada de:
+
+  I. Título que acredite el derecho de propiedad o posesión de los terrenos o, en su caso, el documento
+que acredite el derecho para realizar actividades de aprovechamiento; y
+
+   II. Un estudio técnico justificativo cuya vigencia máxima será de 5 años. El estudio, además de la
+información requerida para la notificación, deberá considerar lo siguiente:
+
+  a. La estructura de la población indicando el porcentaje de organismos juveniles, maduros y seniles;
+
+   b. La distribución y número de plantas factibles de aprovechamiento, de acuerdo a la madurez de
+cosecha y el programa de aprovechamiento para el periodo de vigencia propuesto; y
+
+  c. La ubicación del predio deberá presentarse en una carta topográfica escala 1:50,000.
+
+   4.1.4. Para realizar el aprovechamiento de la Yucca spp., el dueño o poseedor del predio, deberá
+presentar una solicitud de autorización por escrito a la Delegación Federal de la Secretaría en la entidad
+federativa que corresponda, debiendo ir acompañado de los documentos que especifiquen lo siguiente:
+
+  I. Nombre y domicilio del dueño o poseedor del predio objeto de la solicitud;
+
+  II. Título que acredite la propiedad o posesión del o los predios objeto de la solicitud o en su caso, el
+documento que acredite el derecho para esa actividad de aprovechamiento; y
+
+   III. Estudio técnico justificativo, cuya vigencia máxima será de 5 años, el cual deberá contener la
+siguiente información:
+
+   a. Nombre y ubicación del predio(s) objeto del estudio y las características físicas y biológicas del
+área donde se pretende realizar el aprovechamiento;
+
+   b. Las técnicas que se utilizarán en el aprovechamiento, de acuerdo con los criterios y
+especificaciones técnicas que se establecen en la presente Norma;
+  c. Estudio dasométrico;
+
+  d. Medidas de protección a las especies de fauna silvestre;
+
+  e. Medidas de protección a las especies de flora y fauna silvestres con estatus;
+
+  f. Medidas para prevenir y controlar incendios, plagas y enfermedades forestales y otros agentes de
+contingencia;
+
+   g. Medidas de prevención y mitigación de impactos ambientales negativos que pudiera ocasionar el
+aprovechamiento;
+
+  h. Planeación, en su caso, de la infraestructura caminera para el abastecimiento; y
+
+  i. Labores de fomento y prácticas culturales para la preservación del recurso.
+
+   4.1.5. La elaboración de la notificación o estudio técnico justificativo y el control técnico del
+aprovechamiento, será responsabilidad del dueño o poseedor del predio así como del responsable
+técnico que al efecto contrate, quien deberá estar inscrito en el Registro Forestal Nacional.
+
+   4.1.6. Las Delegaciones Federales de la Secretaría podrán proporcionar, de considerarlo necesario, y
+con la debida justificación, la asesoría técnica para la elaboración de la notificación o estudio técnico
+justificativo, cuando los ejidatarios, comuneros y demás propietarios o poseedores de terrenos
+forestales o de aptitud preferentemente forestal, por carencia de recursos económicos o por no estar a
+su alcance medios alternativos de financiamiento, no puedan contratar dichos servicios.
+
+   Para estos casos, las Delegaciones Federales de la Secretaría, también podrán contratar con
+personas físicas o morales inscritas en el Registro Forestal Nacional, la prestación de los servicios de
+asesoría técnica, mediante un proceso de licitación, de conformidad con la normatividad aplicable y en
+orden a la disponibilidad de los recursos correspondientes. En los supuestos a que se refiere este
+apartado, la ejecución de la notificación para el aprovechamiento, será responsabilidad directa de los
+ejidatarios, comuneros o demás propietarios o poseedores de los terrenos de que se trate.
+
+   4.1.7. La Delegación Federal de la Secretaría en la entidad federativa correspondiente, deberá
+resolver al interesado, en un plazo de 30 días hábiles, contados a partir de la fecha en que la solicitud
+de aprovechamiento de cactáceas o de Yucca spp., haya sido debidamente requisitada. De ser
+necesario, la Delegación requerirá a los interesados información o documentación adicional, dentro de
+los 20 días hábiles siguientes a la presentación de la solicitud, y una vez proporcionada, comenzará a
+correr el plazo señalado para que resuelva la Delegación. Si pasado el plazo no existe resolución al
+respecto, podrá iniciarse el aprovechamiento, debiendo cumplir el interesado con las especificaciones de
+la presente Norma y del estudio técnico justificativo presentado al efecto, y la Delegación deberá
+expedir la certificación de que transcurrió el plazo para la emisión de la resolución respectiva.
+
+  4.1.8. La autorización que expida la Delegación Federal de la Secretaría, deberá especificar:
+
+  a. Nombre, denominación o razón social y domicilio del titular;
+
+  b. Nombre, en su caso, y ubicación del predio;
+
+   c. Superficie en hectáreas y número de individuos por aprovecharse por especie (para el caso de
+plantas completas de cactáceas) y cantidad en toneladas para el caso de Yucca spp.;
+
+  d. Vigencia de la autorización; y
+
+  e. Restricciones de protección ecológica adicionales que, en su caso, emita la Secretaría.
+
+   4.1.9. El dueño o poseedor del predio o el titular de la autorización, según corresponda, deberá
+presentar en la Delegación Federal de la Secretaría un informe trimestral, dentro de los primeros 10
+días hábiles de los meses de abril, julio, octubre y enero de cada año, y uno al final del
+aprovechamiento, avalado por el responsable técnico, respecto del cumplimiento de lo especificado en
+la notificación o estudio técnico justificativo, indicando a su vez, las cantidades aprovechadas en
+toneladas o número de individuos aprovechados para el caso de plantas completas de cactáceas.
+
+    4.1.10. El aprovechamiento de corteza, tallos y plantas completas, quedará sujeto a los siguientes
+criterios y especificaciones técnicas:
+
+  I. Aprovechar sólo plantas en la etapa de madurez de cosecha;
+
+   II. Dejar distribuido uniformemente en el área de aprovechamiento, sin intervenir como mínimo el
+20% de las plantas en la etapa de madurez de cosecha, para que lleguen a su madurez reproductiva y
+propiciar la regeneración por semilla (esta consideración se exceptúa tratándose de Yucca spp.);
+
+  III. Para el aprovechamiento de corteza:
+
+  a. En árboles, sólo se permitirá realizar podas, ya que el aprovechamiento de árboles completos,
+necesariamente requiere de un programa de manejo forestal; y
+
+  b. En arbustos, cuando se aproveche toda la planta, el corte se deberá realizar a una altura no
+mayor de 20 centímetros del suelo, y en forma diagonal, con la finalidad de favorecer la regeneración
+vegetativa.
+
+  IV. Para el aprovechamiento de tallos:
+
+  a. Para el caso de vara blanca, la madurez de cosecha se identifica cuando los tallos han alcanzado
+un diámetro mínimo de 3 centímetros Con el fin de no dañar la regeneración vegetativa, se deberán
+excluir del pastoreo las áreas recién intervenidas;
+
+   b. Para el caso del género Bambusa, el aprovechamiento se realizará sobre aquellos tallos que han
+alcanzado su madurez de cosecha, identificándolos por su máxima altura, de acuerdo a la especie y
+características fisiográficas y climáticas de la localidad;
+
+   c. Para el aprovechamiento de grupos de plantas de edad y tamaño homogéneo, sólo se permitirá
+aprovechar como máximo el 60% de los tallos en madurez de cosecha. Cuando se presenten grupos en
+etapas de floración y semillación, sólo se deberá aprovechar el mismo porcentaje, con la finalidad de
+favorecer la reproducción por semilla. Esta consideración se exceptúa tratándose de Yucca spp.; y
+
+   d. Para el aprovechamiento de Yucca spp., la madurez de cosecha se identificará cuando las colonias
+tengan individuos desprovistos de hojas verdes en un 80% de su longitud, y tratándose de grupos de
+edad homogénea que cumplan con lo anterior, se deberá aprovechar sólo el 50% de los individuos
+maduros, evitando dañar los brotes e individuos jóvenes.
+
+   El ciclo de corta para los aprovechamientos de la Yucca spp. en áreas no intervenidas, no será menor
+a 15 años, en tanto la Secretaría no tome otra determinación al respecto.
+
+   Se podrá proponer el aprovechamiento en una o dos anualidades, del 50% de la población
+aprovechable, siempre y cuando se trate de predios con una superficie menor de 250 hectáreas,
+pobladas con Yucca spp. y no podrá tener otra intervención el área aprovechada por un periodo
+equivalente a un ciclo de corta.
+
+   Cuando se proponga un planteamiento de aprovechamiento para Yucca spp., diferente a los
+lineamientos establecidos en la presente Norma, antes de presentar el estudio técnico justificativo ante
+la Delegación Federal de la Secretaría, deberá ser validado por el Instituto Nacional de Investigaciones
+Forestales y Agropecuarias, para que posteriormente esté en condiciones de autorizar si es procedente
+dicho aprovechamiento; y
+
+  V. Para el aprovechamiento de plantas completas:
+
+   a. El aprovechamiento de palmas deberá realizarse en plantas juveniles, a fin de que la población en
+etapa de madurez reproductiva propicie la semillación. Las palmas aisladas quedarán segregadas del
+aprovechamiento.
+  Para el caso de palmas dioicas, las plantas a dejar en pie, serán grupos con una proporción
+semejante de sexos, con el fin de favorecer la fertilización y por lo tanto la producción de semilla.
+
+  Para aquellas palmas que pretendan aprovecharse con fines de transplante, éstas deberán extraerse,
+cuando así lo requiera la especie, con cepellón tratando de no dañar sus raíces.
+
+   Para el aprovechamiento de grupos de edad y tamaño homogéneo, sólo se permitirá aprovechar
+como máximo el 60% de los tallos en madurez de cosecha. Cuando se presenten grupos en etapas de
+floración y semillación sólo se deberá aprovechar el mismo porcentaje, con la finalidad de favorecer la
+reproducción por semilla.
+
+   b. Para el caso de cactáceas, el aprovechamiento de biznagas (Equinocactus spp. y Ferocactus spp.)
+deberá realizarse cortando, con la herramienta adecuada, la base del tallo, para propiciar la
+regeneración vegetativa.
+
+   Con fines de confitería, la madurez de cosecha de los organismos propicios para el aprovechamiento
+se identificará por tener un diámetro mínimo de 25 centímetros.
+
+   Con fines ornamentales se deberán aprovechar preferentemente plantas juveniles, y no más del 30%
+de plantas maduras reproductivas.
+
+   c. Para el aprovechamiento de colonias o grupos de plantas de bromelias, helechos y orquídeas, sólo
+se podrá aprovechar el 50% de los organismos, quedando excluidos aquellos que se desarrollan en
+forma individual.
+
+    4.1.11. Cuando se aprovechen otras especies diferentes a las mencionadas en los puntos anteriores,
+el responsable técnico establecerá los criterios y especificaciones técnicas en la notificación respectiva.
+
+   4.1.12. La Secretaría, por conducto de sus Delegaciones Federales, con base en estudios técnicos y
+científicos, determinará las áreas de los predios en las que deberá suspenderse temporalmente el
+aprovechamiento para permitir la recuperación del recurso. Al respecto, la Delegación Federal de la
+Secretaría notificará por escrito a los interesados, previo a emitir resolución al respecto, a fin de que en
+un plazo de 20 días hábiles, contados a partir de la fecha en que reciban la notificación, manifiesten lo
+que a su derecho convenga.
+
+   4.1.13. Las especies con estatus podrán incorporarse al aprovechamiento previa autorización que al
+efecto emita el Instituto Nacional de Ecología, de conformidad con lo establecido en la Ley General del
+Equilibrio Ecológico y la Protección al Ambiente, y demás ordenamientos legales aplicables. Dicha
+autorización deberá solicitarla el interesado, y una vez obtenida, entregarla anexa a la notificación o a
+la solicitud de autorización de aprovechamiento.
+
+   4.1.14. En terrenos comprendidos en zonas declaradas como áreas naturales protegidas, el
+aprovechamiento de corteza, tallos y plantas completas podrá realizarse previa autorización que expida
+el Instituto Nacional de Ecología, de conformidad con lo establecido en la Ley General del Equilibrio
+Ecológico y la Protección al Ambiente, y demás ordenamientos legales aplicables. Dicha autorización
+deberá solicitarla el interesado y entregarla anexa a la notificación o a la solicitud de autorización de
+aprovechamiento.
+
+   4.1.15. Cuando se suspenda el aprovechamiento antes del término establecido en la notificación o
+estudio técnico justificativo, el dueño o poseedor del predio deberá informar a la Delegación Federal de
+la Secretaría en la entidad federativa correspondiente, debiendo, en este caso, cumplir con las medidas
+de mitigación de impactos ambientales negativos, de acuerdo con la superficie aprovechada.
+
+   Para reiniciar el aprovechamiento, el interesado deberá presentar una nueva notificación o estudio
+técnico justificativo.
+
+  4.2. Del almacenamiento.
+
+   Los responsables de los centros de almacenamiento de corteza, tallos y plantas completas,
+incluyendo aquellos que estén ubicados en las instalaciones de los centros de transformación, deberán:
+  I. Solicitar la inscripción de los mismos en el Registro Forestal Nacional, acreditando su personalidad,
+debiendo proporcionar los siguientes datos del establecimiento:
+
+  a. Nombre, denominación o razón social;
+
+  b. Domicilio fiscal;
+
+  c. Copia de la cédula de identificación fiscal o del Registro Federal de Contribuyentes;
+
+  d. Ubicación;
+
+  e. En su caso, el giro o giros a que se dedique el centro de transformación en cuestión; y
+
+  f. Capacidad de almacenamiento y, en su caso, de transformación instalada en toneladas.
+
+   II. Informar trimestralmente dentro de los primeros 10 días hábiles de los meses de abril, julio,
+octubre y enero de cada año, a la Delegación Federal de la Secretaría en la entidad federativa
+correspondiente, sobre las entradas y salidas del producto durante el trimestre inmediato anterior,
+utilizando los formatos que se anexan como apéndices 1 y 2 de la presente Norma.
+
+  4.3. Del transporte.
+
+   4.3.1. El transporte de corteza, tallos y plantas completas, desde el predio a los centros de
+almacenamiento o de transformación, se realizará al amparo de remisión o factura comercial, expedida
+por el dueño o poseedor del recurso o el responsable del centro de almacenamiento, siempre y cuando
+dicho producto se transporte por cualquier vehículo automotor.
+
+  4.3.2. La factura o remisión comercial deberá contener además de los requisitos establecidos por la
+Secretaría de Hacienda y Crédito Público, lo siguiente:
+
+   I. Número de folio asignado por la Delegación Federal de la Secretaría, al acusar recibo de la
+notificación o, en su caso, los datos de identificación del documento en el que conste la autorización del
+aprovechamiento correspondiente;
+
+  II. Ubicación y número de inscripción del centro de almacenamiento en el Registro Forestal Nacional;
+
+  III. En su caso, nombre y ubicación del predio del que proviene el producto;
+
+  IV. Domicilio al que se envía el producto y la cantidad en toneladas o número de individuos que se
+remiten (en el caso de plantas completas de cactáceas); y
+
+  V. En el caso de Yucca spp., fecha y hora de envío.
+
+  5. Grado de concordancia con normas y recomendaciones internacionales
+
+   5.1. No hay normas equivalentes, ni disposiciones de carácter interno que reúnan los elementos y
+preceptos de orden técnico y jurídico que en esta Norma Oficial Mexicana se integran y complementan.
+
+  6. Bibliografía
+
+   6.1. Amaro Jaramillo E. 1982. Necesidad de Incorporar al Aprovechamiento de las Areas Cubiertas
+de Izote (Yucca sp.) en Baja California. 1a. Reunión Nacional sobre Ecología y Manejo. pp. 130-138.
+
+  6.2. Cronquist Arthur. 1984. Introducción a la Botánica. 2a. ed. C.E.C.S.A. 848 p.
+
+  6.3. Jiménez Ortega Javier. 1979. Diccionario de Biología. Ed. CONCEPTO. México, D.F. 322 p.
+
+   6.4. Martínez Maximino 1979. Catálogo de nombres vulgares y científicos de plantas mexicanas.
+F.C.E. México, D.F. 1220 p.
+  6.5. Piña Luján Ignacio. S/F. Las Plantas del Género Yucca de la Baja California. Reunión Nacional
+sobre Ecología, Manejo y Domesticación. pp 125-129.
+
+  6.6. Ridaura Sanz Vicente E. 1980. Yucca. Desierto y Ciencia. año II. No. 2 1980. pp 136-140.
+
+  6.7. Romahn De La Vega Carlos Fco. 1984. Principales Productos Forestales no Maderables de
+México. División de Ciencias Forestales. Universidad Autónoma Chapingo. México. 561 p.
+
+  6.8. Rzedowski Jerzy. 1983. Vegetación de México. Ed. LIMUSA. México, D.F. 432 p.
+
+  6.9. SARH-Subsecretaría Forestal. S/F. Registro Espectral de Aprovechamiento para Especies del
+Desierto. 400 p.
+
+   6.10. Sepúlveda Betancourt Jorge I. S/F. Marco de Referencia para el Establecimiento de un
+Programa de Investigación sobre Palmilla (Yucca spp.). CONACYT. 17 p.
+
+   6.11. --------- 1991. Efecto de las Cortas en la Estructura y Desarrollo de una Población de Palmilla
+(Yucca spp.). CONACYT. 17p.
+
+  7. Observancia de esta Norma
+
+   7.1. Esta Norma es de observancia obligatoria para quienes se dediquen al aprovechamiento,
+transporte y almacenamiento de corteza, tallos y plantas completas de poblaciones naturales.
+
+  7.2. Se considera incumplimiento a la presente Norma, cuando:
+
+   I. Se realicen aprovechamientos sin presentar la notificación o sin tener la autorización
+correspondiente;
+
+   II. Se proporcione información falsa en la notificación de aprovechamiento o estudio técnico
+justificativo;
+
+  III. No se presente la información adicional a la notificación cuando así lo requiera la Secretaría;
+
+  IV. No se soliciten las inscripciones registrales, previstas en la presente Norma;
+
+   V. Se ejecuten aprovechamientos forestales, transporten o almacenen corteza, tallos y plantas
+completas en contravención a las disposiciones contenidas en la presente Norma y lo especificado en la
+notificación o estudio técnico justificativo correspondiente;
+
+  VI. No se presenten los informes previstos en la presente Norma;
+
+  VII. Se falsifique o altere la documentación para amparar el transporte de corteza, tallos y plantas
+completas;
+
+  VIII. Se transporte corteza, tallos y plantas completas, sin la documentación respectiva; y
+
+  IX. Se ejecuten actos u omisiones que contravengan las disposiciones de la presente Norma.
+
+   7.3. La Secretaría, por conducto de la Procuraduría Federal de Protección al Ambiente, realizará las
+visitas de inspección y auditorías técnicas que se requieran para vigilar el cumplimiento de las
+disposiciones contenidas en esta Norma.
+
+   El incumplimiento de la presente Norma, así como las violaciones e infracciones cometidas respecto
+de sus disposiciones, se sancionarán en los términos de la Ley Forestal, de la Ley General del Equilibrio
+Ecológico y la Protección al Ambiente, y demás ordenamientos legales aplicables.
+TRANSITORIOS
+  PRIMERO.- La presente Norma entrará en vigor al día siguiente de su publicación en el Diario
+Oficial de la Federación.
+
+   SEGUNDO.- Las notificaciones presentadas y los permisos de aprovechamiento otorgados con
+anterioridad a la entrada en vigor de la presente Norma, continuarán vigentes, debiendo ajustarse a lo
+estipulado, según sea el caso, en los puntos 4.1.2., 4.1.3. y 4.1.4. de la presente Norma en un plazo de
+60 días naturales, contados a partir de su entrada en vigor.
+
+   TERCERO.- Los centros de almacenamiento, a partir de la entrada en vigor de la presente Norma,
+tendrán un plazo que no podrá exceder de tres meses para solicitar su inscripción al Registro Forestal
+Nacional.
+
+  México, D.F., a 26 de febrero de 1997.- La Secretaria de Medio Ambiente, Recursos Naturales y
+Pesca, Julia Carabias Lillo.- Rúbrica.
+Ver imagen (dar doble click con el ratón)
+

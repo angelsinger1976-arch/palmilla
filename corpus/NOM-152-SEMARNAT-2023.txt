@@ -1,0 +1,1396 @@
+DOF: 24/07/2023
+
+
+NORMA Oficial Mexicana NOM-152-SEMARNAT-2023, Que establece los criterios y especificaciones del contenido de los programas
+de manejo forestal sustentable para el aprovechamiento de recursos forestales maderables en bosques, selvas y vegetación de zonas
+áridas.
+
+Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Secretaría de Medio Ambiente y
+Recursos Naturales.
+    ALONSO JIMÉNEZ REYES, Subsecretario de Regulación Ambiental de la Secretaría de Medio Ambiente y Recursos
+Naturales y Presidente del Comité Consultivo Nacional de Normalización de Medio Ambiente y Recursos Naturales, con
+fundamento en lo dispuesto en los artículos 2o., apartado A., fracción VI y apartado C., y 4o., párrafo quinto de la Constitución
+Política de los Estados Unidos Mexicanos; 32 Bis, fracciones I, II, III, IV y V de la Ley Orgánica de la Administración Pública
+Federal; 4 de la Ley Federal de Procedimiento Administrativo; 1, 2 fracciones I, XII y XIII, 3 fracciones II, IV, VII, VIII, IX, XI, XII,
+XIII, XVIII, XXIII, XXVII, XXVIII, XXIX, XXXI, XXXIII, XXXIV, XXXVI y XXXVII, 7 fracciones XLIII y XLVIII, 10, fracciones IX, 14,
+fracción VI, 20, fracción XX, 34, fracciones VI y VII, 53 fracciones I, II, V, VI y VIII, 72, 73, 103, 112 y 120 de la Ley General de
+Desarrollo Forestal Sustentable y 39, 40, 41, 42, 43 y 44 del Reglamento de la Ley General de Desarrollo Forestal Sustentable;
+34, fracción III de la Ley General de Cambio Climático; 38, fracción II, 40, fracción X, 41, 43, 47 fracción IV y 51 de la Ley Federal
+sobre Metrología y Normalización; 28 y 34 y del Reglamento de la Ley Federal sobre Metrología y Normalización; Cuarto
+Transitorio de la Ley de Infraestructura de la Calidad y 17, fracciones VII y VIII del Reglamento Interior de la Secretaría de Medio
+Ambiente y Recursos Naturales, y
+                                                          CONSIDERANDO
+   Que la Constitución Política de los Estados Unidos Mexicanos, en su artículo 2o., apartado A, fracción VI y apartado C.,
+reconoce y garantiza el derecho de los pueblos y las comunidades indígenas y afromexicanas a la libre determinación y, en
+consecuencia, a la autonomía para acceder, con respeto a las formas y modalidades de propiedad y tenencia de la tierra
+establecidas en la Constitución y a las leyes de la materia, así como a los derechos adquiridos por terceros o por integrantes de la
+comunidad, al uso y disfrute preferente de los recursos naturales de los lugares que habitan y ocupan las comunidades.
+   Que la Constitución Política de los Estados Unidos Mexicanos en el párrafo quinto de su artículo 4o. establece que toda
+persona tiene derecho a un medio ambiente sano para su desarrollo y bienestar. El daño y deterioro ambiental generara
+responsabilidad para quien lo provoque en términos de lo dispuesto por la Ley;
+    Que la misma Constitución Federal, contempla en el artículo 27 lo relativo a la propiedad de las tierras y aguas, las cuales
+corresponden originariamente a la Nación, quien tendrá en tiempo el derecho de regular en beneficio social, el aprovechamiento
+de los elementos naturales susceptibles de apropiación, con objeto de hacer una distribución equitativa de la riqueza pública
+cuidar su conservación, por lo que en consecuencia, se dictarán las medidas necesarias para establecer adecuadas provisiones,
+usos, reservas y destinos de tierras, aguas y bosques, preservar y restaurar el equilibrio ecológico y evitar la destrucción de los
+recursos naturales;
+    Que la Ley General de Desarrollo Forestal Sustentable, en su artículo 1, establece que tiene por objeto regular y fomentar el
+manejo integral y sustentable de los territorios forestales, la conservación, protección, restauración, producción, ordenación, el
+cultivo, manejo y aprovechamiento de los ecosistemas forestales del país y sus recursos, así como distribuir las competencias que
+en materia forestal correspondan a la Federación, las Entidades Federativas, Municipios y Demarcaciones Territoriales de la
+Ciudad de México, bajo el principio de concurrencia previsto en el artículo 73, fracción XXIX-G de la Constitución Política de los
+Estados Unidos Mexicanos, con el fin de propiciar el desarrollo forestal sustentable, cuando se trate de recursos forestales cuya
+propiedad o legitima posesión corresponda a los pueblos y comunidades indígenas se observará lo dispuesto por el artículo 2º de
+la Constitución Política de los Estados Unidos Mexicanos;
+    Que los artículos 2, fracción XIII y 3 XXXVI de la Ley General de Desarrollo Forestal Sustentable, establecen que, en el ámbito
+de esta Ley, se deberán respetar los derechos de las comunidades indígenas, así como el uso y disfrute de sus recursos
+forestales en los términos de normatividad nacional aplicable y los instrumentos internacionales vinculantes; así como impulsar el
+manejo forestal comunitario y el desarrollo de la empresa social forestal y comunal en los pueblos y comunidades indígenas y
+comunidades equiparables;
+    Que así mismo el artículo 20 fracción XX de la Ley General de Desarrollo Forestal Sustentable, establece la atribución de la
+Comisión Nacional Forestal para brindar asesoría y capacitación a los pueblos y comunidades indígenas, respetando su
+diversidad cultural y patrimonio cultural inmaterial para que éstos puedan organizarse para la producción y aprovechamientos
+forestales en los términos previstos por esta Ley y de acuerdo con sus usos y costumbres. Por otra parte, el artículo 103 de esta
+Ley dispone que los ejidatarios, comuneros y demás propietarios o poseedores de terrenos forestales o preferentemente
+forestales, que por la carencia de recursos económicos no estén en posibilidades de cubrir los costos de elaboración del
+programa de manejo forestal podrán recurrir a la Comisión, en los términos del Reglamento de esta Ley, para que les proporcione
+asesoría técnica y/o apoyo financiero para la elaboración de éste; lo cual se hará en la medida de las posibilidades
+presupuestarias de la Comisión;
+   Que de acuerdo con lo establecido en el artículo 72 de la Ley General de Desarrollo Forestal Sustentable, se requiere
+autorización de la Secretaría de Medio Ambiente y Recursos Naturales para el aprovechamiento de recursos forestales
+maderables en terrenos forestales;
+   Que el artículo 39 del Reglamento de la Ley General de Desarrollo Forestal Sustentable establece que, respecto al contenido
+técnico de los programas de manejo para el aprovechamiento de recursos forestales maderables, los requisitos podrán ser
+cumplidos con base en los estudios o programas regionales forestales autorizados por la Comisión Nacional Forestal a las
+Unidades de manejo forestal e inscritos en el Registro Forestal Nacional;
+    Que de acuerdo con el artículo 40 del Reglamento de la Ley General de Desarrollo Forestal Sustentable, para la cuantificación
+de las superficies en los programas de manejo forestal, se atenderá la siguiente clasificación: áreas de conservación y
+aprovechamiento restringido (áreas naturales protegidas; superficies para conservar y proteger el hábitat existente de las
+especies y subespecies de flora y fauna silvestres en riesgo, señaladas en las disposiciones jurídicas aplicables; franja protectora
+de vegetación ribereña en términos de las normas oficiales mexicanas y demás disposiciones jurídicas aplicables; superficies con
+pendientes mayores al cien por ciento o cuarenta y cinco grados; superficies arriba de los 3,000 metros sobre el nivel del mar;
+superficies con vegetación de manglar y bosque mesófilo de montaña) áreas de producción, áreas de restauración, áreas de
+protección forestal que se hayan declarado por la Secretaría de Medio Ambiente y Recursos Naturales y áreas de otros usos;
+    Que el aprovechamiento de los recursos forestales maderables basados en Programas de Manejo Forestal constituye una
+actividad productiva que se realiza en bosques, selvas y vegetación de zonas áridas y que son una fuente de empleo para dueños
+y propietarios de terrenos forestales que beneficia a pueblos y comunidades rurales de nuestro país, toda vez que es de donde se
+obtiene materia prima para la industria maderera nacional, aportando beneficios económicos y sociales, como resultado del
+manejo forestal sustentable;
+    Que con la actualización de las especificaciones técnicas de la Norma Oficial Mexicana NOM-152-SEMARNAT-2006, para
+homologar los criterios y contenidos de los programas de manejo, sin menoscabo de su precisión y calidad, conllevará a la
+disminución de los costos de elaboración, así como a la reducción de tiempos de revisión y dictamen de estos programas, lo que
+también promoverá la incorporación de una mayor superficie autorizada al aprovechamiento forestal maderable, y por ende un
+mayor volumen autorizado al dársele mayor reconocimiento y valor a lo que usualmente se cataloga como desperdicio, fuente de
+valor económico y beneficio extra para los propietarios y legítimos poseedores de los terrenos forestales en el ámbito rural, así
+como materia prima esencial para el desarrollo de la industria maderera nacional;
+    Que los Programas de Manejo Forestal elaborados con base en la Ley General de Desarrollo Forestal Sustentable y su
+Reglamento, y la Norma Oficial Mexicana actualizados, ejecutados bajo supervisión técnica, y en coordinación con los dueños y
+poseedores de los recursos forestales se coadyuva para alcanzar los objetivos de interés público relacionados con la protección al
+medio ambiente y cambio climático, lo cual se garantiza a través del manejo sustentable de los bosques y de los recursos
+íntimamente relacionados como son el agua, suelo y fauna, incluidos los servicios ambientales asociados a los bosques, selvas y
+zonas áridas;
+    Que la NOM-152-SEMARNAT-2006, Que establece los lineamientos, criterios y especificaciones de los contenidos de los
+programas de manejo forestal para el aprovechamiento de recursos forestales maderables en bosques, selvas y vegetación de
+zonas áridas fue publicada en el Diario Oficial de la Federación el 17 de octubre de 2008, requiere actualización en su
+fundamentación legal, así como en sus especificaciones técnicas, ya que actualmente la Ley General de Desarrollo Forestal
+Sustentable y su Reglamento ya no contempla los niveles avanzado, intermedio y simplificado de los Programas de Manejo
+Forestal, además, para mayor claridad se requiere la actualización de algunos términos y definiciones, así como también explicar
+los resultados obtenidos de aprovechamientos forestales realizados en años pasados en predios o conjunto prediales, bajo
+Programas de Manejo Forestal formulados con anterioridad;
+    Que la Norma Oficial Mexicana NOM-152-SEMARNAT-2006 fue ratificada en 2013 y en enero de 2019 en atención a lo
+estipulado por el artículo 51 de la Ley Federal sobre Metrología y Normalización, y en los artículos 39 y 45 del Reglamento de
+esta Ley, y que el resultado de la última revisión quinquenal constituye otra de las razones que determinaron la procedencia de
+someterla a proceso de modificación para alinearla a los preceptos de la Ley General de Desarrollo Forestal Sustentable
+publicada en el Diario Oficial de la Federación el 5 de junio de 2018 y a sus reformas sucesivas;
+    Que el artículo 73 de la Ley General de Desarrollo Forestal Sustentable, indica que las autorizaciones para el
+aprovechamiento de los recursos forestales maderables se otorgarán con base en un programa de manejo forestal, y que la
+Secretaría instrumentará un mecanismo para la autorización automática de solicitudes de aprovechamientos a titulares cuyo
+historial de aprovechamientos previos haya resultado sin observaciones, así como a los predios que cuenten con certificación de
+buenas prácticas;
+    Que con la modificación de la Norma Oficial Mexicana NOM-152-SEMARNAT-2006, se actualiza la fundamentación jurídica,
+los objetivos de los Programas de Manejo Forestal, sin condicionar la superficie de terreno forestal o a los niveles de programa
+avanzado, intermedio y simplificado que anteriormente se manejaban, beneficiando a los sujetos regulados, al contar con una
+Norma actualizada para elaborar los programas de manejo forestal para el aprovechamiento sustentable de los recursos
+forestales maderables;
+    Que con fecha 6 de junio de 2012, se publicó en el Diario Oficial de la Federación la Ley General de Cambio Climático, la cual
+establece en su artículo 34, fracción III, que la administración pública federal, las entidades federativas y los municipios deben de
+promover el diseño, las políticas públicas y acciones de mitigación asociadas a la reducción de emisiones, captura de carbono, en
+el sector agrícola y forestal con el objeto de preservar los ecosistemas y la biodiversidad; así como contrarrestar los efectos del
+cambio climático, en este sentido la modificación de la Norma para la elaboración y ejecución de programas de manejo forestal
+sustentable, garantiza la permanencia de los bosques y en consecuencia se coadyuva a enfrentar y mitigar este fenómeno
+mundial;
+   Que el artículo 44 del Reglamento de la Ley General de Desarrollo Forestal Sustentable señala tácitamente que la Secretaría
+de Medio Ambiente y Recursos Naturales emitirá la Norma Oficial Mexicana que establezca los criterios y las especificaciones de
+contenido de los programas de manejo forestal;
+   Que el 1º de julio de 2020 se publicó en el Diario Oficial de la Federación la Ley de Infraestructura de la Calidad, misma que
+en su artículo Segundo Transitorio abroga la Ley Federal sobre Metrología y Normalización, sin embargo, en su artículo Cuarto
+Transitorio establece que las Propuestas, Anteproyectos y Proyectos de Normas Oficiales Mexicanas y Estándares en trámite y
+que no hayan sido publicados deberán ajustarse a lo dispuesto en dicha Ley, su Reglamento y demás disposiciones secundarias
+vigentes al momento de su presentación y hasta su conclusión;
+   Que por lo anterior, el presente instrumento normativo deberá ajustarse a la Ley Federal sobre Metrología y Normalización
+hasta su conclusión, en términos de lo referido por el artículo Cuarto Transitorio de la Ley de Infraestructura de la Calidad, toda
+vez que la Norma Oficial Mexicana de mérito, se incorporó como tema nuevo en el Programa Nacional de Normalización de 2019,
+de conformidad con lo señalado en la citada Ley Federal y reprogramado en el Programa Nacional de Infraestructura de la
+Calidad 2021;
+   Que el proyecto de modificación fue aprobado por el Comité Consultivo Nacional de Normalización de Medio Ambiente y
+Recursos Naturales el 28 de marzo de 2022 para su publicación en el Diario Oficial de la Federación a efecto de someterlo a
+consulta pública, de conformidad a lo establecido en el artículo 47, fracción l de la Ley Federal sobre Metrología y Normalización,
+y con el fin de que los interesados dentro de los 60 días, contados a partir del día siguiente de la fecha de su publicación,
+presentaran sus comentarios ante el citado Comité, en Ejército Nacional número 223, colonia Anáhuac, Primera sección Alcaldía
+Miguel Hidalgo, código postal 11320, Ciudad de México, o al correo electrónico, programa.manejoforestal@semarnat.gob.mx;
+    Que el instrumento que contempla los aspectos de impacto regulatorio asociados esta Norma Oficial Mexicana estuvo
+disponible en el domicilio del Comité Consultivo Nacional de Normalización de Medio Ambiente y Recursos Naturales arriba
+citado, así como en el portal electrónico de la Comisión Nacional de Mejora Regulatoria, para su consulta dentro de los plazos
+establecidos para tales efectos en la Ley Federal sobre Metrología y Normalización y en la Ley General de Mejora Regulatoria.
+   Que durante la etapa de consulta pública del Proyecto de Modificación de la presente Norma Oficial Mexicana se recibieron
+comentarios en el sentido de mejorar la redacción de considerandos, de las definiciones como son: bosque regular e irregular,
+rodal, subrodal, producción forestal, método de planeación de manejo, corta de regeneración, sistema silvícola, turno o edad de
+cosecha y serie de ordenación forestal; en la presentación de los planos indicados en el numeral 4.19.1 y en el 4.19.2; la
+homologación de la escala y se indicó en varios numerales la referencia de la presentación de la información por Unidad Mínima
+de Manejo.
+   Que las respuestas a los comentarios recibidos durante el periodo de consulta pública fueron publicadas el 06 de julio de
+2023, en el Diario Oficial de la Federación, en apego a lo dispuesto en el artículo 47 fracción III de la Ley Federal sobre Metrología
+y Normalización.
+    Que, habiéndose cumplido el procedimiento establecido en la Ley Federal sobre Metrología y Normalización para la
+elaboración de normas oficiales mexicanas, el Comité Consultivo Nacional de Normalización de Medio Ambiente y Recursos
+Naturales aprobó la presente Norma Oficial Mexicana como definitiva, en su Tercera Sesión Ordinaria de 2023 celebrada el día 16
+de junio de 2023.
+   Que de conformidad con lo establecido en el artículo 28 fracción II, inciso d) del Reglamento de la Ley Federal sobre
+Metrología y Normalización, el año de la clave de esta norma oficial mexicana, cambia a 2023, debido a que el instrumento
+regulatorio se presentó ante el Comité Consultivo Nacional de Normalización de Medio Ambiente y Recursos Naturales para
+aprobación en el presente año.
+   Por lo expuesto y fundado he tenido a bien expedir la siguiente:
+                NORMA OFICIAL MEXICANA NOM-152-SEMARNAT-2023, QUE ESTABLECE LOS CRITERIOS Y
+             ESPECIFICACIONES DEL CONTENIDO DE LOS PROGRAMAS DE MANEJO FORESTAL SUSTENTABLE
+             PARA EL APROVECHAMIENTO DE RECURSOS FORESTALES MADERABLES EN BOSQUES, SELVAS Y
+                                       VEGETACIÓN DE ZONAS ÁRIDAS.
+                                                             PREFACIO
+   En la elaboración de la presente Norma Oficial Mexicana participaron representantes de las siguientes instancias:
+   · Academia Nacional de Ciencias Forestales, A.C.
+   · Asociación Mexicana de Profesionales Forestales, A.C.
+   · Asociación Mexicana de Plantadores Forestales, A.C.
+   · Colegio de la Frontera Sur
+   · Colegio de Ingenieros Forestales de Chiapas, A.C.
+   · Colegio de Ingenieros Forestales de Jalisco A.C.
+   · Colegio Forestal de México, A.C.
+   · Colegio de Postgraduados. Postgrado en Ciencias Forestales
+   · Colegio de Postgraduados, Campus Veracruz
+   · Comisión Nacional Forestal
+   · Comisión Nacional para el Conocimiento y Uso de la Biodiversidad
+   · Comisión Forestal del Estado de Michoacán
+   · SEMARNAT:
+         -     Dirección General de Vida Silvestre;
+         -     Dirección General de Gestión Forestal, Suelos y Ordenamiento Ecológico;
+         -      Dirección General de Recursos Naturales y Bioseguridad;
+         -      Oficinas de representación de SEMARNAT en: Durango, Jalisco y Oaxaca
+   · Estudios Rurales y Asesoría Campesina, A. C. Iniciativa Bosques para el Buen Vivir
+   · Política y Legislación Ambiental. A. C.
+   · Procuraduría Federal de Protección al Ambiente - Dirección General de Inspección y Vigilancia Forestal
+   · Protectora de Bosques del Gobierno del Estado de México
+   · Red Mexicana de Organizaciones Campesinas Forestales, A. C.
+   · Unión Nacional de Organizaciones de Forestería Comunal, A. C.
+   · Universidad Autónoma de Yucatán
+                                                   ÍNDICE DEL CONTENIDO
+   1.    Objetivo y campo de aplicación
+   2.    Referencias normativas
+   3.    Términos y definiciones
+   4.    Criterios y especificaciones del contenido de los Programas de Manejo Forestal
+   5.    Aprovechamiento maderable y no maderable
+   6.    Estructura para la presentación del Programa de Manejo Forestal
+   7.    Procedimiento de Evaluación de la Conformidad
+   8.    Concordancia con Normas Internacionales
+   9.    Observancia de la Norma
+   10. Referencias bibliográficas
+   1. Objetivo y campo de aplicación
+  La presente Norma Oficial Mexicana tiene por objeto establecer los criterios y las especificaciones de los programas de
+manejo forestal maderable, homologar su contenido y estructura de presentación para realizar los aprovechamientos forestales.
+    Esta Norma Oficial Mexicana es de aplicación obligatoria en todo el territorio nacional para los propietarios, legítimos
+poseedores de terrenos forestales que pretendan obtener autorización de aprovechamiento de recursos forestales maderables y
+los prestadores de servicios forestales contratados por éstos, que elaboren programas de manejo para el aprovechamiento de
+estos recursos provenientes de bosques, selvas y vegetación de zonas áridas.
+   2. Referencias normativas
+    Para la correcta utilización de esta Norma Oficial Mexicana es necesario consultar y aplicar la siguiente normatividad o la que
+la sustituya.
+             Norma Oficial Mexicana NOM-059-          Protección ambiental-Especies nativas de México de flora
+             SEMARNAT-2010                            y fauna silvestres-Categorías de riesgo y especificaciones
+                                                      para su inclusión, exclusión o cambio-Lista de especies
+                                                      en riesgo. Publicada en el Diario Oficial de la Federación
+                                                      el 30 de diciembre de 2010.
+             Norma Oficial Mexicana NOM-060-          Que establece las especificaciones para mitigar los
+             SEMARNAT-1994                            efectos adversos ocasionados en los suelos y cuerpos de
+                                                      agua por el aprovechamiento forestal. Publicada en el
+                                                      Diario Oficial de la Federación el 13 de mayo de 1994.
+
+
+             Norma Oficial Mexicana NOM-061-          Que establece las especificaciones para mitigar los
+             SEMARNAT-1994                            efectos adversos ocasionados en la flora y fauna
+                                                      silvestres por el aprovechamiento forestal. Publicada en
+                                                      el Diario Oficial de la Federación el 13 de mayo de 1994.
+
+
+             Norma Oficial Mexicana NOM-019-          Que establece los lineamientos técnicos para la
+             SEMARNAT-2017                            prevención,    combate    y    control de     insectos
+                                                      descortezadores. Publicada en el Diario Oficial de la
+                                                      Federación el 22 de marzo de 2018.
+             Norma Oficial Mexicana NOM-015-          Que establece las especificaciones técnicas de métodos
+             SEMARNAT/SAGARPA-2007                    de uso del fuego en los terrenos forestales y en los
+                                                      terrenos de uso agropecuario. Publicada en el Diario
+                                                      Oficial de la Federación el 16 de enero de 2009.
+
+   3. Términos y definiciones
+   Para los efectos de esta Norma Oficial Mexicana, además de lo establecido en la Ley General de Desarrollo Forestal
+Sustentable y su Reglamento, se entenderá por:
+   3.1 Aclareos
+   Las cortas parciales que se aplican en una unidad de manejo y masa forestal con el fin de dar condiciones deseables al
+arbolado residual para que continúe de mejor manera su desarrollo, de acuerdo con el sistema silvícola prescrito.
+   3.2 Área forestal permanente
+   Aquella superficie destinada voluntariamente como terreno forestal permanente por sus propietarios o poseedores, con
+exclusión de actividades agropecuarias y otros usos diferentes al uso forestal.
+   3.3 Aprovechamiento forestal por primera vez
+   Es aquel que se realiza en terrenos forestales en los cuales, previamente no se había realizado corte y extracción de
+productos forestales o en su caso, han pasado por lo menos tres años de vencimiento de la vigencia de su autorización.
+   3.4 Autorización
+   Acto administrativo emitido por la Secretaría por el que se resuelve que el titular realice el aprovechamiento y manejo
+sustentable de recursos forestales maderables.
+   3.5 Bosque irregular
+   En climas templados y fríos, aquel que presenta de manera mezclada, en toda su superficie, arbolado de varias edades,
+desde plántulas hasta estados maduros.
+   En Bosques tropicales, aquel que presenta en sus superficies una mezcla de varias especies, las que presentan ritmos de
+crecimiento, características de sus maderas y tolerancias diferentes.
+   3.6 Bosque meta
+   Es aquel con los atributos y especificaciones del área forestal futura como resultado de las acciones del programa de manejo.
+Para fines prácticos el bosque meta sería aquel que existirá cuando estén a la vista las cualidades buscadas por la tecnología
+elegida. Esto será en el momento en el cual el arbolado y el resto de la vegetación hayan aparecido como consecuencia de las
+labores del Programa de Manejo Forestal.
+   3.7 Bosque regular
+   Aquel que presenta rodales uniformes en edad.
+   3.8 Brecha de saca
+   Faja despejada de vegetación de 3.5 a 6 metros de ancho y una longitud variable, que se utiliza para movimiento ocasional de
+vehículos y arrimar la madera en rollo. Estos caminos sin revestimiento y temporales se van construyendo de acuerdo con un plan
+de corta.
+   3.9 Camino principal
+   Es aquel que comunica las áreas forestales manejadas con la red general de caminos, centros de población, centros de
+abasto, transformación y comercialización de madera; permite el tránsito de vehículos durante todo el año. Presentan una faja
+despejada de vegetación de 10 a 12 metros, una plantilla de 5 a 6 metros, un ancho de corona de 4 a 5 metros, cunetas y otras
+obras para aminorar impactos y asegurar su conservación en ambos lados.
+   3.10 Camino secundario
+    Es aquel que se localiza en las áreas de corta y su función principal es permitir el transporte y arrime de la materia prima
+forestal; éste se ramifica desde el camino principal hasta las brechas de saca o los cargaderos. Permite el tráfico por temporada o
+en función de las áreas que están siendo aprovechadas. Es de inferior calidad y menos costoso que los caminos principales.
+Presenta un ancho de la faja despejada de vegetación de 6 a 8 metros, una plantilla de 4 a 5 metros, una corona de 3 a 4 metros
+y una cuneta en el lado interior.
+   3.11 Ciclo de corta
+    Es el intervalo de tiempo previsto entre dos aprovechamientos subsecuentes dentro de una misma área de corta o bien dentro
+del área abarcada por el programa de manejo.
+    3.12 Combate y control de incendios forestales
+   Es el proceso de despliegue y operación de recursos humanos y materiales bajo estrategias, tácticas y métodos apropiados
+para lograr la extinción de los incendios forestales.
+   3.13 Comisión
+   Comisión Nacional Forestal
+   3.14 Conjunto predial
+   Dos o más predios próximos entre sí dentro de una subcuenca o microcuenca, susceptibles de manejo y realizar
+aprovechamiento de recursos forestales, y que comparten las mismas características ecológicas.
+   3.15 Corta de regeneración
+  La que tiene como finalidad de asegurar, por medio del tratamiento silvícola aplicado, la continuidad de la masa forestal
+mediante regeneración natural o mediante reforestación, o bien la que tiene como finalidad el reemplazo del rodal por una masa
+nueva.
+   3.16 Especies en riesgo
+   Aquellas catalogadas en alguna de las categorías señaladas en la Norma Oficial Mexicana NOM-059-SEMARNAT-2010 y sus
+actualizaciones subsecuentes.
+   3.17 Evaluación de la Conformidad
+    Proceso técnico que permite demostrar el cumplimiento con las Normas Oficiales Mexicanas, Estándares, Normas
+Internacionales ahí referidos o de otras disposiciones legales. Comprende, entre otros, los procedimientos de muestreo, prueba,
+inspección, evaluación y certificación.
+   3.18 Impacto social y económico
+    Efectos del aprovechamiento en el ingreso y la calidad de vida de la población rural forestal, en las fuentes de empleo, en las
+alternativas productivas y en el valor agregado de los productos forestales.
+   3.19 Método de planeación de manejo
+   Conjunto de procedimientos y prescripciones silvícolas con base a la información dasonómica, topográfica y ecológica,
+obtenida de los bosques, selvas o vegetación de zonas áridas que se pretendan aprovechar, estas actividades deben estar
+programadas a corto mediano y largo plazo con el fin de alcanzar los objetivos del manejo forestal, mantener la biodiversidad, la
+productividad y la rentabilidad.
+   3.20 Modificación del programa de manejo forestal
+    La autorización que se obtiene durante la vigencia del aprovechamiento forestal por la modificación del programa de manejo
+forestal durante el ciclo de corta, las veces que sea necesario para cumplir con los objetivos del mismo.
+   3.21 Organismos de Evaluación de la Conformidad
+    Persona acreditada por una Entidad de Acreditación o en su caso, por la Autoridad Normalizadora y, cuando se trate de
+Normas Oficiales Mexicanas, Estándares, Normas Internacionales ahí referidos o de otras disposiciones legales; en caso de que
+la acreditación sea realizada por una Entidad de Acreditación el Organismo deberá ser aprobado por la Autoridad Normalizadora
+competente, para llevar a cabo la Evaluación de la Conformidad.
+   3.22 Producción forestal
+   Los volúmenes de cosecha obtenidos mediante las actividades del aprovechamiento forestal, manteniendo los bienes y
+servicios asociados del bosque.
+   3.23 Protección forestal
+    Actividades encaminadas a prevenir, combatir y controlar los daños al arbolado que ocasionan agentes disruptivos, tales como
+incendios, plagas, enfermedades, pastoreo irracional y aprovechamientos no autorizados.
+   3.24 Refrendo
+    La renovación de las autorizaciones para el aprovechamiento de recursos maderables previstos en el artículo 73 de la LGDFS
+que se otorga al término de cada ciclo de corta hasta completar la edad de cosecha. La autorización automática es un tipo de
+refrendo.
+   3.25 Reglamento
+   Reglamento de la Ley General de Desarrollo Forestal Sustentable.
+   3.26 Rodal
+    Es el área delimitada con base en características permanentes, como el suelo, pendiente, parteaguas y arroyos, que definen
+en gran medida su potencial productivo. El rodal es la unidad ideal básica de manejo a largo plazo y sobre todo de seguimiento a
+las variables forestales a través del tiempo y como tal, debe ser permanente a través de ciclos de corta sucesivos, aun cuando
+haya cambios en la vegetación, en el sistema silvícola aplicado, en el ciclo de corta o en otras variables.
+   3.27 Rollo Total Árbol (RTA)
+   Se refiere al volumen de madera del fuste y corteza del árbol, sin incluir ramas, brazuelos ni tocones, para coníferas. En el
+caso de las especies tropicales incluye ramas de dimensiones aserrables.
+   3.28 Secretaría
+   Secretaría de Medio Ambiente y Recursos Naturales.
+   3.29 Serie de ordenación forestal
+    Conjunto de unidades mínimas de manejo contiguas biológica y ecológicamente homogéneas, que están reguladas por un
+único régimen silvícola.
+   3.30 Sistema silvícola
+    Serie consecutiva, conceptual, de tratamientos, generalmente cíclica, su función es asegurar la regeneración, cultivo, fomento,
+protección y cosecha de cierto tipo de materia prima o producto forestal específicos, de acuerdo con los objetivos de producción.
+   3.31 Subrodal
+   En un bosque regular, es una subdivisión del rodal que tiene características homogéneas no permanentes (composición de
+especies, estructura, densidades, edades).
+   3.32 Tiempo de paso
+   Número de años que transcurren para que los árboles pasen de una categoría diamétrica a la inmediata superior.
+   3.33 Titular del aprovechamiento
+   Persona con derecho a realizar el aprovechamiento de recursos forestales maderables de acuerdo con la autorización
+expedida por la Secretaría, de conformidad con lo dispuesto en el artículo 73 de la Ley General de Desarrollo Forestal
+Sustentable, su Reglamento y demás disposiciones jurídicas aplicables.
+   3.34 Tratamiento silvícola
+   Es la actividad que puede consistir en la remoción del arbolado o partes de el con la finalidad de modular el desarrollo de una
+unidad mínima de manejo para un periodo no menor que el ciclo de corta.
+   3.35 Turno o edad de cosecha
+   Periodo de regeneración de los recursos forestales que comprende desde su extracción hasta el momento en que éstos son
+susceptibles de nuevo aprovechamiento.
+   3.36 Unidad mínima de manejo (UMM)
+  Es la división dasocrática mínima establecida en el programa de manejo para la cual tiene sentido registrarla en cartografía y
+mantener un vector individual de sus atributos descriptivos y cuantitativos. Puede ser el subrodal o el rodal.
+   3.37 Volumen Total Árbol (VTA)
+   Se refiere al volumen de madera y corteza del árbol, incluyendo fuste, puntas y ramas, brazuelos y tocones.
+
+   4. Criterios y especificaciones del contenido de los Programas de Manejo Forestal
+    A continuación, se establecen las especificaciones, características y disposiciones técnicas a las cuales debe apegarse el
+contenido y la elaboración de los Programas de Manejo Forestal, de acuerdo con lo establecido en la Ley General de Desarrollo
+Forestal Sustentable y su Reglamento, respetando los derechos de las comunidades indígenas y afromexicanas, bajo los
+principios de sustentabilidad, equidad, inclusión y respeto a las tradiciones, usos y costumbres, para dar cumplimiento a los
+criterios y especificaciones técnicas.
+    Las autorizaciones a las que hace referencia el artículo 73 de la Ley General de Desarrollo Forestal Sustentable corresponden
+a la superficie del área forestal permanente de terrenos forestales de predios o conjuntos prediales, la cual incluye la superficie
+donde se pretende realizar el aprovechamiento, de acuerdo con el Programa de Manejo Forestal a que se refieren los artículos
+39, 41, 42 y 43 del Reglamento.
+    4.1 El Programa de Manejo Forestal incluirá una portada en la que se asentará el tipo de aprovechamiento forestal que se
+pretende realizar, la ubicación mencionando el nombre del ejido, comunidad, en su caso terreno particular, municipio y estado, la
+identificación y firma original (persona física o moral) del prestador de servicio forestal y fecha de elaboración.
+    Presentará un índice del contenido con página de localización de títulos y numerales, un resumen ejecutivo con el nombre del
+predio, localización geográfica, el nombre del propietario o poseedor legal del predio (titular del aprovechamiento), tipo(s) de
+vegetación, especie(s) a aprovechar, método de ordenación prescrito, tratamientos silvícolas, el plan de cortas con la superficie y
+volumen anual o periódico a aprovechar por especie, y en su caso, la vigencia del ciclo de corta.
+   4.2 Objetivos generales y específicos de los programas de manejo forestal
+   Los Programas de Manejo Forestal de predios o conjunto predial de cualquier extensión de bosques, selvas y vegetación de
+zonas áridas y semiáridas presentarán al menos alguno de los siguientes objetivos generales y específicos.
+   4.2.1 Objetivos generales de los Programas de Manejo Forestal
+    Los programas de manejo forestal para el aprovechamiento de recursos forestales en bosques, selvas y zonas áridas, según
+el bosque meta que se persiga contendrán alguno de los objetivos generales siguientes:
+         a)   Aprovechamiento sustentable de recursos forestales maderables.
+         b)   Aprovechamiento sustentable de recursos forestales maderables y de no maderables
+   4.2.2 Objetivos específicos de los Programas de Manejo Forestal
+         a)   De producción: Realizar las actividades tendientes a generar los volúmenes de cosecha, manteniendo los bienes y
+              servicios asociados.
+         b)    De aprovechamiento: Extraer los volúmenes de cosecha, con el mínimo impacto al ecosistema y la máxima
+              contribución al desarrollo social y económico.
+         c)    De conservación: Mitigar los impactos ocasionados por el aprovechamiento forestal para proteger las especies de
+              flora y fauna silvestre, procurando en todo momento mantener la calidad existente de las mismas.
+         d)    De restauración: Programar y realizar la recuperación de áreas que presentan procesos erosivos severos, las
+              afectadas por incendios, plagas y enfermedades forestales, así como las de baja densidad o parcialmente
+              desforestadas.
+        e)    De protección: Programar acciones para prevenir los daños ocasionados por los incendios, plagas, enfermedades,
+              pastoreo y el aprovechamiento de recursos forestales no autorizados.
+        f)    De asesoramiento y capacitación: Plantear y realizar actividades de fortalecimiento y apoyo para la organización,
+              administración y gestión del desarrollo integral del manejo forestal. En el caso de Comunidades o Ejidos, para la
+              organización social, administración, toma de decisiones y materias necesarias para mejorar la organización
+              comunitaria.
+        g)     De impacto social y económico: Realizar actividades tendientes a elevar los efectos del aprovechamiento en el
+              ingreso y la calidad de vida de la población rural forestal, en las fuentes de empleo, en las alternativas productivas y
+              en el valor agregado de los productos forestales.
+   4.3 Los Programas de Manejo Forestal para el aprovechamiento de recursos forestales para remoción de arbolado muerto
+presentarán alguno de los objetivos siguientes:
+   4.3.1 Objetivo general
+   Aprovechamiento de la madera muerta que se encuentre en las áreas propuestas y que aún tenga valor comercial o utilidad.
+   4.3.2 Objetivos Específicos
+        a)   De restauración: Programar y realizar la recuperación de áreas intervenidas.
+        b)    De conservación: Mitigar los impactos ocasionados por el aprovechamiento forestal para proteger las especies de
+              flora y fauna silvestre, procurando en todo momento mantener la calidad existente de las mismas.
+        c)    De protección: Programar acciones para prevenir los daños ocasionados por los incendios, plagas, enfermedades,
+              pastoreo y el aprovechamiento de recursos forestales no autorizados.
+   4.4 Los Programas de Manejo Forestal que tengan por objeto la poda de arbolado presentará los objetivos siguientes:
+   4.4.1 Objetivo general
+   Realizar actividades de cultivo del bosque con el fin de mejorar la calidad de productos forestales, evitando daños potenciales
+por incendios forestales u otro factor y propiciando la conservación de recursos naturales asociados como flora, fauna y servicios
+ambientales.
+   4.4.2 Objetivo específico
+   Realizar actividades tendientes a la mejor conformación del arbolado, mediante el corte de ramas, rebrotes o fustes que
+permitan un mejor desarrollo de la masa forestal residual que contribuya al desarrollo social y económico de los dueños y
+poseedores de los terrenos forestales.
+   4.5 Los Programas de Manejo Forestal que tengan por objeto el aprovechamiento de recursos forestales por una sola vez para
+proyectos de investigación o de recreación presentarán los objetivos siguientes:
+   4.5.1 Objetivo general
+    Propiciar el desarrollo de la investigación forestal o en su caso para el acondicionamiento de espacios para desarrollar
+actividades recreativas.
+   4.5.2 Objetivo específico
+        a)   Experimentar o investigar tratamientos o actividades silvícolas para un mejor desarrollo de las masas forestales.
+        b)     Realizar intervenciones en la masa forestal, para adecuarla a la realización de actividades recreativas o de
+              esparcimiento.
+    4.6 Descripción general de antecedentes de los aprovechamientos de recursos forestales maderables anteriores en el predio,
+incluyendo la respuesta a los tratamientos aplicados con indicadores dasométricos comparativos
+   El PMF debe contener la siguiente información, así como un análisis del mismo y una explicación correspondiente para el ciclo
+de corta inmediato anterior.
+    4.6.1 Número y fecha del oficio de autorización del aprovechamiento forestal maderable del ciclo de corta anterior o de la
+última autorización otorgada.
+   4.6.2 Integrar un resumen comparativo de la superficie del ciclo de corta anterior, de conformidad con el artículo 40 del
+Reglamento y con base a la Tabla 4. Clasificación y cuantificación de superficies del predio de la presente Norma.
+    4.6.3 Anotar para cada unidad mínima de manejo, los tratamientos silvícolas aplicados en el ciclo de corta anterior usando la
+terminología y definiciones del Programa de Manejo Forestal (previo).
+     4.6.4 Indicar las metas silvícolas y dasométricas del programa de manejo anterior, así como la respuesta de cada tratamiento
+silvícola, con base en los datos del inventario del programa de manejo actual, de acuerdo con la Tabla 1. Registro de metas
+silvícolas y dasométricas del programa de manejo anterior.
+             Tabla 1-Registro de metas silvícolas y dasométricas por cada unidad mínima de manejo del programa
+                                                         de manejo anterior
+ Tratamiento/método            Unidad de medida (Meta y Respuesta)
+ Silvícola
+ Selección                        -   Frecuencia por categoría diamétrica
+                                  -   Existencias reales/ha en m3 de VTA/especie
+ Aclareo                               -     Existencias reales /ha en m3 de VTA/especie con referencia
+                                             a la meta de densidad que se hubiera definido en el PMF
+                                             anterior.
+                                       -     Incremento corriente anual/ha en m3 de VTA/especie
+
+ Cortas de regeneración                -          Número y porcentaje de parcelas de muestreo de
+                                             regeneración vacías y suma total de superficie con fallas por
+                                             área de corta anual, después de transcurrido el periodo
+                                             establecido en el PMF previo para considerar establecida la
+                                             regeneración.
+                                             La calidad y nivel de detalle de estos datos debe permitir
+                                             determinar la necesidad de acciones correctivas de ser
+                                             necesarias y oportunas.
+                                             Si para algunas unidades mínimas de manejo tratadas no
+                                             han pasado suficientes años, no se reporta nada.
+ Liberación
+                                             Si en el PMF previo no se definió un periodo de espera para
+                                             establecimiento de renuevo, se elegirá el mismo que
+                                             proponga en el nuevo PMF.
+
+
+    La información se presentará de conformidad con la Tabla 2. Comparativo de la respuesta del recurso a los aprovechamientos
+realizados anteriormente de la presente Norma, especificando los atributos dasocráticos y parámetros de la regulación de la corta
+haciendo un comparativo entre la meta planteada y como fue ejecutada, que incluya una crónica breve de la variabilidad en la
+dinámica natural de la masa derivada de la respuesta a los tratamientos y a las condiciones del ambiente, así como la afectación
+por plagas y/o enfermedades forestales en el ciclo de corta inmediato anterior.
+              Tabla 2-Comparativo de la respuesta del recurso a los aprovechamientos realizados anteriormente
+
+     Unidad              Tratamiento Aplicado en el Ciclo de Corta               Situación           Diferencia     Crónica de la
+    Mínima de                            Anterior                                  actual            o variación    variabilidad
+    Manejo (1)                                                                  (Respuesta)            (6=4-5)     en la dinámica
+                       Tratamiento            Unidad de           Meta (4)           (5)                            natural de la
+                       silvícola (2)          medida* (3)                                                             masa (7)
+
+
+
+
+  Esta tabla deberá incluirse en el cuerpo del Programa de Manejo Forestal.
+
+
+    4.6.5 También se presentará la Tabla 3. Composición de especies en el predio o conjunto de predios, ya sea en porcentaje de
+área basal o porcentaje de frecuencia, que demuestre una similar composición de especies entre la condición al inicio de la
+ejecución del Programa de Manejo Forestal en el ciclo de corta anterior, y la situación actual, que permita verificar la persistencia
+de aquellas especies aprovechadas.
+                               Tabla 3. Composición de especies en el predio o conjunto de predios
+                         Ciclo de corta anterior                             Ciclo de corta actual
+
+
+                                                            Composición                                      Composición     Diferencia o
+ UMM       Especie                         Tratamiento      de especies en                  Tratamiento      de especies en Variación
+                         Superficie                                         Superficie
+                                           silvícola        % (AB m2/ha                     silvícola        % (AB m2/ha
+                                                            y/o frecuencia)                                  y/o frecuencia)
+
+
+
+
+            Subtotal
+              Subtotal
+
+
+
+
+              Subtotal
+
+
+
+  4.6.6 Realizar un breve análisis e interpretación de la información, que explique la variabilidad en la dinámica natural de la
+masa derivada de la respuesta a los tratamientos y a las condiciones del ambiente.
+   En caso de encontrar diferencias negativas, señalar las medidas o acciones necesarias a realizar cuando no se logre la meta
+establecida, así como definir si en el nuevo PMF se mantendrán o modificarán las metas.
+    4.6.7 En el caso de un predio o conjunto de predios cuyo aprovechamiento forestal sea por primera vez, el PMF no incluirá
+este numeral 4.6, debiendo incluir una justificación clara y documentada de esta situación, para lo cual se tomarán como fuentes
+de información la documentación existente sobre el ejido o comunidad o predio particular, según se trate, así como en el archivo
+de la Secretaría o el Registro Forestal Nacional.
+   4.7 Clasificación y cuantificación de las superficies del predio o conjunto de predios
+   Como parte del PMF se debe cuantificar la superficie en hectáreas del predio o conjunto predial por aprovechar, de
+conformidad con la clasificación establecida en el artículo 40 del Reglamento, reportando el porcentaje correspondiente a cada
+categoría, respecto del total de la superficie del predio.
+    La clasificación y cuantificación se realizará con base en el trabajo de campo del diagnóstico a que se refiere el numeral 4.8 de
+la presente Norma. La clasificación se realizará en función de la existencia en el predio de las siguientes áreas:
+         a)     Áreas de conservación y aprovechamiento restringido;
+         b)     Áreas de producción;
+         c)      Áreas de restauración;
+         d)     Áreas de protección forestal que se hayan declarado por la Secretaría, y
+         e)     Áreas de otros usos.
+    4.7.1 En caso de existir en el predio o conjunto de predios alguna fracción del polígono de alguna Área Natural Protegida se
+registrará en el plano general. El PMF respetará las acciones del programa de manejo del área natural protegida de que se trate,
+esto de conformidad con lo establecido en la fracción I y sus incisos del artículo 40 del Reglamento.
+   4.7.2 En caso de encontrarse, se reportará y registrará las superficies con pendientes mayores al cien por ciento, altitudes
+superiores a 3,000 metros sobre el nivel medio del mar, áreas de manglar o de bosque mesófilo de montaña, se delimitarán las
+superficies correspondientes con el fin de identificar las acciones de protección o conservación; así como señalar aquellas que
+deberán restringirse.
+     4.7.3 En el caso de vegetación ribereña, las franjas protectoras serán como mínimo de 20 metros, contados a partir de las
+orillas mínimas (final de secas) de los cauces y otros cuerpos de agua permanentes. Para los cauces y cuerpos de agua
+temporales, será mínimo de 10 metros respecto a la línea central del cauce. Cuando las condiciones de alta humedad repercuten
+en la vegetación y en el suelo y correspondan a condiciones de ribera o humedal, las franjas se ampliarán para cubrir esta
+condición ambiental.
+    Al respecto, cuando existan en el predio o conjunto de predios dentro de las áreas de conservación y aprovechamiento
+restringido, así como de producción, restauración y de protección forestal, se identificarán
+con su descripción correspondiente los Altos Valores de Conservación (AVC), de importancia mundial, nacional, regional y local;
+con base en las metodologías existentes en la bibliografía especializada, asimismo, se establecerán las estrategias para su
+conservación. La Comisión pondrá a disposición de los usuarios la información disponible en su página de Internet.
+   La información del numeral 4.7, subnumerales (4.7.1, 4.7.2 y 4.7.3) se presentará de acuerdo con la Tabla 4. Clasificación y
+cuantificación de superficies del predio, el cual forma parte del Programa de Manejo Forestal.
+                                             Tabla 4-Clasificación y cuantificación de superficies del prediob
+
+
+ Clasificación de superficies                                            Situación anterior                 Situación actual   Variación
+                                                                            haa               %a                 haa    %a     haa    %a
+
+ I. Áreas de         conservación      y   aprovechamiento
+ restringido
+ a) Áreas naturales protegidas
+ b) Superficies para conservar y proteger el hábitat
+ existente de especies y subespecies de flora y fauna
+ silvestre en riesgo.
+ c) Franja protectora de vegetación ribereña (cauces y
+ cuerpos de agua)
+ d) Superficies con pendientes mayores al cien por ciento
+ o cuarenta y cinco grados.
+ e) Superficies arriba de los 3,000 metros sobre el nivel
+ del mar
+ f) Superficies con vegetación de manglar y bosque
+ mesófilo de montaña.
+ II. Áreas de producción
+ III. Áreas de restauración
+ IV. Áreas de protección forestal declaradas por la
+ Secretaría.
+ V. Áreas de otros usos
+ Superficie total                                                          100                         100                  100
+ a En el caso de que alguna categoría de la clasificación de superficies no sea aplicable al predio, deberá mantenerse la
+ categoría, indicando el valor de cero en las columnas de ha y %.
+ b Esta tabla deberá incluirse en el cuerpo del Programa de Manejo Forestal
+
+
+    4.7.4 En el caso de Programas de Manejo Forestal para el aprovechamiento de selvas se presentará la superficie del área
+forestal permanente y la distribución de superficies dentro y fuera de la misma.
+   4.8 Diagnóstico general de las características físicas y biológicas del predio o conjunto predial
+    El diagnóstico incluirá la descripción del tipo de clima, suelos, topografía, hidrología y tipos y estructura de la vegetación, y
+especies dominantes de flora y fauna imperantes en el predio motivo del PMF, para ello se tomará como base el estudio e
+interpretación de las cartas temáticas recientes del Instituto Nacional de Estadística y Geografía (INEGI), así como del trabajo de
+campo a realizarse, en su caso se podrá tomar como fuente de información los estudios o programas regionales forestales
+autorizados por la Comisión a las unidades de manejo forestal e inscritos en el Registro Forestal Nacional, que contengan la
+información a que se refiere el artículo 39 del Reglamento, para cumplir con las especificaciones técnicas del presente numeral.
+   4.8.1 Clima
+         a)   Tipo de clima, temporada de lluvias, precipitación y temperatura media anual, y temporada de heladas.
+         b)   Fórmula climática, incluyendo la descripción correspondiente.
+   4.8.2 Suelo
+         a)   Citar las unidades, subunidades o asociaciones de suelos identificadas en el predio o conjunto predial;
+         b)   Reportar, en su caso la presencia de erosión, tipo y porcentaje respecto de la superficie total del predio.
+   4.8.3 Topografía
+         a)   Citar la provincia fisiográfica a que pertenece el predio;
+         b)   La altitud máxima, mínima y media en metros sobre el nivel del mar;
+         c)    Las pendientes de los predios en porcentaje y sus exposiciones.
+   4.8.4 Hidrología
+         a)   Citar la región hidrológica y cuenca (s) a la que pertenece el predio o conjunto predial, reportando nombres y claves;
+         b)   En caso de existir, corrientes permanentes e intermitentes, describirlas y registrar su longitud, y
+         c)    En su caso, cuerpos de agua, registrar superficie en hectáreas.
+   4.8.5 Tipos y estructura de la vegetación y especies dominantes de flora y fauna.
+    4.8.5.1 El tipo (s) de vegetación y la superficie total en hectáreas, conforme a la versión actualizada del INEGI. La superficie se
+referirá a los tipos de vegetación dentro del área forestal permanente;
+    4.8.5.2 Registrar los nombres científico y común de las especies dominantes de flora, de acuerdo con la estructura vertical de
+la vegetación (arbórea, arbustiva y herbácea);
+   4.8.5.3 Citar los nombres científico y común de las especies de fauna reportadas para la cuenca hidrográfica donde se ubica el
+predio o conjunto de predios, registrando la fuente de consulta;
+    4.8.5.4 Registrar el nombre científico y común de las especies de flora y fauna silvestres reportadas para la cuenca
+hidrográfica donde se ubica el predio, indicando la categoría de riesgo reportado en la NOM-059-SEMARNAT-2010, o la que la
+sustituya;
+    4.8.5.5 Registrar en caso de encontrarse, el nombre científico y común de la(s) especie(s) de interés comercial que están
+incluidas en la Convención sobre Comercio Internacional de Especies Amenazadas de Flora y Fauna Silvestres (CITES).
+   Se debe realizar una interpretación de la información a que se refiere el numeral 4.8 y sus respectivos sub numerales para
+describir la situación física y biológica del predio, incluyendo el grado de conservación o de deterioro del bosque, la justificación
+del sistema silvícola a desarrollar, los ajustes a la dasocracia, los métodos de manejo forestal, para identificar acciones
+complementarias al PMF la planeación de la infraestructura caminera o de otro tipo, la reforestación, el manejo del fuego, plagas y
+enfermedades forestales, mitigación de impactos al suelo, vegetación y las corrientes de agua, y las acciones de rehabilitación de
+áreas degradadas.
+   4.9 Descripción del inventario forestal y estudio dasométrico
+   4.9.1 Descripción del inventario forestal
+   Se debe describir la siguiente información:
+   4.9.1.1 Procedimiento para la obtención de la cartografía forestal
+   El material aerofotográfico o imágenes de satélite utilizadas para elaborar la cartografía del programa de manejo,
+especificando:
+         a)   Escala, la cual no podrá ser menor de 1:25,000; por lo tanto, el material aerofotográfico o imágenes de satélite
+              utilizadas deberá tener una resolución espacial de 12.5 m o más fina (< 12.5 m).
+         b)   Fecha de captura de las fotografías o imágenes, la cual debe tener una antigüedad máxima de 5 años. En caso de
+              mayor antigüedad, se debe realizar acciones para actualizar la información cartográfica, por medios o dispositivos
+              digitales y en su caso complementados a través de recorridos de campo, lo cual debe describirse en este apartado.
+   4.9.1.2 Descripción del diseño de muestreo utilizado
+
+    El diseño a nivel predio o conjunto predial debe permitir la realización de estimaciones individuales para cada Unidad Mínima
+de Manejo (UMM). Los sitios o puntos de muestreo se deben georreferenciar y registrar la relación de puntos de muestreo dentro
+del cuerpo del PMF y sus coordenadas, tanto para muestreo al azar como sistemático.
+   4.9.1.3 Número total de sitios muestreados
+   4.9.1.4 Forma de los sitios
+   Describir la forma y distribución de los sitios.
+         a)    Cuando se trate de sitios de dimensiones variables, obtenidos con relascopio horizontal o vertical, solo hacer
+              referencia a que se trata de este tipo de sitios y el factor de área basal utilizado por unidad mínima de manejo.
+         b)   Cuando los sitios sean distintos a dimensiones variables, especificar su forma (circular, rectangular, cuadrado u otro)
+              y en su caso si estos forman parte de un diseño de muestreo en conglomerados u otro diseño.
+   4.9.1.5 Tamaño de los sitios
+   Indicar el tamaño de los sitios expresado en metros cuadrados.
+    Cuando se trate de sitios de dimensiones variables, obtenidos con relascopio horizontal o vertical, solo hacer referencia a que
+se trata de este tipo de sitios. Omitir en el caso de sitios consistentes en puntos (dimensiones variables) y líneas (transectos).
+   4.9.1.6 Intensidad de muestreo
+   Indicar la intensidad de muestreo en porcentaje respecto al marco de muestreo total (superficie total a inventariar)
+   4.9.1.7 Como parte del trabajo de campo en la realización del inventario se describirán los daños al arbolado y a la
+regeneración, suelo, fauna silvestre, diversidad biológica y otros servicios ambientales conforme a lo siguiente:
+         a)    Suelo. Describir tipo y grado de erosión, su extensión en el predio o conjunto predial, reportando en mapas de
+              localización a escala 1: 25,000.
+         b)   Arbolado y regeneración. Condiciones del renuevo, evidencias de daños por plagas, enfermedades, incendios, etc.
+         c)    Fauna silvestre. Evidencias de presencia de daños a las especies (citar nombres científico y común), refugio o
+              anidamiento.
+         d)   Diversidad biológica. Daños a la flora (por estratos de las especies arbóreas) y daños a la fauna.
+         e)    Principales afectaciones a los servicios ambientales que brinda el predio, de manera cualitativa y cuantitativa,
+              basado en referencias bibliográficas.
+         f)   Otros.
+   4.9.2 Estudio dasométrico
+   El estudio dasométrico se realizará bajo el planteamiento de una confiabilidad mínima del noventa y cinco por ciento y un error
+de muestreo máximo del diez por ciento para el estimador de la variable existencias volumétricas a escala de predio o conjunto
+predial.
+   En predios o conjunto de predios con superficies menores o iguales a noventa y cinco hectáreas, el error de muestreo máximo
+será de quince por ciento.
+   En selvas, superficie menor o igual a 20 hectáreas se podrán aplicar métodos directos, tales como el conteo directo.
+   4.9.3 Memoria de cálculo
+    La memoria incluirá la secuencia y desarrollo del cálculo por unidad mínima de manejo y especie para la obtención de las
+existencias volumétricas, densidades promedio, incrementos en su caso, edad, turno o edad de cosecha y diámetros de corta, las
+densidades y volúmenes residuales, así como el procedimiento para la obtención de la estructura poblacional, con su proyección
+por UMM, del predio o conjunto predial por aprovechar.
+    4.9.3.1 Fórmulas y modelos, los cuales deberán usarse sin modificaciones, según la bibliografía consultada y en caso de que
+así se utilice en la misma;
+   4.9.3.2 Secuencia y desarrollo del cálculo por unidad mínima de manejo y especie;
+   4.9.3.3 Justificación del uso de las fórmulas y modelos, indicando en su caso referencias bibliográficas. Esta justificación no
+será obligatoria cuando las fórmulas y modelos hayan sido aprobados por la Secretaría, a través de la autorización de otros
+programas de manejo, en cuyo caso sólo se tendrá que hacer referencia a éste. La Secretaría pondrá a disposición de los
+usuarios esta información en su página de Internet.
+    4.9.3.4 Secuencia de cálculos para la estimación del error de muestreo con base en la confiabilidad establecida del 95%, a
+nivel de predio o conjunto predial.
+   4.9.3.5 En el caso de sistema silvícola de bosque regular, el procedimiento de obtención del ciclo de corta y del turno
+determinado, de acuerdo con lo establecido en el numeral 4.9.3.6 de la presente Norma.
+    La información de los numerales 4.9.3.2 y 4.9.3.4, deberán integrarse al Programa de Manejo, como anexo, lo cual deberá
+referirse en este mismo apartado.
+   4.9.3.6 Procedimiento de obtención del turno o edad de cosecha y ciclo de corta.
+    Se debe indicar el turno o edad de cosecha, el ciclo de corta expresado en años, para el predio o predios por aprovechar. El
+turno preferentemente deberá ser múltiplo del ciclo de corta. En caso de que no sea múltiplo de éste, deberá presentarse la
+justificación correspondiente.
+    En el caso de terrenos forestales bajo manejo de bosque irregular o de selvas, se deberá presentar la estimación de la edad
+de cosecha o aprovechamiento (la edad a la que se alcanza el diámetro mínimo de corta, el cual deberá especificarse y
+justificarse en el programa de manejo forestal).
+   4.10 Derivado de la memoria de cálculo se presentará por unidad mínima de manejo, la siguiente información.
+   4.10.1 Existencias reales
+        a)   Existencias maderables iniciales por hectárea y por UMM;
+        b)   Superficie de la unidad mínima de manejo, en hectáreas;
+        c)    Especie;
+        d)   Existencias reales, en metros cúbicos VTA por hectárea;
+        e)   Existencias reales, en metros cúbicos VTA por unidad mínima de manejo;
+        f)   Existencias en área basal, en metros cuadrados por hectárea;
+        g)   Intensidad de corta expresada en porcentaje, por unidad mínima de manejo;
+        h)   Volumen residual, en metros cúbicos VTA por hectárea;
+        i)   Área basal residual, en metros cuadrados por hectárea;
+        j)   Posibilidad, en metros cúbicos VTA por hectárea, y
+        k)    Posibilidad, en metros cúbicos VTA por unidad mínima de manejo.
+    Esta información se presentará de acuerdo con la Tabla 5. Existencias y se incluirá como parte del PMF, lo cual deberá
+referirse en este mismo apartado. Se debe incluir la propuesta de meta establecida en el PMF, de acuerdo con la Tabla 1.
+establecida en el numeral 4.6.4.
+                                      Tabla 5-Existencias por unidad mínima de manejo
+
+   Unidad mínima                                                   Intensidad
+     de manejo                         Existencias Reales           de Corta           Residuales               Posibilidad
+       (UMM)                                                         (%) Por
+                                                                      UMM
+                         Especie                        Área
+                                                m3                                                                        m3
+                                     m3                 basal                        m3         Área
+         Superficie                            VTA                                                          m3 VTA       VTA
+  No.                                VTA                 m2                         VTA       basal m2
+           (ha)                                 por                                                         por ha        por
+                                    por ha               por                       por /ha     por ha
+                                               UMM                                                                       UMM
+                                                         ha
+ Subtotal
+
+
+
+ Total
+
+ Esta tabla deberá incluirse en el cuerpo del Programa de Manejo Forestal
+
+
+   4.10.2 Resumen de existencias
+         a)     Especie;
+         b)     Existencias reales totales para el predio, en metros cúbicos VTA;
+         c)     Posibilidad, en metros cúbicos VTA, y
+         d)     Volumen residual, en metros cúbicos VTA.
+   Esta información se presentará de acuerdo con la Tabla 6. Resumen de existencias y formará parte del cuerpo del PMF, lo
+cual debe referirse en este mismo apartado.
+    La posibilidad se calcula una vez descontada la superficie que, en su caso, esté programada para la construcción o ampliación
+de infraestructura caminera o de otro tipo, incluyendo las brechas de saca.
+                                Tabla 6-Resumen de existencias a nivel de predio o conjunto predial
+
+              Especie              Existencias reales (m3          Posibilidad (m3 VTA)         Residuales (m3 VTA)
+                                           VTA)
+
+
+
+
+ Total
+
+ Esta tabla debe incluirse en el cuerpo del Programa de Manejo Forestal
+   4.10.3 Densidades e incrementos
+         a)     Unidad mínima de manejo (UMM);
+         b)     Superficie de la unidad mínima de manejo, en hectáreas;
+         c)     Número de árboles por hectárea;
+         d)     Área basal por hectárea, en metros cuadrados;
+         e)     Tiempo de paso en años;
+         f)     Incremento Corriente Anual (ICA), en metros cúbicos por hectárea, e
+         g)     Incremento Medio Anual (IMA), en metros cúbicos por hectárea.
+   En el caso de selvas, no se requerirá la información a que hacen referencia los incisos e), f) y g).
+   Esta información se reportará de acuerdo con la Tabla 7. Densidad e incrementos y formará parte del cuerpo del PMF, lo cual
+debe referirse en este mismo apartado.
+                                                  Tabla 7-Densidad e incrementos
+
+  Unidad mínima            Sup. (ha)        No. de         Área Basal       Tiempo de Paso       I.C.A. (m3/   I.M.A. (m3/
+    de manejo                             árboles /ha       (m2/ha)             (años)             ha/ año)      ha/ año)
+
+
+
+
+ Total
+
+ Esta tabla debe incluirse en el cuerpo del Programa de Manejo Forestal
+
+
+   4.11 Descripción y justificación del sistema silvícola que se utilizará en el predio
+   4.11.1 Se deberá indicar el sistema silvícola a utilizar en el predio, el cual podrá ser:
+         -Bosque regular;
+         -Bosque irregular, o
+         -Combinado o mixto.
+    4.11.2 Se deberá describir y justificar el sistema silvícola que se utilizará en el predio, lo cual se apegará a la fracción VI del
+artículo 39 del Reglamento de la Ley General de Desarrollo Forestal Sustentable. Esta justificación deberá ser concisa,
+debiéndose considerar y referir en la redacción, las características de las especies, en particular la estructura de edades y
+diámetros, la tolerancia a la luz, las condiciones topográficas y los aspectos culturales, económicos y sociales del predio, que en
+su caso, influyen en la definición del sistema silvícola.
+   4.11.3 El método o sistema de planeación de manejo forestal a utilizar, podrá ser:
+         -Método de Desarrollo Silvícola (MDS);
+         -Método Mexicano de Ordenación de Montes (MMOM);
+         -Método Mexicano de Ordenación de Bosques Irregulares (MMOBI);
+         -Sistema de Conservación y Desarrollo Silvícola (SICODESI);
+         -Sistema de Cortas Sucesivas de Protección (SICOSUP);
+         -Sistema Integral de Manejo de Bosques y Aplicaciones Terrestres (SIMBAT);
+         -Sistema Silvícola de Selección (SISISE);
+         -Método Silvícola Peninsular (MSP);
+         -Plan Costa de Jalisco;
+         -Sistema de Planeación Forestal para Bosque Templado (SiPlaFor);
+         -Método Tlaxco de Renovación Silvícola;
+         -Otro, especificar y describir brevemente.
+    4.11.4 En su caso programar tratamientos complementarios e incluir una descripción concisa de sus especificaciones técnicas
+y su propósito. Los tratamientos complementarios podrán ser los siguientes:
+         -Rastreo;
+         -Barbecho;
+         -Subsoleo;
+         -Incorporación de materia orgánica;
+         -Eliminación de arbustos y hierbas;
+         -Podas de formación;
+         -Preaclareos;
+         -Cercado;
+         -Brechas cortafuego;
+         -Quemas prescritas;
+         -Control de residuos, y
+         -Otros, que se deberán especificar.
+   En caso de considerar el uso del fuego, se deberá observar lo establecido en la normatividad vigente en la materia.
+  En este mismo apartado, se deberá indicar para cada uno de los tratamientos complementarios que se aplicarán, en qué
+momento, en qué unidades mínimas de manejo y en qué condiciones se realizarán.
+   4.12 Cantidad de producto forestal que puede ser extraído cada año sin comprometer la permanencia del recurso
+    La información se presentará en metros cúbicos del volumen de madera y corteza de árbol, incluyendo fuste, puntas y ramas
+y, una vez aplicada la distribución de productos, se expresarán en metros cúbicos rollo y, en su caso, la equivalencia en materia
+prima transformada.
+   4.12.1. Posibilidad anual o periódica y distribución de productos
+    4.12.1.1 La posibilidad anual o periódica se presentará en orden cronológico a través del plan de cortas e incluirá la siguiente
+información:
+         a)   Área de corta anual, identificada en forma numérica que indique el orden cronológico de intervención;
+         b)   Unidad mínima de manejo;
+         c)   Superficie de la unidad mínima de manejo dentro del área de corta correspondiente, en hectáreas;
+         d)   Tratamiento silvícola, de acuerdo con el numeral 4.11.3 de la presente Norma;
+         e)   Posibilidad, por especie; y
+         f)   En su caso, el volumen por género que se removerá por construcción o ampliación de infraestructura, indicada en
+              metros cúbicos VTA.
+    La información a que se refiere el presente numeral se presentará de acuerdo con la Tabla 8. Posibilidad anual y plan de
+cortas y formará parte del anexo del PMF en observancia de este mismo numeral
+                           Tabla 8-Posibilidad anual y plan de cortas, por unidad mínima de manejo
+    Área de            Unidad Mínima             Tratamiento                     Posibilidad               Volumen por          Posibilidad +
+     Corta               de Manejo                 Silvícola                                              infraestructura       volumen por
+                           (UMM)                                                                             (m3 VTA)          infraestructura
+                                                                                                                                  (m3 VTA)
+          No.        No.     Superficie                                       Género           m3
+                               (ha)                                                            VTA
+
+
+
+
+ Subtotal
+
+
+
+
+ Total
+ Esta tabla deberá incluirse en el cuerpo del Programa de Manejo Forestal
+    4.12.1.2 Resumen de la posibilidad anual, que contendrá la información siguiente:
+             a)    Área de corta anual o periódica, identificada en forma numérica que a su vez indique el orden cronológico de
+                  intervención;
+             b)   Posibilidad, por especie;
+             c)   En su caso, el volumen por especie, que se removerá por construcción o ampliación de infraestructura, indicada en
+                  metros cúbicos VTA, y
+             d)   Nombre científico de las especies por aprovechar por área de corta.
+   La información a la que se refiere el presente numeral se presentará de conformidad con la Tabla 9. Posibilidad anual y plan
+de cortas y formará parte del cuerpo del PMF, en este mismo numeral.
+                                                  Tabla 9-Posibilidad anual y plan de cortas (resumen)b
+
+
+   Área de                 Posibilidad                  Volumen por                     Posibilidad + volumen
+                                                                                                                            Especies por
+    Corta                                           infraestructura (m3                  por infraestructura
+                                                                                                                             aprovechar
+     No.               Especie         m3 VTA               VTA)                              (m3 VTA)
+
+
+
+
+ Subtotala
+
+
+
+
+ Totala
+
+
+ a Incluir subtotales por área de corta y totales para el predio.
+ b Esta tabla debe incluirse en el cuerpo del Programa de Manejo Forestal.
+
+
+   4.12.1.3 Indicar la propuesta general de la distribución de productos por género, especie o grupo de especies del predio,
+expresada en porcentaje.
+    4.13 Descripción y, en su caso, la planeación de la infraestructura para la ejecución del Programa de Manejo Forestal
+    Describir la existencia y en su caso, la necesidad de rehabilitación o construcción de infraestructura necesaria para la
+ejecución del PMF y el transporte de las materias primas forestales. Las especificaciones técnicas de los caminos a construirse,
+así como de rehabilitación se ajustarán a las citadas en los numerales 3.8, 3.9 y 3.10 de la presente norma. En todos los casos se
+cuidará que no se afecten corrientes de agua, franjas de amortiguación de los arroyos y no se obstruyan las corrientes sean
+permanentes o temporales.
+    4.13.1 Identificar y describir los tipos de caminos existentes, indicando la información siguiente:
+             a)   Tipo de camino, el cual podrá ser: principal, secundario o brecha de saca;
+             b)   Longitud total de cada tipo de camino dentro del predio expresada en kilómetros, y
+             c)   Densidad por tipo de caminos dentro del predio, expresado en metros por hectárea.
+    4.13.2 Describir las acciones de mantenimiento y rehabilitación de los caminos, indicando la siguiente información:
+             a)   Programación inicial de acciones, indicando el año;
+             b)   Tipo de camino, de acuerdo con el numeral 4.13.1;
+             c)   Descripción de las acciones de mantenimiento o rehabilitación, y
+             d)   Longitud de caminos a mantener o rehabilitar, en kilómetros.
+    4.13.3 Describir y justificar las acciones de construcción o ampliación de caminos que en su caso se realizarán en el predio
+    El planteamiento de las especificaciones técnicas de los caminos necesarios dentro del predio motivo del programa de manejo
+forestal es responsabilidad del titular del aprovechamiento de manera corresponsable con el prestador de servicios forestales
+autor del PMF, se incluirá la siguiente información:
+
+
+             a)   Programación, indicada por año;
+             b)   Tipo de camino, de acuerdo con el numeral 4.13.1;
+             c)    Longitud en kilómetros de caminos por construir o ampliar, tomando en cuenta la densidad actual y la densidad
+                  requerida;
+             d)   Especificaciones de la ampliación o construcción: ancho, en su caso revestimiento, obras de arte, etc.;
+             e)   Superficie afectada por la ampliación o construcción de caminos por área de corta, y
+             f)   En su caso, volumen a remover en metros cúbicos VTA por unidad mínima de manejo y área de corta.
+    La información del presente numeral se presentará de acuerdo con la Tabla 10. Construcción y ampliación de caminos y
+formará parte del cuerpo del PMF, en este mismo numeral.
+                                                     Tabla 10-Construcción y ampliación de caminosb
+
+
+   Área           Unidad Mínima         Tipo de       Tipo de            Longitud              Superficie     Volumen a   Programación
+    de              de Manejo           camino         obra             del camino              afectada        remover      Mes/año
+   Corta           (UMM) (No.)                                          en la UMM                 (ha)         (m3 VTA)
+   (No.)                                                                   (km)
+
+
+
+
+ Subtotala
+
+
+
+
+ Totala
+
+ a Incluir subtotales por área de corta y totales para el predio.
+ b Esta tabla debe incluirse en el cuerpo del Programa de Manejo Forestal.
+
+
+    4.13.4 Describir las acciones de construcción, en su caso de otra infraestructura, indicando la información siguiente:
+             a)   Programación estimada, indicándolo por año;
+             b)   Descripción de las principales características de la infraestructura a construir;
+             c)   Superficie afectada por área de corta, y
+             d)   En su caso, volumen a remover en metros cúbicos VTA por unidad mínima de manejo, y por área de corta.
+    La información del presente numeral se presentará de acuerdo con la Tabla 11. Construcción de infraestructura y en su caso
+formará parte del PMF, en este mismo numeral.
+    En el diseño y construcción de los caminos observará lo establecido en la Normatividad correspondiente para la generación de
+los mínimos impactos negativos al suelo, agua, vegetación, flora y fauna.
+    Cuando esta información se encuentre en estudios o programas regionales forestales autorizados por la Comisión, el PMF
+tendrá que hacer referencia y utilizar esta información para el caso del programa que se elabora y realizar las acciones
+correspondientes.
+                                                        Tabla 11-Construcción de infraestructurab
+
+
+    Área de            Unidad               Tipo                         Superficie                 Volumen a        Programación
+    Corta              Mínima de            infraestructura              afectada                   remover (m3      Mes/año
+    (No.)              Manejo (No.)                                      (ha)                       VTA)
+
+
+
+
+    Subtotala
+
+
+
+
+    Totala
+ a Incluir subtotales por área de corta y totales para el predio
+ b Esta tabla debe incluirse en el cuerpo del Programa de Manejo Forestal.
+   4.14 Los compromisos de reforestación cuando no se presente la regeneración natural
+   Los criterios para determinar si se ha presentado la regeneración natural, después de aplicado el tratamiento silvícola,
+deberán ser por lo menos los siguientes, especificando las unidades mínimas de manejo:
+         a)   Especies programadas a regenerar;
+         b)   Tiempo para que se establezca la regeneración, el cual debe ser como máximo de cinco años;
+         c)   Número de plantas por hectárea de las especies que se ha programado regenerar;
+         d)   Edad de la regeneración en años;
+         e)   Salud y/o vigor;
+         f)   Tamaño de claro máximo permisible sin necesidad de reforestar
+    Adicional a lo anterior, se incluirá el método y procedimiento de evaluación de la regeneración natural, así como la memoria de
+cálculo;
+   Se incluirá el calendario de evaluación de estos criterios en las áreas con tratamiento de regeneración.
+   Para predios que ya cuentan con antecedentes de aprovechamiento, presentarán la evaluación de la regeneración natural
+resultado del inventario y con base en ella plantear un programa de reforestación.
+   4.14.1 Especificaciones para la reforestación, para las unidades mínimas de manejo donde se realizará.
+    En el caso que se determine con base en los criterios anteriores, que la regeneración natural no se ha presentado de manera
+suficiente, se deberá considerar lo siguiente:
+         a)   Características de la planta:
+              -    Las especies para reforestar, indicando los nombres científicos, las cuales deben ser nativas de las áreas bajo
+                   tratamiento;
+              -    Edad;
+              -    Tamaño en centímetros;
+              -    Vigor;
+              -    Procedencia;
+         b)   Método de plantación;
+         c)     Densidad de plantación expresada en árboles/hectárea, indicando en su caso, el porcentaje de la mezcla de
+              especies, y
+         d)   Calendario de actividades.
+   En el caso de selvas, se podrá proponer la reforestación con fines de enriquecimiento complementada con la regeneración
+natural.
+   4.14.1.1 Características de la (s) especie(s) a plantar
+   Las especies para reforestar, indicando los nombres científicos, las cuales deben ser nativas de las áreas bajo tratamiento.
+         a)   Edad;
+         b)   Tamaño (diámetro del cuello y altura) en centímetros;
+         c)   Vigor;
+         d)   Procedencia;
+         e)   Método de plantación;
+         f)    Densidad de plantación expresada en árboles/hectárea, indicando en su caso, el porcentaje de la mezcla de
+              especies, y
+         g)   Calendario de actividades.
+   4.15 Medidas necesarias para prevenir, controlar y combatir incendios, plagas y enfermedades forestales
+   4.15.1 Incendios
+   Indicar las acciones que se realizarán con énfasis en las áreas de mayor susceptibilidad de ocurrencia de incendios en el
+predio. Se incluirá el calendario de ejecución de las acciones para prevenir, controlar y
+combatir incendios forestales, las cuales serán concordantes a las condiciones particulares del predio y alineadas a los programas
+nacional, regional o estatal de manejo del fuego. Según el caso, se podrán programar las siguientes acciones:
+         a)   Pláticas y cursos de capacitación, indicando el número de eventos y personas por capacitar;
+         b)   Colocar carteles, indicando número;
+         c)   Distribuir folletos, indicando número;
+         d)   Realizar recorridos de campo, indicado en kilómetros;
+         e)   Apertura de brechas cortafuego, indicando anchura en metros y longitud en kilómetros;
+         f)   Realizar quemas controladas y/o prescritas, indicando ubicación y superficie en hectáreas, en su caso se observará
+              lo establecido en la NOM-015-SEMARNAT/SAGARPA-2007, o la que la sustituya;
+         g)   Construcción de torres de observación, indicando ubicación y número. Se valorará la pertinencia de otros medios de
+              detección y denuncia de incendios, como son sistemas y equipos de sensores remotos, o bien comunicación con
+              fuentes oficiales para conocer con prontitud los eventos y para la designación de personal para la atención de
+              eventos con disponibilidad de recursos para el combate de incendios en un plan anual predial o regional, y
+         h)   Otras acciones, las cuales deberán de especificarse.
+    Cuando el predio se encuentre incluido en acuerdos y acciones de coordinación regional para la prevención, combate y control
+de incendios, se indicará en qué consiste tal coordinación y cómo participa el titular del predio.
+   4.15.2 Plagas y enfermedades
+    Programar las acciones que se realizarán en el predio para prevención, control y combate de plagas y enfermedades
+forestales, acciones que, en función de las condiciones particulares del predio, podrán ser:
+         a)    Recorridos periódicos de campo para detección de brotes de plaga o enfermedades por parte del prestador de
+              servicios forestales para determinar cuándo ciertos indicios o presencia de organismos implican daño potencial por
+              plaga o enfermedad;
+         b)   La aplicación de tratamientos silvícolas dando atención prioritaria al derribo de arbolado aislado afectado por plagas
+              o enfermedades o aquellos que potencialmente podrán ser afectados, así como pequeños brotes de plagas o
+              enfermedades, en las distintas áreas de corta conforme a la autorización que se otorgue y al programa de manejo
+              forestal, para prevenir y reducir los riesgos a plagas o enfermedades;
+         c)     Tratándose de muérdago, su prevención y control será prioritariamente mediante la aplicación de tratamientos
+              silvícolas en las distintas áreas de corta conforme a la autorización que se otorgue y al programa de manejo
+              forestal;
+         d)   Cuando se cuente con autorización de aprovechamiento forestal, y se requiera controlar una plaga o enfermedad
+              mediante la aplicación de tratamientos silvícolas distintos a los establecidos en el Programa de Manejo Forestal
+              autorizado, se podrá solicitar la autorización de modificación de dicho programa, y
+         e)   Cuando se presenten brotes mayores de plagas o enfermedades en predios con autorización de aprovechamiento
+              forestales, el titular de aprovechamiento forestal podrá presentar junto con el prestador de servicios forestales, un
+              informe técnico a la Comisión Nacional Forestal, para efecto de que en su caso les emita la notificación de
+              saneamiento forestal respectiva, de conformidad con el Reglamento de la Ley General de Desarrollo Forestal
+              Sustentable.
+              En caso de que, por la ejecución de los trabajos de saneamiento forestal, se altere el plan de cortas autorizado, el
+              titular de aprovechamiento forestal podrá solicitar la autorización de la modificación del programa de manejo
+              forestal por motivos de sanidad.
+         f)   Otro, el cual deberá especificar.
+   Se incluirá el calendario de ejecución de acciones para el control y combate de plagas y enfermedades, para lo cual se
+observará lo establecido en la legislación en la materia y Normas Oficiales Mexicanas en la materia.
+   4.16 Descripción y programación de medidas de prevención y mitigación de impactos ambientales.
+    Se describirán y programarán acciones preventivas y de mitigación de impactos al suelo, agua, flora y fauna causados en las
+diferentes etapas de ejecución del PMF; así como también aquellas a realizar cuando el predio se encuentre en receso o termine
+la vigencia de la autorización.
+   4.16.1 Plantear las medidas de prevención y en su caso de mitigación de impactos, incluyendo el periodo de inicio y
+conclusión, en las siguientes etapas de ejecución del PMF.
+         a)   Derribo;
+         b)   Extracción;
+         c)   Transporte, y
+         d)   Construcción y rehabilitación de infraestructura caminera y de otro tipo.
+    Al respecto, se identificarán las medidas o prácticas para la conservación de la biodiversidad (flora y fauna) de acuerdo con el
+tamaño y características del predio, las cuales podrán ser a nivel de paisaje, nivel de rodal y nivel de sitios, con base a la
+bibliografía existente para ello. La Comisión pondrá a disposición de los usuarios la información disponible en su página de
+Internet.
+   4.16.2 Describir el tipo, grado de afectación y duración (temporal o permanente) del impacto que se prevé a los siguientes
+recursos:
+         a)   Suelo;
+         b)   Agua;
+         c)   Flora, y
+         d)   Fauna.
+    4.16.3 En su caso, indicar de manera específica las medidas de protección y conservación de especies de flora y fauna
+silvestre en riesgo, identificadas en el numeral 4.8.5.4 de la presente Norma, de acuerdo con lo siguiente:
+        a)   Nombre científico de la especie a proteger;
+        b)   Descripción del impacto potencial que puede afectar a la especie;
+        c)    Etapa del aprovechamiento en la que se presenta el impacto, de acuerdo con lo establecido en el numeral anterior;
+        d)   Medidas de mitigación y prevención, y
+        e)   Periodo de inicio y conclusión de la medida.
+   Cuando esta información se encuentre en estudios o programas regionales forestales autorizados por la Comisión a las
+Unidades de manejo forestal, se hará la referencia correspondiente y se ejecutarán las acciones indicadas.
+   Cuando exista autorización favorable en materia de impacto ambiental para el aprovechamiento solicitado, se exceptuará la
+presentación de lo indicado en este numeral e incisos, sólo se tiene que referenciar y ejecutar las medidas de protección y
+conservación de conformidad con esta autorización.
+   4.17 Acciones encaminadas para la rehabilitación de las áreas de restauración
+   En caso de existir áreas de restauración, acorde con lo establecido en el numeral 4.7 de la presente Norma, se debe
+programar las acciones que, en su caso se realizarán en estas áreas, las cuales podrán ser alguna de las siguientes:
+        a)   Reforestación;
+        b)   Conservación de suelo y agua;
+        c)    Tratamientos al suelo;
+        d)   Prevención y control de pastoreo;
+        e)   Mantenimiento de obras ya establecidas, u
+        f)   Otras, que se deben especificar.
+   Se describirán las especificaciones técnicas generales de cada una de las acciones a desarrollar, su programación estimada
+(mes y año) y ubicación dentro del predio, indicando las unidades mínimas de manejo respectivas.
+   4.18 Método para la identificación del arbolado por aprovechar
+
+    En el PMF se especificará el método de identificación para marcar el arbolado que será derribado para su aprovechamiento.
+La identificación debe ser personalizada, indeleble y perceptible a simple vista, los métodos podrán ser los siguientes:
+        a)   Martillo;
+        b)   Pintura;
+        c)    Plantilla;
+        d)   Otra tecnología, misma que deberá especificar.
+   El método de identificación garantizará que la marca del arbolado sea visible al menos durante 3 años en bosques, y en selvas
+debe ser visible al menos 1 año.
+   4.19 Planos en los que se indiquen áreas de corta, clasificación de superficies, infraestructura y diseño de muestreo
+    4.19.1 El programa de manejo, de acuerdo con el artículo 39, fracción XIV del Reglamento de la Ley General de Desarrollo
+Forestal Sustentable presentará planos georreferenciados (en coordenadas UTM) e indicando a la Secretaría el Datum utilizado,
+que reconozca el INEGI, generalmente WGS 84 en el momento de su elaboración, en los que se mostrarán las áreas de corta,
+clasificación de superficies, la infraestructura y diseño de muestreo. Su contenido se ajustará a lo establecido en los incisos
+siguientes y en el numeral 4.19.2 de la presente Norma:
+        a)   Plano 1 Áreas de corta, debe contener:
+              - Áreas de corta mediante números y en orden cronológico a su intervención, y
+              - Tratamientos silvícolas, indicando las unidades mínimas de manejo respectivas.
+        b)   Plano 2 Clasificación de superficies. Identificar las áreas con altos valores de conservación, los principios y criterios
+             de conservación y las buenas prácticas de manejo para la conservación de biodiversidad a nivel de predio, y debe
+             contener:
+              - Clasificación de superficies,
+              - Corrientes permanentes e intermitentes y cuerpos de agua, y
+              - Curvas de nivel o carta topográfica.
+        c)    Plano 3 Diseño de muestreo, que debe contener:
+              - Todos los sitios de acuerdo con el diseño de muestreo, y
+              - Tratamientos complementarios.
+        d)   Plano 4 Tipo de vegetación e infraestructura. Incluir la caracterización y clasificación de los distintos tipos de hábitats
+             con criterios geo-ecológicos para cada tipo de vegetación presente en el predio y debe contener:
+              - Tipos de vegetación, e
+              - Infraestructura actual y proyectada indicando las unidades mínimas de manejo respectivas.
+    Cuando existan estudios o programas regionales forestales autorizados por la Comisión e inscritos en el Registro Forestal
+Nacional, que contengan la información a que se refiere el numeral 4.7 y 4.8 de la presente Norma, el prestador de servicios
+forestales hará referencia a esta información y la tomará como insumo para cubrir aquellos requisitos que resulten procedentes y
+concordantes al predio de que se trate, en tanto los planos se elaborarán por predio o conjunto predial.
+    Para los efectos de los numerales 4.6 y 4.8 y tratándose de predios en los cuales ya existieron autorizaciones de
+aprovechamiento, el PMF incluirá la información relativa a la probable existencia de daños al suelo, fauna silvestre, diversidad
+biológica y a los servicios ambientales derivados de las actividades de manejo anteriores con el fin de programar e incluir
+acciones de restauración o prevención.
+    4.19.2 Cada uno de los planos, además de presentar la información indicada en el numeral 4.19.1 para cada caso, deben
+incluir la información y características, siguientes:
+         a)   Poligonal del predio, incluida el área forestal permanente con sus vértices numerados;
+         b)   Delimitación de las cuencas y subcuencas, indicando la clave asignada por INEGI;
+         c)   Nombre del predio;
+         d)   Municipio;
+         e)   Entidad;
+         f)   Orientación;
+         g)   Simbología;
+         h)   Superficie total del predio en hectáreas;
+         i)   La escala se determinará de acuerdo a la extensión de los predios (mayor o igual 1:25,000);
+         j)   Día, mes y año de elaboración del plano;
+         k)   Principales centros de población y vías de comunicación;
+         l)   Predios colindantes;
+         m)   Nombre del responsable de la elaboración, y
+         n)   Relación de los vértices numerados con sus coordenadas en UTM o geográficas.
+   Las coordenadas geográficas de los planos deben corresponder a cada vértice de la poligonal del predio a décimas de
+segundo. En caso de presentarse en UTM deberá ser al metro.
+   4.20 Programa de Manejo Forestal para solicitudes de autorización de remoción de arbolado muerto
+   Las solicitudes para la autorización de aprovechamiento de recursos forestales maderables que tengan por objeto la remoción
+de arbolado muerto por plagas, enfermedades, incendios o fenómenos meteorológicos presentarán un PMF elaborado de
+conformidad con lo establecido en el artículo 41 del Reglamento, presentarán alguno de los objetivos referidos en el numeral 4.3 y
+con la información prevista en los numerales 4.1, 4.7, 4.8, 4.9, 4.12, 4.13, 4.15, 4.16, 4.17, 4.18 y 4.19 de la presente Norma. El
+estudio dasométrico se enfocará a la evaluación y cuantificación del arbolado a extraer, por especie. Asimismo, este tipo de
+programa contendrá la información referida en los numerales 4.20.1 y 4.20.2.
+   4.20.1 El estudio dasométrico, únicamente evaluará y cuantificará el arbolado a extraer, conteniendo lo siguiente:
+         a)   Descripción de la metodología del inventario;
+         b)   Especie;
+         c)   Diámetro;
+         d)   Volumen unitario en metros cúbicos VTA;
+         e)   Número de árboles;
+         f)   Volumen total por especie y por unidad mínima de manejo, y
+         g)   Volumen de remoción, indicando las unidades mínimas de manejo respectivas, indicando:
+              - Nombre científico, y
+              - Volumen por extraer en metros cúbicos VTA
+   4.20.2 Plano que debe contener, además de lo especificado en el numeral 4.19.2, lo siguiente:
+         a)   Poligonal;
+         b)   Infraestructura;
+         c)   Áreas de corta;
+         d)   Colindancias;
+           e)    Superficies, y
+           f)    Nombre del predio.
+   Este plano se incluirá como anexo del Programa de Manejo Forestal.
+   4.21 Programa de Manejo Forestal para solicitudes de autorización de poda de arbolado.
+    Las solicitudes de aprovechamientos de recursos forestales maderables que tengan por objeto la poda de arbolado
+presentarán un programa de manejo forestal elaborado de conformidad al artículo 42 del Reglamento, presentará alguno de los
+objetivos referidos en el numeral 4.4 y contendrá la información prevista en los numerales 4.1, 4.7, 4.8.5, 4.8.5.1, 4.8.5.2, 4.10.1,
+incisos d) y h), 4.12 y 4.19 de la presente Norma, asimismo, se registrará la cuantificación de superficies, el tipo de vegetación y
+especies dominantes, la estimación de las existencias volumétricas y el volumen residual.
+   4.22 Programa de Manejo Forestal para solicitudes de autorización de extracción de arbolado por una sola vez.
+    Los interesados en obtener autorización de aprovechamiento de recursos forestales maderables para proyectos de
+investigación, o que tengan por objeto la extracción de arbolado por una sola vez para proyectos de recreación, deberán
+presentar un programa de manejo forestal elaborado de conformidad al artículo 43 del Reglamento, presentará alguno de los
+objetivos referidos en el numeral 4.5, y contendrá la información prevista en los numerales 4.1, 4.5, 4.9, 4.11, 4.12, 4.13, 4.14,
+4.18 y 4.19 de la presente Norma asimismo, se registrará el tipo de vegetación y especies dominantes. En el caso de proyectos
+de investigación deberán especificarse los objetivos y alcances de la investigación.
+   5. Aprovechamiento maderable y no maderable
+   5.1 Cuando se pretenda incluir el aprovechamiento de recursos forestales no maderables en un programa de manejo de
+recursos forestales maderables, en apego al artículo 77 del Reglamento, el interesado estará a lo establecido en los artículos 77 y
+85 de la Ley General de Desarrollo Forestal Sustentable y los artículos 71 y 73 del Reglamento. En este caso, se agregará en el
+Programa de Manejo Forestal un apartado específico para el recurso (s) forestal no maderable por aprovechar.
+   6. Estructura para la presentación del Programa de Manejo Forestal
+    La estructura de presentación de los Programas de Manejo Forestal es concordante con el artículo 39 del Reglamento y se
+ajustará al orden siguiente:
+                Tabla 12-Estructura de presentación del Programa de Manejo Forestal según el tipo de solicitud de
+                                                        aprovechamiento
+                                                                         Tipo de solicitud de aprovechamiento de
+                                                                             recursos forestales maderables
+                       Contenido de PMF                         Predio o       Remoción                     Proyectos de
+                                                                                              Poda de
+                                                                conjunto      de arbolado                   investigación
+                                                                                              arbolado
+                                                                 predial        muerto                       y recreación
+ Portada                                                          4.1              4.1           4.1             4.1
+ Contenido                                                        4.1              4.1           4.1             4.1
+ Resumen ejecutivo                                                4.1              4.1           4.1             4.1
+ Objetivos generales y específicos de los programas de            4.2              4.3           4.4             4.5
+ manejo forestal.
+ Descripción general de antecedentes de los                       4.6
+ aprovechamientos de recursos forestales maderables
+ anteriores en el predio, incluyendo la respuesta a los
+ tratamientos aplicados con indicadores dasométricos
+ comparativos.
+ Clasificación y cuantificación de las superficies del predio     4.7              4.7           4.7
+ o conjunto de predios.
+ Diagnóstico general de las características físicas y             4.8              4.8          4.8.5,
+ biológicas del predio o conjunto predial.                                                     4.8.5.1,
+                                                                                               4.8.5.2
+ Descripción del inventario forestal y estudio dasométrico         4.9             4.9        4.10.1, d)         4.9
+                                                                  4.10                           , h)
+
+ Descripción y justificación del sistema silvícola que se         4.11                                           4.11
+ utilizará en el predio.
+ Cantidad de producto forestal que puede ser extraído             4.12            4.12          4.12             4.12
+ cada año sin comprometer la permanencia del recurso.
+ Descripción y, en su caso la planeación de la                    4.13            4.13                           4.13
+ infraestructura para la ejecución del programa de manejo
+ forestal.
+ Los compromisos de reforestación cuando no se                         4.14                                      4.14
+ presente la regeneración natural.
+ Medidas necesarias para prevenir, controlar y combatir                4.15        4.15
+ incendios, plagas y enfermedades forestales.
+ Descripción y programación de medidas de prevención y                 4.16        4.16
+ mitigación de impactos ambientales.
+ Acciones encaminadas para la rehabilitación de las                    4.17        4.17
+ áreas de restauración.
+ Método para        la   identificación    del   arbolado   por        4.18        4.18                          4.18
+ aprovechar.
+ Planos en los que se indiquen áreas de corta,                         4.19        4.19          4.19            4.19
+ clasificación de superficies, infraestructura y diseño de
+ muestreo.
+ Bibliografía                                                           X           X             X               X
+   7. Procedimiento de Evaluación de la Conformidad
+    La evaluación de la conformidad es de aplicación para los titulares de aprovechamiento, propietarios legítimos poseedores de
+terrenos forestales y prestadores de servicios forestales que de manera corresponsable elaboran programas de manejo forestal
+para solicitar autorización de aprovechamiento de recursos forestales maderables y será realizado por las oficinas de
+representación de la Secretaría, a través de la subdelegación correspondiente o por los organismos de evaluación de la
+conformidad acreditados por una Entidad de Acreditación y aprobadas en su caso, por la Secretaría de conformidad a lo
+establecido en la Ley de Infraestructura de la Calidad.
+   Los titulares de aprovechamiento y prestadores de servicios forestales interesados podrán solicitar a la Secretaría o al
+organismo de evaluación de la conformidad de su elección, la evaluación de la conformidad, misma que consiste en lo siguiente:
+    7.1 Cotejar que el PMF, contenga la información de acuerdo con el tipo de solicitud de aprovechamiento a que se refieren
+los numerales 4.1, 4.2, 4.6, 4.7, 4.8, 4.9, 4.10, 4.11, 4.12, 4.13, 4.14, 4.15, 4.16, 4.17, 4.18 y 4.19 y en su caso el numeral 6. Si
+hubiere algún punto faltante, el PMF incluirá una justificación clara y suficiente.
+    7.1.1 En la evaluación de la conformidad de los PMF para la remoción de arbolado muerto, se verificará la información prevista
+en los numerales 4.1, 4.3, 4.7, 4.8, 4.9, 4.12, 4.13, 4.15, 4.16, 4.17, 4.18, 4.19 y ajustarse la columna correspondiente del numeral
+6 de la presente Norma.
+    7.1.2 En la evaluación de la conformidad de los PMF para la autorización de poda de arbolado, se verificará que contenga la
+información prevista en los numerales 4.1, 4.4, 4.7, 4.8.5, 4.8.5.1, 4.8.5.2, 4.10.1, incisos d) y h), 4.12 y 4.19 y ajustarse a la
+columna correspondiente del numeral 6 de la presente Norma.
+   7.1.3 En la evaluación de la conformidad de los PMF que tengan por objeto la extracción de arbolado por
+una sola vez para proyectos de investigación o de recreación se verificará que el PMF contenga la información prevista en los
+numerales 4.1, 4.5, 4.9, 4.11, 4.12, 4.13, 4.14, 4.18 y 4.19 y ajustarse a la columna correspondiente del numeral 6 de la presente
+Norma.
+   El costo que se derive del procedimiento de evaluación de la conformidad realizada por organismo de evaluación de la
+conformidad correrá a cargo del titular del aprovechamiento o del prestador de servicios forestales solicitante.
+    7.2. La verificación del contenido del Programa de Manejo Forestal se registrará en un formato que contenga la siguiente
+información y de conformidad con lo requerido en los numerales correspondientes:
+                                          Tabla 13-Contenido del Programa de Manejo Forestal
+
+                                    Contenido de Programa de Manejo Forestal (PMF)
+
+ (7.2.1.) Nombre del Predio: ______________________________________________________________
+ (7.2.2.) Nombre del propietario o poseedor del predio, o titular del aprovechamiento___________________
+ (7.2.3.) Tipo de solicitud de aprovechamiento (PMF): __________________________________________
+
+
+
+
+                (7.2.4) Contenido del PMF                     (7.2.5) Presentado      (7.2.6) Observaciones para cada
+                                                                                     uno de los numerales del contenido
+                                                                                                  del PMF.
+
+                                                                  SÍ          NO
+    7.2.1 Nombre del Predio. Indicar el nombre completo del predio para el cual se elaboró el Programa de Manejo Forestal para
+el aprovechamiento sustentable de recursos forestales maderables.
+   7.2.2 Nombre del propietario o poseedor del predio o Titular del aprovechamiento. Indicar el nombre completo de propietario o
+poseedor del predio, cuando éste sea propiedad privada, o del Titular del aprovechamiento cuando se trate de ejidos y
+comunidades.
+   7.2.3 Tipo de solicitud de aprovechamiento. Indicar de manera específica el contenido del programa de manejo forestal, de
+conformidad con el tipo de solicitud, el cual podrá ser:
+        a)   Autorización de Programa de Manejo Forestal para aprovechamiento de recursos forestales maderables.
+        b)   Autorización de remoción de arbolado muerto.
+        c)    Autorización de poda de arbolado.
+        d)   Autorización de extracción de arbolado por una sola vez para proyectos de investigación o proyecto de recreación.
+  7.2.4 El contenido del PMF. Se refiere a comprobar si el PMF contiene, según al tipo de solicitud de aprovechamiento forestal
+maderable, los requerimientos de los numerales establecidos en los numerales 7.1, 7.1.1, 7.1.2 y 7.1.3 antes mencionados.
+   7.2.5 Presentado. Se refiere a indicar "SÍ" cuando cada uno de los puntos está incluido en el Programa de Manejo Forestal y
+además la información contenida es la establecida en la Norma; e indicar "NO", cuando no se cumpla con alguna de las dos
+condiciones anteriores.
+   7.2.6 Observaciones. Este apartado se debe llenar en los casos y con la siguiente información:
+        a)   Cuando la evaluación de un apartado sea "NO", se debe indicar la (s) causa (s), las cual (es) podrán ser:
+              -    No se desarrolló el numeral en el programa de manejo forestal, o
+              -    Se incluye el numeral, pero no contiene la información establecida en la Norma para el mismo.
+        b)    Cuando la información del apartado no sea incluida, debido a que, de acuerdo a lo establecido en la presente
+              Norma, ésta ya se encuentre especificada en algún estudio regional forestal o ya se cuente con dictamen de
+              Manifestación de Impacto Ambiental, se debe especificar en observaciones.
+   7.3 La Norma se considerará como no cumplida, cuando falte uno o más de los numerales contenidos en la presente Norma o
+no contenga la información especificada para cada uno de ellos.
+   8. Concordancia con Normas internacionales
+   Esta Norma Oficial Mexicana no es equivalente (NEQ) con ninguna Norma Internacional, por no existir esta última al momento
+de su elaboración.
+   9. Observancia de la Norma
+   9.1 La vigilancia del cumplimiento de la presente Norma Oficial Mexicana corresponde a la Secretaría a través de sus oficinas
+de representación estatal y es de observancia obligatoria en la elaboración de los Programas de Manejo Forestal para el
+aprovechamiento de recursos forestales maderables.
+   9.2 El incumplimiento de la presente Norma, así como las infracciones cometidas respecto de sus disposiciones, se
+sancionarán en los términos de la Ley General de Desarrollo Forestal Sustentable, la Ley General del Equilibrio Ecológico y la
+Protección al Ambiente, Ley General de Vida Silvestre y demás ordenamientos legales aplicables.
+   10. Referencias bibliográficas
+   10.1 Comisión Nacional Forestal-SCT, 2003. Caminos Forestales. Impreso 348 p.
+   10.2 Cuanalo de la C.H. 1990. Manual para la Descripción de Perfiles de Suelo en el Campo. Centro de Ecología. 2a. Ed. C.P.
+Chapingo, Méx. 40 p.
+   10.3 Daniel, P.W., et. al. 1982. Principios de Silvicultura. 1ra. Ed. McGraw-Hill.-México, D.F.
+   10.4 FAO/UNESCO, 2000. Manual de clasificación de suelos. México.
+   10.5 García, E. 1964. Modificaciones al sistema de Clasificación Climática de Koeppen (para adaptarlo a las condiciones de la
+República Mexicana), UNAM, México.
+   10.6 INEGI. 2002. Carta de uso del suelo y vegetación. Serie II. México.
+   10.7 Mendoza B., M.A. 1993. Conceptos Básicos de Manejo Forestal. UTEHA, Noriega Editores. Pp. 161.
+   10.8 Musalem, F.J. 1978. Las Bases y Primeras Acciones del Programa Nacional de Mejoramiento Silvícola en Bosques de
+Coníferas. México, D.F.
+   10.9 Padilla G.H. 1987. Glosario práctico de términos forestales. Ed. Limusa. México, D.F.
+   10.10 Santillán, P.J. 1986. Elementos de Dasonomía. DICIFO-UACH. Chapingo, Méx. 519 p.
+    10.11 SEMARNAP. Dirección General Forestal. Sección Distrito Federal, 1998. Bases Científicas, para la Elaboración de
+Programas de Manejo Forestal en Bosques de Coníferas con Fines de Producción. Metepec, Pue., del 30 de noviembre al 4 de
+diciembre de 1998.
+    10.12 SEMARNAP. Subsecretaría de Recursos Naturales, Dirección General Forestal. 1998. Guía Técnica para la Aplicación
+del Sistema de Conservación y Desarrollo Silvícola (SICODESI), México, D.F.
+   10.13 SEMARNAP-Subsecretaría de Recursos Naturales, Dirección General Forestal. 1996. Manual de los Procedimientos
+para la Autorización de los Aprovechamientos de Recursos Forestales Maderables y Criterios para la Dictaminación de Programas
+de Manejo. México, D.F.
+
+    10.14 SEMARNAP-Subsecretaría de Recursos Naturales, Dirección General Forestal. 1994. Conceptos Básicos del Manejo
+Integral Forestal, México, D.F.
+    10.15 SEMARNAP-Subsecretaría de Recursos Naturales, Dirección General Forestal. 1994. Guía Técnica para la Aplicación
+del Método Mexicano de Ordenación de Bosques Irregulares (MMOBI), México, D.F.
+    10.16 SEMARNAP-Subsecretaría de Recursos Naturales, Dirección General Forestal. 1994. Guía Técnica para la Aplicación
+del Método de Desarrollo Silvícola, México, D.F.
+   10.17 Torres R., J.M. 2001. Resumen de Criterios e Indicadores de Manejo Forestal Sustentable.
+                                                       TRANSITORIOS
+   PRIMERO.- La presente Norma entrará en vigor 180 días hábiles después de su publicación en el Diario Oficial de la
+Federación.
+    SEGUNDO.- Con la publicación y entrada en vigor de la presente norma queda sin efectos la Norma Oficial Mexicana NOM-
+152-SEMARNAT-2006, Que establece los lineamientos, criterios y especificaciones de los contenidos de los programas de manejo
+forestal para el aprovechamiento de recursos forestales maderables en bosques, selvas y vegetación de zonas áridas, publicada
+en el Diario Oficial de la Federación el 17 de octubre de 2008.
+    TERCERO.- Los programas de manejo de aprovechamiento de recursos forestales autorizados con anterioridad a la fecha de
+entrada en vigor de la presente Norma, continuarán teniendo validez, sin perjuicio de que su titular solicite se ajusten a las
+prescripciones establecidas en la misma.
+    CUARTO.- A efecto de dar cumplimiento a lo previsto en el Artículo 78 de la Ley General de Mejora Regulatoria publicada en
+el Diario Oficial de la Federación (DOF) el 18 de mayo de 2018, el cual determina que para la expedición de Regulaciones, los
+Sujetos Obligados deberán indicar expresamente en su Propuesta Regulatoria, las obligaciones regulatorias o actos a ser
+modificados, abrogados o derogados, con la finalidad de reducir el costo de cumplimiento de los mismos en un monto igual o
+mayor al de las nuevas obligaciones de la Propuesta Regulatoria que se pretenda expedir y que se refiera o refieran a la misma
+materia o sector regulado, se realiza un acto de simplificación administrativa del trámite "Aviso de uso de fuego en terrenos
+forestales, temporalmente forestales, preferentemente forestales, de uso agropecuario y colindantes", al modificarse el numeral
+5.1.1 de la "Norma Oficial Mexicana NOM-015-SEMARNAT/SAGARPA-2007, Que establece las especificaciones técnicas de
+métodos de uso del fuego en los terrenos forestales y en los terrenos de uso agropecuario", publicada en el DOF el 16 de enero
+de 2009".
+   Ciudad de México, a 11 de julio de 2023.- El Subsecretario de Regulación Ambiental de la Secretaría de Medio Ambiente y
+Recursos Naturales y Presidente del Comité Consultivo Nacional de Normalización del Medio Ambiente y Recursos Naturales,
+Alonso Jiménez Reyes.- Rúbrica.
+
