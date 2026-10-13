@@ -100,7 +100,7 @@ def analizar_predio(datos: Dict) -> Dict:
     ]
     if res.requiere_pmf_simplificado:
         consultas.append("vigencia e informes del programa de manejo")
-    if datos.get("en_anp"):
+    if datos.get("en_anp") or res.anp_detectada:
         consultas.append("aprovechamiento en área natural protegida")
     if datos.get("especie_nom059"):
         consultas.append("especies con estatus de riesgo NOM-059")
@@ -135,6 +135,10 @@ def analizar_predio(datos: Dict) -> Dict:
         "formularios": res.formularios,
         "advertencias": res.advertencias,
         "plazos": res.plazos,
+        "bloqueado": res.bloqueado,
+        "ubicacion": res.ubicacion,
+        "anp_detectada": res.anp_detectada,
+        "mensaje_bloqueo": res.mensaje_bloqueo,
         "citas_legales": citas,
         "calculos": calculos,
         "programa_markdown": markdown,

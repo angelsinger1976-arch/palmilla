@@ -179,19 +179,57 @@ function leerFormulario() {
 
 /* ---------- Render de resultados ---------- */
 function renderResultado(r) {
+  const bloqueado = r.bloqueado || /NO PROCEDE/i.test(r.via_tramite);
   const esAuth = /AUTORIZ/i.test(r.via_tramite);
-  const badge = esAuth
-    ? `<span class="badge badge-auth">⚖️ ${esc(r.via_tramite)}</span>`
-    : `<span class="badge badge-aviso">✅ ${esc(r.via_tramite)}</span>`;
+  let badge;
+  if (bloqueado) badge = `<span class="badge badge-block">⛔ ${esc(r.via_tramite)}</span>`;
+  else if (esAuth) badge = `<span class="badge badge-auth">⚖️ ${esc(r.via_tramite)}</span>`;
+  else badge = `<span class="badge badge-aviso">✅ ${esc(r.via_tramite)}</span>`;
   const c = r.calculos;
+  const anp = r.anp_detectada || [];
 
   let html = `
     <div class="result-head">
       <h2>Resultado del análisis</h2>${badge}
     </div>
     <p class="muted" style="margin-top:8px;">Trámite: <strong>${esc(r.tramite.clave)}</strong> — ${esc(r.tramite.nombre)}</p>
-    <p class="muted">Fundamento: ${esc(r.tramite.fundamento)}</p>
+    <p class="muted">Fundamento: ${esc(r.tramite.fundamento)}</p>`;
 
+  // --- Banner de detección geoespacial de ANP ---
+  if (bloqueado) {
+    html += `<div class="anp-block">
+      <div class="anp-title">⛔ NO PROCEDE — Área Natural Protegida detectada</div>
+      <div class="anp-msg">${esc(r.mensaje_bloqueo || "")}</div>
+      <ul class="anp-list">${anp.map((a) => `<li><strong>${esc(a.nombre)}</strong> · ${esc(a.categoria)}${a.zona_nucleo_nombre ? " · Zona Núcleo: " + esc(a.zona_nucleo_nombre) : ""}<br><span class="anp-fund">${esc(a.fundamento)}</span></li>`).join("")}</ul>
+      <div class="anp-src">Verificado con la cartografía de referencia (CONANP/CONABIO, EPSG:32611). Confirme con la capa oficial.</div>
+    </div>`;
+  } else if (anp.length) {
+    html += `<div class="anp-warn">
+      <div class="anp-title">⚠️ El predio cae dentro de un Área Natural Protegida</div>
+      <div class="anp-msg">${esc((r.ubicacion && r.ubicacion.mensaje) || "")}</div>
+      <ul class="anp-list">${anp.map((a) => `<li><strong>${esc(a.nombre)}</strong> · ${esc(a.categoria)}</li>`).join("")}</ul>
+    </div>`;
+  } else if (r.ubicacion && r.ubicacion.ok) {
+    html += `<div class="anp-ok">✅ Ubicación verificada: no cae dentro de las ANP de referencia.</div>`;
+  }
+
+  if (bloqueado) {
+    // No se muestran KPIs ni checklist: el aprovechamiento no puede autorizarse.
+    if (r.advertencias && r.advertencias.length) {
+      html += `<div class="section-title">Advertencias</div>`;
+      r.advertencias.forEach((a) => { html += `<div class="advertencia">${esc(a)}</div>`; });
+    }
+    html += `<div class="section-title">Citas legales recuperadas (RAG)</div>`;
+    (r.citas_legales || []).slice(0, 6).forEach((ct) => {
+      html += `<div class="cita"><div class="fuente">${esc(ct.cita)}</div>
+        <div class="txt">${esc(ct.texto).slice(0, 320)}…</div>
+        <div class="score">relevancia ${ct.score}</div></div>`;
+    });
+    document.getElementById("resultado-card").innerHTML = html;
+    return;
+  }
+
+  html += `
     <div class="kpis">
       <div class="kpi"><div class="v">${num(c.poblacion_total)}</div><div class="l">Población total</div></div>
       <div class="kpi"><div class="v">${num(c.ind_maduros)}</div><div class="l">Individuos maduros</div></div>
@@ -246,6 +284,49 @@ document.getElementById("form-predio").addEventListener("submit", async (e) => {
       `<div class="advertencia">No se pudo completar el análisis: ${esc(err.message)}</div>`;
   } finally {
     btn.disabled = false; btn.innerHTML = "🔎 Analizar predio";
+  }
+});
+
+/* ---------- Verificación puntual de ubicación (ANP) ---------- */
+document.getElementById("btn-verificar-ubicacion").addEventListener("click", async () => {
+  const btn = document.getElementById("btn-verificar-ubicacion");
+  const out = document.getElementById("ubicacion-result");
+  const f = document.getElementById("form-predio");
+  const texto = (f.querySelector('[name="coordenadas_geograficas"]') || {}).value || "";
+  const texto_utm = (f.querySelector('[name="coordenadas_utm"]') || {}).value || "";
+  if (!texto.trim() && !texto_utm.trim()) {
+    out.innerHTML = `<div class="advertencia">Ingrese coordenadas geográficas (lat, lon) o UTM para verificar la ubicación.</div>`;
+    return;
+  }
+  btn.disabled = true; const prev = btn.innerHTML; btn.innerHTML = `<span class="spinner"></span> Verificando…`;
+  try {
+    const res = await fetch(API + "/api/ubicacion", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ texto, texto_utm }),
+    });
+    if (!res.ok) throw new Error("Error " + res.status);
+    const u = await res.json();
+    if (!u.ok) {
+      out.innerHTML = `<div class="advertencia">${esc(u.error || "No se pudieron interpretar las coordenadas.")}</div>`;
+    } else if (u.dentro_anp && u.prohibido) {
+      out.innerHTML = `<div class="anp-block">
+        <div class="anp-title">⛔ NO PROCEDE — Área Natural Protegida</div>
+        <div class="anp-msg">${esc(u.mensaje)}</div>
+        <ul class="anp-list">${(u.anp || []).map((a) => `<li><strong>${esc(a.nombre)}</strong> · ${esc(a.categoria)}</li>`).join("")}</ul>
+        <div class="anp-src">Lat ${u.lat}, Lon ${u.lon} · UTM ${u.utm.zona}${u.utm.hemisferio} X=${u.utm.este} Y=${u.utm.norte} · ${esc(u.epsg)}</div>
+      </div>`;
+    } else if (u.dentro_anp) {
+      out.innerHTML = `<div class="anp-warn">
+        <div class="anp-title">⚠️ Dentro de ANP (restricción parcial)</div>
+        <div class="anp-msg">${esc(u.mensaje)}</div>
+      </div>`;
+    } else {
+      out.innerHTML = `<div class="anp-ok">✅ ${esc(u.mensaje)}<br><span class="anp-src">Lat ${u.lat}, Lon ${u.lon} · UTM ${u.utm.zona}${u.utm.hemisferio} X=${u.utm.este} Y=${u.utm.norte}</span></div>`;
+    }
+  } catch (err) {
+    out.innerHTML = `<div class="advertencia">No se pudo verificar la ubicación: ${esc(err.message)}</div>`;
+  } finally {
+    btn.disabled = false; btn.innerHTML = prev;
   }
 });
 

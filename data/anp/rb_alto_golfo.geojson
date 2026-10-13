@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "rb_alto_golfo_aproximado",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "metadata": {
+    "descripcion": "APROXIMACIÓN ILUSTRATIVA de la Reserva de la Biósfera del Alto Golfo de California y Delta del Río Colorado. Reemplazar por el polígono oficial de CONANP/CONABIO.",
+    "epsg_captura": "EPSG:32611 (WGS 84 / UTM zone 11N)",
+    "bbox_referencia": { "lat_min": 31.0, "lat_max": 32.166667, "lon_min": -115.25, "lon_max": -113.5 },
+    "limite_terrestre_bc": "Carretera Federal 5 (Mexicali–San Felipe), de ~km 80 al sur hasta San Felipe, cerrando desde Punta Machorro."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "clave": "RB-AGC-DRC",
+        "nombre": "Reserva de la Biósfera del Alto Golfo de California y Delta del Río Colorado",
+        "categoria": "Reserva de la Biósfera",
+        "estado": "Baja California / Sonora",
+        "restriccion": "prohibido",
+        "fundamento": "LGEEPA Arts. 44-50; NOM-005-SEMARNAT-1997 §4.1.14; Decreto (DOF 07/06/1993).",
+        "nota": "Polígono aproximado (envolvente). Verificar contra la cartografía oficial.",
+        "fuente": "CONANP / CONABIO (aproximado)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-115.250000, 32.166667],
+            [-113.500000, 32.166667],
+            [-113.500000, 31.000000],
+            [-114.300000, 31.000000],
+            [-114.550000, 31.200000],
+            [-114.750000, 31.500000],
+            [-114.950000, 31.800000],
+            [-115.100000, 32.000000],
+            [-115.250000, 32.166667]
+          ]
+        ]
+      }
+    }
+  ]
+}
