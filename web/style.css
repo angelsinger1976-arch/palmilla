@@ -299,3 +299,27 @@ footer { text-align: center; color: var(--gris-500); font-size: .8rem; padding: 
 .grp[open] > summary::before { content: "▾"; }
 .grp[open] > summary { border-bottom: 1px solid var(--gris-200); margin-bottom: 12px; }
 .grp .field { margin-bottom: 12px; }
+
+/* ===== Detección geoespacial de ANP (bloqueo por coordenadas) ===== */
+.badge-block { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+.anp-block {
+  background: #fef2f2; border: 2px solid #ef4444; border-left: 8px solid #dc2626;
+  border-radius: 12px; padding: 16px 18px; margin: 16px 0;
+}
+.anp-warn {
+  background: #fffbeb; border: 2px solid #f59e0b; border-left: 8px solid #d97706;
+  border-radius: 12px; padding: 14px 16px; margin: 16px 0;
+}
+.anp-ok {
+  background: var(--verde-100); border: 1px solid var(--verde-200); color: var(--verde-800);
+  border-radius: 10px; padding: 11px 15px; margin: 14px 0; font-size: .88rem;
+}
+.anp-title { font-weight: 800; font-size: 1rem; color: #991b1b; margin-bottom: 6px; }
+.anp-warn .anp-title { color: #92400e; }
+.anp-msg { font-size: .9rem; color: #7f1d1d; line-height: 1.5; }
+.anp-warn .anp-msg { color: #78350f; }
+.anp-list { margin: 10px 0 6px 18px; font-size: .85rem; color: #7f1d1d; }
+.anp-warn .anp-list { color: #78350f; }
+.anp-list li { margin-bottom: 6px; }
+.anp-fund { color: #991b1b; opacity: .85; font-size: .78rem; }
+.anp-src { font-size: .76rem; color: #991b1b; opacity: .8; margin-top: 8px; font-style: italic; }

@@ -34,6 +34,7 @@ from project_generator import (
 from legal_kb import NORMAS, TRAMITES, FORMATOS, PARAMETROS_TECNICOS, ESPECIES
 import config as cfg
 from gemini_client import get_gemini, GeminiError
+from geo_anp import evaluar_ubicacion, ANP_CATALOGO
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEB_DIR = os.path.join(BASE, "web")
@@ -109,6 +110,13 @@ class ExportarPayload(BaseModel):
     nombre: str = "PMF_generado_ia"
 
 
+class UbicacionPayload(BaseModel):
+    lat: Optional[float] = None
+    lon: Optional[float] = None
+    texto: Optional[str] = None
+    texto_utm: Optional[str] = None
+
+
 # ---------------------------------------------------------------------------
 @app.get("/api/salud")
 def salud():
@@ -124,6 +132,21 @@ def normas():
         "parametros": PARAMETROS_TECNICOS,
         "especies": ESPECIES,
     }
+
+
+@app.get("/api/anp")
+def listar_anp():
+    """Catálogo de ANP verificadas (para consulta y transparencia)."""
+    return {"epsg": "EPSG:32611 (WGS 84 / UTM zone 11N)", "anp": ANP_CATALOGO}
+
+
+@app.post("/api/ubicacion")
+def ubicacion(p: UbicacionPayload):
+    """Detecta si una ubicación cae dentro de una ANP (bloqueo por coordenadas)."""
+    try:
+        return evaluar_ubicacion(lat=p.lat, lon=p.lon, texto=p.texto, texto_utm=p.texto_utm)
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @app.post("/api/analizar")

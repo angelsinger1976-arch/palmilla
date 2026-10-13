@@ -20,6 +20,7 @@ from dataclasses import dataclass, field, asdict
 from typing import Dict, List
 
 from legal_kb import PARAMETROS_TECNICOS
+from geo_anp import evaluar_ubicacion
 
 
 # ---------------------------------------------------------------------------
@@ -150,7 +151,24 @@ def generar_markdown(d: DatosPrograma) -> str:
     )
 
     anp_txt = ""
-    if d.en_anp:
+    ubic = evaluar_ubicacion(texto=d.coordenadas_geograficas, texto_utm=d.coordenadas_utm)
+    anp_linea = "No se detectó dentro de ANP verificada (confirmar con la cartografía de la CONANP)."
+    if ubic.get("ok") and ubic.get("dentro_anp"):
+        nombres = "; ".join(f"**{a['nombre']}** ({a['categoria']})" for a in ubic["anp"])
+        nombres_plano = "; ".join(a["nombre"] for a in ubic["anp"])
+        if ubic.get("prohibido"):
+            anp_linea = f"SÍ — {nombres_plano}. NO PROCEDE (extracción prohibida, LGEEPA Arts. 44-50)."
+            anp_txt = (f"\n> **⛔ BLOQUEO (ANP):** Las coordenadas del predio caen dentro de {nombres}. "
+                       "El aprovechamiento **NO PROCEDE**: la extracción de recursos forestales no "
+                       "maderables está **PROHIBIDA** en esta área conforme a la **LGEEPA (Arts. 44-50)** "
+                       "y al decreto del área. No puede autorizarse el Programa de Manejo Forestal.\n")
+        else:
+            anp_linea = f"SÍ — {nombres_plano}. Requiere autorización de la autoridad ecológica."
+            anp_txt = (f"\n> **Nota (ANP):** El predio se ubica dentro de {nombres}, por lo que se "
+                       "requiere autorización previa de la autoridad ecológica conforme a la LGEEPA "
+                       "(NOM-005 §4.1.14).\n")
+    elif d.en_anp:
+        anp_linea = f"SÍ — {d.anp_nombre or 'por definir'} (declarado por el usuario)."
         anp_txt = (f"\n> **Nota (ANP):** El predio se ubica dentro del Área Natural Protegida "
                    f"**{d.anp_nombre or 'por definir'}**, por lo que se requiere autorización previa de la "
                    "autoridad ecológica conforme a la LGEEPA (NOM-005 §4.1.14).\n")
@@ -205,6 +223,7 @@ def generar_markdown(d: DatosPrograma) -> str:
 - Ubicación: localidad {d.localidad or '____'}, municipio de {d.municipio}, {d.estado}
 - Ejido / núcleo agrario: {d.ejido or '____'}
 - Sector: {d.sector or '____'} · Manzana: {d.manzana or '____'} · Lote: {d.lote or '____'}
+- Área Natural Protegida (ANP): {anp_linea}
 - Polígono georreferenciado: `{d.poligono_ref}` (Shapefile/GeoPDF, Reglamento Art. 56 fracc. V)
 
 **1.4 Datos de identificación oficial y registro**

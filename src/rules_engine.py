@@ -18,6 +18,7 @@ from dataclasses import dataclass, field, asdict
 from typing import List, Dict
 
 from legal_kb import ESPECIES, PARAMETROS_TECNICOS, TRAMITES, FORMATOS
+from geo_anp import evaluar_ubicacion
 
 
 # ---------------------------------------------------------------------------
@@ -92,6 +93,11 @@ class ResultadoReglas:
     formularios: List[Dict] = field(default_factory=list)
     advertencias: List[str] = field(default_factory=list)
     plazos: List[str] = field(default_factory=list)
+    # --- Detección geoespacial de ANP ---
+    bloqueado: bool = False
+    ubicacion: Dict = field(default_factory=dict)
+    anp_detectada: List[Dict] = field(default_factory=list)
+    mensaje_bloqueo: str = ""
 
     def to_dict(self):
         d = asdict(self)
@@ -108,6 +114,15 @@ def evaluar(inp: PredioInput) -> ResultadoReglas:
     reglas: List[str] = []
     advertencias: List[str] = []
     plazos: List[str] = []
+
+    # ---- 0. Detección geoespacial de ANP a partir de las coordenadas ----
+    ubic = evaluar_ubicacion(texto=inp.coordenadas_geograficas,
+                             texto_utm=inp.coordenadas_utm)
+    anp_detectada: List[Dict] = ubic.get("anp", []) if ubic.get("ok") else []
+    geo_dentro = bool(ubic.get("ok") and ubic.get("dentro_anp"))
+    bloqueado = bool(ubic.get("ok") and ubic.get("dentro_anp") and ubic.get("prohibido"))
+    en_anp_efectivo = inp.en_anp or geo_dentro
+    mensaje_bloqueo = ubic.get("mensaje", "") if bloqueado else ""
 
     # ---- 1. Determinar la vía de trámite (LGDFS Art. 84 vs 85) ----
     es_yucca = inp.especie.lower().startswith("yucca")
@@ -187,12 +202,20 @@ def evaluar(inp: PredioInput) -> ResultadoReglas:
                 "Especie EN PELIGRO DE EXTINCIÓN (E): NO se permite aprovechamiento extractivo salvo "
                 "autorización especial. Revisar viabilidad del proyecto."
             )
-    if inp.en_anp:
-        adicionales.append(
-            "El predio se ubica en un Área Natural Protegida: se requiere autorización previa de la "
-            "autoridad ecológica conforme a la LGEEPA. NOM-005 §4.1.14. En B.C. verificar si aplica "
-            "(p. ej., Valle de los Cirios, Sierra de San Pedro Mártir, etc.)."
-        )
+    if en_anp_efectivo:
+        if anp_detectada:
+            nombres = "; ".join(f"{a['nombre']} ({a['categoria']})" for a in anp_detectada)
+            adicionales.append(
+                f"El predio cae dentro de Área(s) Natural(es) Protegida(s) detectada(s) por "
+                f"coordenadas: {nombres}. Se requiere autorización previa de la autoridad "
+                "ecológica (CONANP/SEMARNAT) conforme a la LGEEPA. NOM-005 §4.1.14."
+            )
+        else:
+            adicionales.append(
+                "El predio se ubica en un Área Natural Protegida: se requiere autorización previa de la "
+                "autoridad ecológica conforme a la LGEEPA. NOM-005 §4.1.14. En B.C. verificar si aplica "
+                "(p. ej., Valle de los Cirios, Sierra de San Pedro Mártir, etc.)."
+            )
     if inp.fin == "investigacion":
         adicionales.append(
             "Fines de investigación/biotecnología: se requiere autorización de colecta y uso de recursos "
@@ -254,12 +277,19 @@ def evaluar(inp: PredioInput) -> ResultadoReglas:
     # ---- 7. Formularios ----
     formularios = list(FORMATOS) if requiere_pmf else []
 
+    # ---- 8. Bloqueo por ANP con extracción prohibida ----
+    if bloqueado:
+        via = "NO PROCEDE"
+        advertencias.insert(0, "BLOQUEO: " + mensaje_bloqueo)
+        adicionales.insert(0, mensaje_bloqueo)
+        formularios = []  # no se puede presentar solicitud de aprovechamiento
+
     return ResultadoReglas(
         via_tramite=via,
         tramite_clave=tramite["clave"],
         tramite_nombre=tramite["nombre"],
         fundamento_principal=fundamento,
-        requiere_pmf_simplificado=requiere_pmf,
+        requiere_pmf_simplificado=requiere_pmf and not bloqueado,
         vigencia_anios=P["vigencia_max_anios"],
         checklist=checklist,
         autorizaciones_adicionales=adicionales,
@@ -267,6 +297,10 @@ def evaluar(inp: PredioInput) -> ResultadoReglas:
         formularios=formularios,
         advertencias=advertencias,
         plazos=plazos,
+        bloqueado=bloqueado,
+        ubicacion=ubic,
+        anp_detectada=anp_detectada,
+        mensaje_bloqueo=mensaje_bloqueo,
     )
 
 
